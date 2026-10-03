@@ -1,0 +1,80 @@
+amanita_caesarea	Amanita caesarea
+agaricus_campestris	Agaricus campestris
+boletus_edulis	Boletus edulis
+boletus_aereus	Boletus aereus
+boletus_pinophilus	Boletus pinophilus
+boletus_aestivalis	Boletus aestivalis;Boletus reticulatus
+clitocybe_geotropa	Clitocybe geotropa;Infundibulicybe geotropa
+calocybe_gambosa	Calocybe gambosa
+calvatia_gigantea	Calvatia gigantea
+calvatia_utriformis	Calvatia utriformis
+coprinus_comatus	Coprinus comatus
+hydnum_repandum	Hydnum repandum
+lactarius_deliciosus	Lactarius deliciosus
+lactarius_salmonicolor	Lactarius salmonicolor
+lactarius_deterrimus	Lactarius deterrimus
+macrolepiota_procera	Macrolepiota procera
+rozites_caperatus	Rozites caperatus;Cortinarius caperatus
+russula_cyanoxantha	Russula cyanoxantha
+russula_virescens	Russula virescens
+cantharellus_cibarius	Cantharellus cibarius
+cantharellus_lutescens	Cantharellus lutescens;Craterellus lutescens
+cantharellus_tubaeformis	Cantharellus tubaeformis;Craterellus tubaeformis
+craterellus_cornucopioides	Craterellus cornucopioides
+agrocybe_aegerita	Agrocybe aegerita;Cyclocybe cylindracea
+sarcodon_imbricatus	Sarcodon imbricatus
+clitopilus_prunulus	Clitopilus prunulus
+xerocomus_badius	Xerocomus badius;Imleria badia
+clitocybe_gibba	Clitocybe gibba;Infundibulicybe gibba
+cortinarius_praestans	Cortinarius praestans
+marasmius_oreades	Marasmius oreades
+lepista_nuda	Lepista nuda
+amanita_phalloides	Amanita phalloides
+amanita_virosa	Amanita virosa
+cortinarius_orellanus	Cortinarius orellanus
+cortinarius_speciosissimus	Cortinarius speciosissimus;Cortinarius rubellus;Cortinarius orellanoides
+lepiota_brunneoincarnata	Lepiota brunneoincarnata
+lepiota_subincarnata	Lepiota subincarnata;Lepiota josserandii
+galerina_marginata	Galerina marginata
+gyromitra_esculenta	Gyromitra esculenta
+paxillus_involutus	Paxillus involutus
+amanita_verna	Amanita verna
+leotia_lubrica	Leotia lubrica
+amanita_pantherina	Amanita pantherina
+amanita_muscaria	Amanita muscaria
+agaricus_xanthodermus	Agaricus xanthodermus
+entoloma_sinuatum	Entoloma sinuatum;Entoloma lividum
+omphalotus_olearius	Omphalotus olearius
+tricholoma_pardinum	Tricholoma pardinum
+hypholoma_fasciculare	Hypholoma fasciculare
+boletus_satanas	Boletus satanas;Rubroboletus satanas
+ramaria_pallida	Ramaria pallida
+lactarius_torminosus	Lactarius torminosus
+tricholoma_sciodes	Tricholoma sciodes
+tricholoma_virgatum	Tricholoma virgatum
+tylopilus_felleus	Tylopilus felleus
+amanita_ovoidea	Amanita ovoidea
+amanita_citrina	Amanita citrina
+coprinopsis_atramentaria	Coprinopsis atramentaria
+armillaria_mellea	Armillaria mellea
+armillaria_ostoyae	Armillaria ostoyae
+armillaria_gallica	Armillaria gallica
+armillaria_cepistipes	Armillaria cepistipes
+armillaria_tabescens	Armillaria tabescens
+leccinum_aurantiacum	Leccinum aurantiacum
+leccinum_carpini	Leccinum carpini;Leccinum pseudoscabrum
+leccinum_quercinum	Leccinum quercinum
+leccinum_scabrum	Leccinum scabrum
+morchella_esculenta	Morchella esculenta
+morchella_elata	Morchella elata
+russula_olivacea	Russula olivacea
+suillus_granulatus	Suillus granulatus
+suillus_luteus	Suillus luteus
+suillus_grevillei	Suillus grevillei
+hygrophoropsis_aurantiaca	Hygrophoropsis aurantiaca
+clitocybe_nebularis	Clitocybe nebularis
+leucoagaricus_leucothites	Leucoagaricus leucothites;Lepiota naucina
+macrolepiota_rhacodes	Macrolepiota rhacodes;Chlorophyllum rhacodes;Macrolepiota rachodes
+boletus_luridus	Boletus luridus;Suillellus luridus
+amanita_rubescens	Amanita rubescens
+amanita_phalloides_alba	Amanita phalloides forma alba;Amanita phalloides var. alba;Amanita phalloides alba

@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="it">
+<meta charset="utf-8">
+<title>Che fungo è? — Introduzione</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Flashcard per allenarsi al riconoscimento dei funghi, materiale di studio per il patentino di raccolta.">
+<link href="fonts/fonts.css" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#f2ecdd;
+    --surface:#fffdf7;
+    --surface-2:#ece2cb;
+    --ink:#2a241d;
+    --muted:#786c58;
+    --line:#ddceac;
+    --accent:#3f6b4a;
+    --accent-ink:#f4f8f2;
+
+    --deadly:#9c2b2b;    --deadly-bg:#f6e2df;   --deadly-line:#e0b6ae;
+    --toxic:#a3691a;     --toxic-bg:#f3e6cd;    --toxic-line:#e2c58e;
+    --condiz:#39708a;    --condiz-bg:#dfeaf0;   --condiz-line:#b7cddb;
+
+    --shadow: 0 1px 2px rgba(42,36,29,.06), 0 8px 24px -12px rgba(42,36,29,.25);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1a1611;
+      --surface:#242019;
+      --surface-2:#2c261d;
+      --ink:#efe7d6;
+      --muted:#b3a68f;
+      --line:#3c3324;
+      --accent:#7fb583;
+      --accent-ink:#12200f;
+
+      --deadly:#e39089;  --deadly-bg:#3a2320;  --deadly-line:#603a34;
+      --toxic:#e3b46a;   --toxic-bg:#3a2f1a;   --toxic-line:#5c4a26;
+      --condiz:#8ec2dd;  --condiz-bg:#1f303a;  --condiz-line:#3c5b6c;
+
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
+    }
+  }
+
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Work Sans", ui-sans-serif, system-ui, sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";
+    position:fixed; inset:0; pointer-events:none; z-index:0;
+    background:
+      radial-gradient(ellipse at 10% -10%, rgba(63,107,74,.06), transparent 45%),
+      radial-gradient(ellipse at 100% 0%, rgba(163,105,26,.06), transparent 40%);
+  }
+
+  .wrap{ position:relative; z-index:1; max-width:720px; margin:0 auto; padding:36px 18px 60px; }
+
+  .kicker{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--muted);
+  }
+  h1{
+    font-family:"Fraunces", Georgia, serif;
+    font-weight:600; font-size:clamp(28px,6vw,40px);
+    margin:6px 0 10px; text-wrap:balance;
+  }
+  .lede{ font-size:18px; line-height:1.6; color:var(--ink); max-width:56ch; }
+  .lede.muted{ color:var(--muted); }
+
+  section{ margin-top:30px; }
+  h2{
+    font-family:"Fraunces", serif; font-weight:600; font-size:19px; margin:0 0 12px;
+  }
+
+  .card{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    box-shadow:var(--shadow); padding:18px 20px;
+  }
+
+  .warn{
+    border-radius:14px; padding:18px 20px; margin-bottom:12px;
+    border:1px solid var(--line); background:var(--surface-2);
+    font-size:16px; line-height:1.55;
+  }
+  .warn strong{ display:block; font-size:13.5px; letter-spacing:.04em; text-transform:uppercase;
+    font-family:"IBM Plex Mono", monospace; margin-bottom:6px; }
+  .warn.critical{ background:var(--deadly-bg); border-color:var(--deadly-line); color:var(--ink); }
+  .warn.critical strong{ color:var(--deadly); }
+  .warn.caution{ background:var(--toxic-bg); border-color:var(--toxic-line); }
+  .warn.caution strong{ color:var(--toxic); }
+  .warn.info{ background:var(--condiz-bg); border-color:var(--condiz-line); }
+  .warn.info strong{ color:var(--condiz); }
+  .warn p{ margin:0 0 8px; }
+  .warn p:last-child{ margin-bottom:0; }
+  .warn a{ color:inherit; }
+
+  .steps{ display:flex; flex-direction:column; gap:14px; }
+  .step{ display:flex; gap:14px; align-items:flex-start; }
+  .step .num{
+    flex-shrink:0; width:28px; height:28px; border-radius:50%;
+    background:var(--accent); color:var(--accent-ink);
+    display:flex; align-items:center; justify-content:center;
+    font-family:"IBM Plex Mono", monospace; font-size:13px; font-weight:600;
+  }
+  .step .txt{ font-size:16px; line-height:1.55; padding-top:3px; }
+  .step .txt b{ font-family:"Work Sans"; }
+  .step .txt code{
+    font-family:"IBM Plex Mono", monospace; font-size:14px;
+    background:var(--surface-2); padding:1px 6px; border-radius:5px;
+  }
+
+  .intro-txt{ font-size:16px; line-height:1.55; color:var(--ink); margin:0 0 16px; }
+
+  .credits-list{ font-size:15px; line-height:1.7; color:var(--muted); }
+  .credits-list a{ color:var(--muted); }
+
+  .cta-row{ margin-top:36px; text-align:center; }
+  .btn-start{
+    display:inline-block; text-decoration:none;
+    font-family:"Work Sans", sans-serif; font-weight:700; font-size:17px;
+    padding:16px 34px; border-radius:11px; border:none;
+    background:var(--accent); color:var(--accent-ink);
+    cursor:pointer; box-shadow:var(--shadow);
+    transition:transform .08s, filter .15s;
+  }
+  .btn-start:hover{ filter:brightness(1.06); }
+  .btn-start:active{ transform:translateY(1px); }
+  .cta-sub{ margin-top:10px; font-size:12.5px; color:var(--muted); }
+
+  footer{
+    text-align:center; margin-top:40px; font-size:12px; color:var(--muted);
+  }
+</style>
+
+<div class="wrap">
+  <span class="kicker">Studio per il patentino funghi</span>
+  <h1>Che fungo è?</h1>
+  <p class="lede">
+    Flashcard per allenarti al riconoscimento visivo dei funghi: ti mostra una o più foto,
+    tu provi a indovinare la specie, poi verifichi caratteristiche e risposta. Pensata come
+    materiale di studio in vista dell'esame per il patentino di raccolta.
+  </p>
+
+  <section>
+    <div class="warn critical">
+      <strong>Leggi prima di usarla</strong>
+      <p>
+        Questa applicazione ha il <b>solo scopo di supportare lo studio</b> del riconoscimento
+        visivo dei funghi. <b>Non è, e non vuole essere, uno strumento di identificazione
+        certificata.</b>
+      </p>
+      <p>
+        <b>Non consumare mai un fungo basandoti solo su questa app.</b> In caso di dubbio
+        sull'edibilità di un fungo raccolto, fallo <b>sempre</b> verificare da un micologo
+        abilitato prima di consumarlo. In Friuli-Venezia Giulia è un servizio <b>sempre
+        gratuito</b> offerto dagli Ispettorati Micologici dell'ASUFC — vedi
+        <a href="https://asufc.sanita.fvg.it/it/news/Servizio-di-controllo-dei-funghi-per-autoconsumo" target="_blank" rel="noopener">Servizio di controllo dei funghi per autoconsumo</a>.
+      </p>
+    </div>
+
+    <div class="warn caution">
+      <strong>Fonti delle foto e affidabilità</strong>
+      <p>
+        Le foto provengono dalla community di
+        <a href="https://www.inaturalist.org/" target="_blank" rel="noopener">iNaturalist</a>
+        (osservazioni "research grade", cioè con consenso della community sull'identificazione).
+        iNaturalist è una fonte <b>crowdsourced</b>: per quanto affidabile, un errore di
+        determinazione da parte della community non può essere escluso al 100%. L'app non è
+        affiliata a iNaturalist; licenza e autore di ogni foto sono riportati in
+        <a href="CREDITS.md" target="_blank" rel="noopener">CREDITS.md</a>.
+      </p>
+      <p>
+        Le caratteristiche morfologiche testuali (cappello, imenio, gambo, carne, habitat) sono
+        state trascritte e organizzate dalle slide del corso con l'assistenza di un'intelligenza
+        artificiale. Nonostante le verifiche, <b>non si escludono errori di trascrizione</b>: in
+        caso di dubbio fai sempre riferimento al materiale originale del corso.
+      </p>
+    </div>
+
+    <div class="warn info">
+      <strong>Nessuna responsabilità</strong>
+      <p>
+        L'app è fornita così com'è ("as is"), senza alcuna garanzia di accuratezza o
+        completezza, a titolo gratuito e per solo uso didattico personale. L'uso è a rischio
+        esclusivo di chi lo utilizza: l'autore non si assume alcuna responsabilità per danni
+        diretti o indiretti, di qualunque natura, derivanti
+        dall'uso dell'applicazione — incluse le conseguenze del consumo di funghi raccolti in
+        natura. Non è un progetto affiliato a nessun ente certificatore.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Come si usa</h2>
+    <p class="intro-txt">
+      L'app ti propone una foto (o un piccolo set di foto) pescata a caso tra le specie che
+      hai selezionato, e ti chiede di identificarla. In pratica:
+    </p>
+    <div class="card">
+      <div class="steps">
+        <div class="step">
+          <span class="num">1</span>
+          <span class="txt">Guarda la foto (o le foto) del fungo mostrato e scrivi il <b>nome scientifico</b> nel campo di risposta, poi premi <code>Verifica</code> (o Invio). Piccoli errori di battitura vengono tollerati.</span>
+        </div>
+        <div class="step">
+          <span class="num">2</span>
+          <span class="txt">Se vuoi solo allenarti sul genere, attiva <code>Verifica solo il genere</code>.</span>
+        </div>
+        <div class="step">
+          <span class="num">3</span>
+          <span class="txt">Bloccato? <code>Domande carne/odore/sapore</code> mostra indizi che non si vedono dalla foto (gli stessi che potresti chiedere a un micologo durante l'esame). <code>Dimmi</code> svela subito la risposta.</span>
+        </div>
+        <div class="step">
+          <span class="num">4</span>
+          <span class="txt">Sotto la scheda trovi i <b>Caratteri morfologici</b> completi dalle slide del corso (nascondibili per allenarti "a occhio nudo"), e un <b>Taccuino di campo</b> dove scrivere le tue note personali — restano salvate sul dispositivo.</span>
+        </div>
+        <div class="step">
+          <span class="num">5</span>
+          <span class="txt">Usa i filtri in alto per scegliere categorie (commestibili, mortali, tossici...), fonte delle foto (corso / iNaturalist) o singole specie da includere/escludere con <code>Specie…</code>.</span>
+        </div>
+        <div class="step">
+          <span class="num">6</span>
+          <span class="txt"><code>Prossimo fungo →</code> pesca un nuovo esemplare; <code>←</code> torna a quello precedente. <code>Stessa specie</code> fa pescare un'altra foto della specie corrente, utile per allenarsi sulle variazioni di una singola specie.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Crediti</h2>
+    <p class="credits-list">
+      Foto della community <a href="https://www.inaturalist.org/" target="_blank" rel="noopener">iNaturalist</a>,
+      ciascuna sotto licenza Creative Commons individuale del proprio autore (CC0, CC&nbsp;BY o CC&nbsp;BY-NC) —
+      attribuzione completa in <a href="CREDITS.md" target="_blank" rel="noopener">CREDITS.md</a>.
+      Codice e contenuti: progetto personale di studio, non affiliato a nessun ente micologico o certificatore.
+    </p>
+  </section>
+
+  <div class="cta-row">
+    <a class="btn-start" href="app.html">Ho capito, inizia &rarr;</a>
+    <div class="cta-sub">entrando confermi di aver letto gli avvisi qui sopra</div>
+  </div>
+
+  <footer>Che fungo è? — materiale di studio personale per il patentino di raccolta funghi.</footer>
+</div>
+</html>

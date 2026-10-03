@@ -1,0 +1,1379 @@
+<!doctype html>
+<html lang="it">
+<meta charset="utf-8">
+<title>Che fungo è?</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="fonts/fonts.css" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#f2ecdd;
+    --surface:#fffdf7;
+    --surface-2:#ece2cb;
+    --ink:#2a241d;
+    --muted:#786c58;
+    --line:#ddceac;
+    --accent:#3f6b4a;
+    --accent-ink:#f4f8f2;
+
+    --edible:#3f7d3f;    --edible-bg:#e4efdd;   --edible-line:#bcd8ae;
+    --deadly:#9c2b2b;    --deadly-bg:#f6e2df;   --deadly-line:#e0b6ae;
+    --toxic:#a3691a;     --toxic-bg:#f3e6cd;    --toxic-line:#e2c58e;
+    --condiz:#39708a;    --condiz-bg:#dfeaf0;   --condiz-line:#b7cddb;
+    --suspect:#6d5b96;   --suspect-bg:#e7e1f2;  --suspect-line:#cbbde3;
+
+    --ok:#2f7a3d;
+    --bad:#b23a2f;
+    --shadow: 0 1px 2px rgba(42,36,29,.06), 0 8px 24px -12px rgba(42,36,29,.25);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1a1611;
+      --surface:#242019;
+      --surface-2:#2c261d;
+      --ink:#efe7d6;
+      --muted:#b3a68f;
+      --line:#3c3324;
+      --accent:#7fb583;
+      --accent-ink:#12200f;
+
+      --edible:#8fca8b;  --edible-bg:#20301f;  --edible-line:#3c5a39;
+      --deadly:#e39089;  --deadly-bg:#3a2320;  --deadly-line:#603a34;
+      --toxic:#e3b46a;   --toxic-bg:#3a2f1a;   --toxic-line:#5c4a26;
+      --condiz:#8ec2dd;  --condiz-bg:#1f303a;  --condiz-line:#3c5b6c;
+      --suspect:#c2aee0; --suspect-bg:#2b2438; --suspect-line:#493c63;
+
+      --ok:#8fca8b;
+      --bad:#e39089;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1a1611;
+    --surface:#242019;
+    --surface-2:#2c261d;
+    --ink:#efe7d6;
+    --muted:#b3a68f;
+    --line:#3c3324;
+    --accent:#7fb583;
+    --accent-ink:#12200f;
+
+    --edible:#8fca8b;  --edible-bg:#20301f;  --edible-line:#3c5a39;
+    --deadly:#e39089;  --deadly-bg:#3a2320;  --deadly-line:#603a34;
+    --toxic:#e3b46a;   --toxic-bg:#3a2f1a;   --toxic-line:#5c4a26;
+    --condiz:#8ec2dd;  --condiz-bg:#1f303a;  --condiz-line:#3c5b6c;
+    --suspect:#c2aee0; --suspect-bg:#2b2438; --suspect-line:#493c63;
+
+    --ok:#8fca8b;
+    --bad:#e39089;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
+  }
+
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Work Sans", ui-sans-serif, system-ui, sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";
+    position:fixed; inset:0; pointer-events:none; z-index:0;
+    background:
+      radial-gradient(ellipse at 10% -10%, rgba(63,107,74,.06), transparent 45%),
+      radial-gradient(ellipse at 100% 0%, rgba(163,105,26,.06), transparent 40%);
+  }
+
+  .wrap{ position:relative; z-index:1; max-width:880px; margin:0 auto; padding:28px 18px 80px; }
+
+  header.top{
+    display:flex; align-items:baseline; justify-content:space-between; gap:16px;
+    margin-bottom:22px; flex-wrap:wrap;
+  }
+  .brand{ display:flex; flex-direction:column; gap:2px; }
+  .brand .kicker{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--muted);
+  }
+  .brand h1{
+    font-family:"Fraunces", Georgia, serif;
+    font-weight:600; font-size:clamp(22px,4vw,30px);
+    margin:0; text-wrap:balance;
+  }
+  .counter{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:13px; color:var(--muted);
+    font-variant-numeric: tabular-nums;
+    white-space:nowrap;
+  }
+
+  .filters{
+    display:flex; flex-wrap:wrap; gap:10px 18px; justify-content:space-between; align-items:center;
+    margin-bottom:18px;
+  }
+  .filter-group{ display:flex; flex-wrap:wrap; gap:8px; }
+  .chip{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:12px; letter-spacing:.02em;
+    padding:6px 12px; border-radius:100px;
+    border:1px solid var(--line); background:var(--surface);
+    color:var(--muted); cursor:pointer; user-select:none;
+    transition:background .15s, color .15s, border-color .15s;
+  }
+  .chip[aria-pressed="true"]{ background:var(--ink); color:var(--surface); border-color:var(--ink); }
+  .chip.c-comm[aria-pressed="true"]{ background:var(--edible); border-color:var(--edible); color:#fff; }
+  .chip.c-mort[aria-pressed="true"]{ background:var(--deadly); border-color:var(--deadly); color:#fff; }
+  .chip.c-toss[aria-pressed="true"]{ background:var(--toxic); border-color:var(--toxic); color:#fff; }
+  .chip.c-cond[aria-pressed="true"]{ background:var(--condiz); border-color:var(--condiz); color:#fff; }
+  .chip.c-susp[aria-pressed="true"]{ background:var(--suspect); border-color:var(--suspect); color:#fff; }
+  .chip-outline{ border-style:dashed; }
+  .chip-outline:hover{ background:var(--surface-2); }
+
+  .card{
+    position:relative;
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:14px;
+    box-shadow:var(--shadow);
+    padding:22px 22px 24px;
+    margin-bottom:22px;
+  }
+  .card::before{ /* perforation strip */
+    content:""; position:absolute; left:22px; right:22px; top:0; height:1px;
+    background-image: radial-gradient(circle, var(--bg) 2.2px, transparent 2.3px);
+    background-size: 16px 1px; background-repeat: repeat-x; background-position: 0 0;
+    transform:translateY(-1px);
+  }
+
+  .tag-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; gap:10px;}
+  .tag{
+    display:inline-flex; align-items:center; gap:6px;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:11.5px; letter-spacing:.08em; text-transform:uppercase;
+    padding:5px 10px 5px 8px; border-radius:7px; border:1px solid transparent;
+  }
+  .tag .dot{ width:6px; height:6px; border-radius:50%; }
+  .tag.commestibile{ background:var(--edible-bg); color:var(--edible); border-color:var(--edible-line); }
+  .tag.commestibile .dot{ background:var(--edible); }
+  .tag.mortale{ background:var(--deadly-bg); color:var(--deadly); border-color:var(--deadly-line); }
+  .tag.mortale .dot{ background:var(--deadly); }
+  .tag.tossico{ background:var(--toxic-bg); color:var(--toxic); border-color:var(--toxic-line); }
+  .tag.tossico .dot{ background:var(--toxic); }
+  .tag.condizionata{ background:var(--condiz-bg); color:var(--condiz); border-color:var(--condiz-line); }
+  .tag.condizionata .dot{ background:var(--condiz); }
+  .tag.sospetto{ background:var(--suspect-bg); color:var(--suspect); border-color:var(--suspect-line); }
+  .tag.sospetto .dot{ background:var(--suspect); }
+  .tag.gruppo{ background:var(--surface-2); color:var(--muted); border-color:var(--line); }
+
+  .photos{
+    display:grid; gap:10px; margin-bottom:16px;
+    grid-template-columns: repeat(var(--ncols,1), 1fr);
+  }
+  .photo{
+    position:relative; border-radius:10px; overflow:hidden;
+    border:1px solid var(--line); background:var(--surface-2);
+    aspect-ratio:4/3; cursor: zoom-in;
+  }
+  .photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .photo .zoom-hint{
+    position:absolute; right:7px; bottom:7px;
+    background:rgba(20,16,10,.55); color:#fff; font-size:11px;
+    font-family:"IBM Plex Mono",monospace; padding:3px 7px; border-radius:6px;
+    opacity:0; transition:opacity .15s;
+  }
+  .photo:hover .zoom-hint{ opacity:1; }
+
+  .credit-line{
+    margin-top:8px; font-size:12px; color:var(--muted); line-height:1.5;
+  }
+  .credit-line a{ color:var(--muted); }
+  .credit-line em{ font-family:"Fraunces", serif; }
+
+  .answer-row{ display:flex; gap:10px; margin-bottom:6px; }
+  #guess{
+    flex:1; min-width:0;
+    font-family:"Work Sans", sans-serif; font-size:16px;
+    padding:12px 14px; border-radius:9px;
+    border:1.5px solid var(--line); background:var(--surface);
+    color:var(--ink);
+  }
+  #guess:focus{ outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent); }
+  #guess[disabled]{ opacity:.6; }
+  .btn{
+    font-family:"Work Sans", sans-serif; font-weight:600; font-size:14.5px;
+    padding:12px 18px; border-radius:9px; border:1.5px solid transparent;
+    cursor:pointer; white-space:nowrap; transition:transform .08s, filter .15s, background .15s;
+  }
+  .btn:active{ transform:translateY(1px); }
+  .btn-primary{ background:var(--accent); color:var(--accent-ink); }
+  .btn-primary:hover{ filter:brightness(1.06); }
+  .btn-ghost{ background:transparent; color:var(--ink); border-color:var(--line); }
+  .btn-ghost:hover{ background:var(--surface-2); }
+  .btn-next{ background:var(--ink); color:var(--surface); }
+  .btn-next:hover{ filter:brightness(1.15); }
+  .btn-prev{ padding:12px 13px; font-size:14.5px; }
+  .btn-prev:disabled{ opacity:.35; cursor:default; }
+  .btn-prev:disabled:hover{ background:transparent; }
+  .btn:disabled{ opacity:.45; cursor:not-allowed; }
+
+  .below-row{ display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top:12px; }
+  .genus-toggle{
+    display:flex; align-items:center; gap:7px;
+    font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--muted);
+    cursor:pointer; user-select:none;
+  }
+  .genus-toggle input{ accent-color:var(--accent); width:15px; height:15px; }
+  .actions-col{ display:flex; flex-direction:column; align-items:flex-end; gap:7px; }
+  .actions{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .same-species-toggle{
+    display:flex; align-items:center; gap:6px;
+    font-family:"IBM Plex Mono", monospace; font-size:10.5px; line-height:1.15;
+    color:var(--muted); letter-spacing:.02em;
+    cursor:pointer; user-select:none;
+  }
+  .same-species-toggle input{ accent-color:var(--accent); width:14px; height:14px; flex-shrink:0; }
+
+  .feedback{
+    min-height:24px; margin-top:12px; font-weight:600; font-size:14.5px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .feedback.ok{ color:var(--ok); }
+  .feedback.bad{ color:var(--bad); animation:shake .32s; }
+  .feedback.info{ color:var(--muted); font-weight:500; }
+  .typo-note{ color:var(--muted); font-weight:500; font-size:13px; }
+  .typo-note em{ font-family:"Fraunces", serif; font-style:italic; }
+  @keyframes shake{ 0%,100%{transform:translateX(0)} 25%{transform:translateX(-5px)} 75%{transform:translateX(5px)} }
+  @media (prefers-reduced-motion: reduce){ .feedback.bad{ animation:none; } }
+
+  .reveal-box{
+    margin-top:6px; padding:12px 14px; border-radius:9px;
+    background:var(--surface-2); border:1px dashed var(--line);
+    font-size:14.5px; line-height:1.5;
+  }
+  .reveal-box .sci{ font-family:"Fraunces", serif; font-style:italic; font-weight:600; font-size:17px; }
+  .reveal-box .common{ color:var(--muted); }
+  .reveal-box.muted{ color:var(--muted); font-style:italic; }
+
+  .notebook{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    box-shadow:var(--shadow); padding:20px 22px 22px;
+  }
+  .notebook h2{
+    font-family:"Fraunces", serif; font-weight:600; font-size:16px; margin:0 0 4px;
+  }
+  .notebook .sub{ font-size:12.5px; color:var(--muted); max-width:46ch; }
+  .notebook-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:16px; flex-wrap:wrap; }
+  .notebook-head .btn{ flex-shrink:0; padding:9px 14px; font-size:13px; }
+  .notes-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:12px;
+  }
+  @media (max-width:560px){ .notes-grid{ grid-template-columns:1fr; } }
+  .ref-placeholder{
+    display:none; padding:16px; border:1px dashed var(--line); border-radius:9px;
+    color:var(--muted); font-size:13.5px; text-align:center;
+  }
+  .linklike{
+    background:none; border:none; padding:0; margin-left:2px;
+    color:var(--accent); font-weight:600; font-size:13.5px; cursor:pointer;
+    text-decoration:underline; font-family:inherit;
+  }
+  .notebook.ref-hidden .notes-grid{ display:none; }
+  .notebook.ref-hidden .ref-placeholder{ display:block; }
+  .note-field{ display:flex; flex-direction:column; gap:6px; }
+  .note-field.full{ grid-column:1/-1; }
+  .note-field label{
+    font-family:"IBM Plex Mono", monospace; font-size:11px; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--muted);
+  }
+  .note-field-text{
+    font-family:"Work Sans", sans-serif; font-size:14px; color:var(--ink);
+    background:var(--surface-2);
+    border:1px solid var(--line); border-radius:8px; padding:9px 10px;
+    min-height:20px; line-height:1.45; white-space:pre-line;
+  }
+  .note-field-text.empty{ color:var(--muted); font-style:italic; }
+  .field-notes{ margin-top:18px; padding-top:16px; border-top:1px solid var(--line); }
+  .field-notes h3{ font-family:"Fraunces", serif; font-weight:600; font-size:14px; margin:0 0 4px; }
+  .field-notes .sub{ font-size:12px; color:var(--muted); margin-bottom:8px; }
+  .field-note-textarea{
+    display:block; width:100%; box-sizing:border-box;
+    font-family:"Work Sans", sans-serif; font-size:14px; color:var(--ink);
+    background:
+      linear-gradient(var(--surface-2) 0 0) padding-box,
+      var(--surface);
+    border:1px solid var(--line); border-radius:8px; padding:9px 10px;
+    resize:vertical; min-height:70px; line-height:1.45;
+  }
+  .field-note-textarea:focus{ outline:2px solid var(--accent); outline-offset:1px; }
+  .saved-hint{
+    font-family:"IBM Plex Mono", monospace; font-size:10.5px; color:var(--muted);
+    text-align:right; margin-top:8px; opacity:0; transition:opacity .3s;
+  }
+  .saved-hint.show{ opacity:1; }
+
+  .debug-zone{ margin-top:14px; padding-top:10px; border-top:1px dashed var(--line); }
+  .debug-toggle{
+    display:inline-flex; align-items:center; gap:6px;
+    font-family:"IBM Plex Mono", monospace; font-size:11px; color:var(--muted); cursor:pointer;
+  }
+  .debug-toggle input{ cursor:pointer; }
+  .debug-panel{
+    margin-top:10px; display:flex; flex-direction:column; align-items:center; gap:6px;
+  }
+  .debug-panel.hidden{ display:none; }
+  .debug-panel label{ font-size:11px; color:var(--muted); }
+  .debug-panel .row{ display:flex; align-items:center; gap:10px; }
+  .debug-panel input[type="range"]{ width:160px; }
+  .debug-panel .val{ font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--ink); min-width:70px; text-align:left; }
+  .debug-panel .linklike-muted{ margin-left:4px; }
+
+  footer{
+    text-align:center; margin-top:26px; font-size:12px; color:var(--muted);
+  }
+  .danger-zone{ margin-top:10px; opacity:.55; }
+  .danger-zone:hover{ opacity:1; }
+  .linklike-muted{
+    background:none; border:none; padding:0; margin:0;
+    font-family:inherit; font-size:11px; color:var(--muted);
+    text-decoration:underline dotted; cursor:pointer;
+  }
+  .linklike-muted:hover{ color:var(--bad); }
+  .danger-zone .sep{ margin:0 6px; }
+
+  /* lightbox */
+  .lightbox{
+    position:fixed; inset:0; background:rgba(10,8,5,.85); z-index:50;
+    display:none; align-items:center; justify-content:center; padding:24px;
+    cursor:zoom-out;
+  }
+  .lightbox.open{ display:flex; }
+  .lightbox img{ max-width:100%; max-height:100%; border-radius:6px; box-shadow:0 20px 60px rgba(0,0,0,.5); }
+
+  .empty-state{ text-align:center; padding:50px 20px; color:var(--muted); }
+
+  .btn-sm{ padding:7px 12px; font-size:13px; }
+
+  .modal-overlay{
+    position:fixed; inset:0; background:rgba(10,8,5,.55); z-index:60;
+    display:none; align-items:flex-start; justify-content:center;
+    padding:5vh 16px; overflow-y:auto;
+  }
+  .modal-overlay.open{ display:flex; }
+  .modal-panel{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    box-shadow:var(--shadow); width:100%; max-width:640px; max-height:90vh;
+    display:flex; flex-direction:column; overflow:hidden;
+  }
+  .modal-header{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 20px 14px; border-bottom:1px solid var(--line); flex-shrink:0;
+  }
+  .modal-header h2{ font-family:"Fraunces", serif; font-weight:600; font-size:18px; margin:0; }
+  .modal-close{
+    background:none; border:none; font-size:22px; line-height:1; color:var(--muted);
+    cursor:pointer; padding:2px 6px;
+  }
+  .modal-close:hover{ color:var(--ink); }
+  .modal-toolbar{
+    display:flex; gap:8px; padding:12px 20px; border-bottom:1px solid var(--line); flex-shrink:0;
+  }
+  .species-search{
+    flex:1; min-width:0;
+    font-family:"Work Sans", sans-serif; font-size:13px;
+    padding:7px 12px; border-radius:9px;
+    border:1.5px solid var(--line); background:var(--surface);
+    color:var(--ink);
+  }
+  .species-search:focus{ outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent); }
+  .modal-body{ padding:8px 20px 20px; overflow-y:auto; }
+  .species-cat-section{ margin-top:16px; }
+  .species-cat-section.search-hidden{ display:none; }
+  .species-row.search-hidden{ display:none; }
+  .species-cat-header{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    margin-bottom:8px; padding-bottom:6px; border-bottom:1px dashed var(--line);
+  }
+  .species-cat-header .cat-title{
+    display:flex; align-items:center; gap:6px;
+    font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.04em;
+    text-transform:uppercase; color:var(--muted);
+  }
+  .species-cat-header .cat-title .dot{ width:7px; height:7px; border-radius:50%; }
+  .species-cat-header .cat-actions{ display:flex; gap:6px; }
+  .cat-mini-btn{
+    background:none; border:none; font-size:11.5px; color:var(--muted);
+    text-decoration:underline dotted; cursor:pointer; padding:0;
+  }
+  .cat-mini-btn:hover{ color:var(--ink); }
+  .species-list{ display:grid; grid-template-columns:1fr 1fr; gap:2px 14px; }
+  @media (max-width:520px){ .species-list{ grid-template-columns:1fr; } }
+  .species-row{
+    display:flex; align-items:center; gap:8px; padding:5px 2px;
+    font-size:13.5px; cursor:pointer; user-select:none;
+  }
+  .species-row input{ accent-color:var(--accent); width:15px; height:15px; flex-shrink:0; }
+  .species-row .sci{ font-style:italic; }
+  .species-row.disabled-row{ opacity:.45; }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <span class="kicker">Studio per il patentino funghi</span>
+      <h1>Che fungo è?</h1>
+    </div>
+    <div class="counter" id="counter">0 / 0</div>
+  </header>
+
+  <div class="filters" id="filters">
+    <div class="filter-group">
+      <button class="chip c-comm" data-cat="commestibile" aria-pressed="true">Commestibili</button>
+      <button class="chip c-mort" data-cat="mortale" aria-pressed="true">Mortali</button>
+      <button class="chip c-toss" data-cat="tossico" aria-pressed="true">Tossici</button>
+      <button class="chip c-cond" data-cat="condizionata" aria-pressed="true">Comm. condizionata</button>
+      <button class="chip c-susp" data-cat="sospetto" aria-pressed="true">Sospetti</button>
+      <button class="chip chip-outline" id="btnSpeciesFilter">Specie&hellip;</button>
+    </div>
+  </div>
+
+  <div id="cardHost"></div>
+
+  <div class="notebook" id="notebook" style="display:none">
+    <div class="notebook-head">
+      <div>
+        <h2>Caratteri morfologici</h2>
+        <div class="sub">Così come riportati nelle slide del corso.</div>
+      </div>
+      <button class="btn btn-ghost" id="btnToggleRef">Nascondi caratteristiche</button>
+    </div>
+    <div class="notes-grid" id="notesGrid">
+      <div class="note-field full"><label>Commestibilità</label><div class="note-field-text" id="n-commestibilita"></div></div>
+      <div class="note-field"><label>Cappello</label><div class="note-field-text" id="n-cappello"></div></div>
+      <div class="note-field"><label>Imenio</label><div class="note-field-text" id="n-imenio"></div></div>
+      <div class="note-field"><label>Gambo</label><div class="note-field-text" id="n-gambo"></div></div>
+      <div class="note-field"><label>Carne</label><div class="note-field-text" id="n-carne"></div></div>
+      <div class="note-field full"><label>Habitat</label><div class="note-field-text" id="n-habitat"></div></div>
+    </div>
+    <div class="ref-placeholder" id="refPlaceholder">Caratteristiche nascoste, per allenarti a occhio nudo. <button class="linklike" id="btnShowInline">Mostrale</button></div>
+    <div class="field-notes">
+      <h3>Taccuino di campo</h3>
+      <div class="sub">Note personali su questo esemplare — restano salvate per specie.</div>
+      <textarea id="fieldNote" class="field-note-textarea" placeholder="Scrivi qui le tue note..."></textarea>
+    </div>
+    <div class="saved-hint" id="savedHint">salvato</div>
+  </div>
+
+  <footer>
+    Foto dalla community di iNaturalist, licenze Creative Commons individuali (vedi CREDITS.md) &mdash; uso didattico personale.
+    <div class="danger-zone">
+      <button class="linklike-muted" id="btnRemoveSpecimen" title="Rimuove localmente le foto attualmente mostrate, per esempio se una foto è palesemente sbagliata o rotta">Elimina esemplare corrente</button>
+      <span class="sep">&middot;</span>
+      <button class="linklike-muted" id="btnDownloadRemovalLog">Scarica registro rimozioni</button>
+    </div>
+    <div class="debug-zone">
+      <label class="debug-toggle">
+        <input type="checkbox" id="chkDebugMode"> debug mode
+      </label>
+      <div class="debug-panel hidden" id="debugPanel">
+        <div class="row">
+          <label for="debugPhotoCount">Mostra solo osservazioni iNaturalist con N foto:</label>
+        </div>
+        <div class="row">
+          <input type="range" id="debugPhotoCount" min="2" max="4" step="1" value="2">
+          <span class="val" id="debugPhotoCountVal">tutte</span>
+          <button class="linklike-muted" id="btnDebugPhotoCountClear">azzera</button>
+        </div>
+        <div class="row">
+          <label class="debug-toggle">
+            <input type="checkbox" id="chkSequentialMode"> modalità non casuale (ordine fisso, senza ripetizioni fino in fondo al mazzo)
+          </label>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<div class="lightbox" id="lightbox"><img id="lightboxImg" src="" alt=""></div>
+
+<div class="modal-overlay" id="speciesModalOverlay">
+  <div class="modal-panel">
+    <div class="modal-header">
+      <h2>Quali specie includere</h2>
+      <button class="modal-close" id="btnCloseSpeciesModal" aria-label="Chiudi">&times;</button>
+    </div>
+    <div class="modal-toolbar">
+      <button class="btn btn-ghost btn-sm" id="btnEnableAllSpecies">Abilita tutte</button>
+      <button class="btn btn-ghost btn-sm" id="btnDisableAllSpecies">Disabilita tutte</button>
+      <input type="text" id="speciesSearchInput" class="species-search" placeholder="Cerca specie&hellip;" autocomplete="off">
+    </div>
+    <div class="modal-body" id="speciesModalBody"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="data/observations.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  // localStorage può lanciare eccezioni (cookie/dati dei siti bloccati, quota piena):
+  // in quel caso l'app funziona lo stesso, semplicemente non ricorda nulla.
+  function lsGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+  function lsSet(k, v){ try{ localStorage.setItem(k, v); }catch(e){} }
+
+  // i link nei dati devono essere http(s): niente "javascript:" e simili dentro un href
+  function safeUrl(u){ return /^https?:\/\//i.test(String(u)) ? String(u) : "#"; }
+
+  // per il testo che arriva da iNaturalist (nomi autori, nomi specie) prima di metterlo in innerHTML
+  function escapeHtml(s){
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+
+  const NOTE_KEYS = ["commestibilita","cappello","imenio","gambo","carne","habitat"];
+  const LS_GENUS = "funghi_genusOnly";
+  const LS_FILTERS = "funghi_filters_v1";
+  const CAT_LABEL = { commestibile:"Commestibile", mortale:"Mortale", tossico:"Tossico", condizionata:"Commestibilità condizionata", sospetto:"Sospetto" };
+
+  let activeCats = new Set(["commestibile","mortale","tossico","condizionata","sospetto"]);
+  try{
+    const saved = JSON.parse(lsGet(LS_FILTERS) || "null");
+    if (Array.isArray(saved) && saved.length) activeCats = new Set(saved);
+  }catch(e){}
+
+  const LS_DISABLED_SPECIES = "funghi_disabledSpecies_v1";
+  let disabledSpecies = new Set();
+  try{
+    const savedDisabled = JSON.parse(lsGet(LS_DISABLED_SPECIES) || "null");
+    if (Array.isArray(savedDisabled)) disabledSpecies = new Set(savedDisabled);
+  }catch(e){}
+  function saveDisabledSpecies(){
+    lsSet(LS_DISABLED_SPECIES, JSON.stringify(Array.from(disabledSpecies)));
+  }
+
+  let genusOnly = lsGet(LS_GENUS) === "1";
+  let sameSpeciesMode = false; // non persistito: si resetta ad ogni apertura della pagina
+
+  const LS_DEBUG = "funghi_debugMode";
+  let debugMode = lsGet(LS_DEBUG) === "1";
+  let debugPhotoCountFilter = null; // non persistito: si resetta ad ogni apertura della pagina
+
+  const LS_DEBUG_SEQUENTIAL = "funghi_debugSequentialMode";
+  let debugSequentialMode = lsGet(LS_DEBUG_SEQUENTIAL) === "1";
+
+  const LS_REF_HIDDEN = "funghi_refHidden";
+  let refHidden = lsGet(LS_REF_HIDDEN) === "1";
+
+  function applyRefHidden(){
+    const nb = document.getElementById("notebook");
+    nb.classList.toggle("ref-hidden", refHidden);
+    document.getElementById("btnToggleRef").textContent =
+      refHidden ? "Mostra caratteristiche" : "Nascondi caratteristiche";
+  }
+  function setRefHidden(v){
+    refHidden = v;
+    lsSet(LS_REF_HIDDEN, refHidden ? "1" : "0");
+    applyRefHidden();
+  }
+  document.getElementById("btnToggleRef").addEventListener("click", () => setRefHidden(!refHidden));
+  document.getElementById("btnShowInline").addEventListener("click", () => setRefHidden(false));
+  applyRefHidden();
+
+  document.getElementById("btnRemoveSpecimen").addEventListener("click", () => {
+    if (!currentSpecies || !currentSourceKey) return;
+    const isSlide = currentSourceKey.endsWith("::slide");
+    const which = isSlide ? "le foto delle slide del corso" : "questa osservazione iNaturalist";
+    const ok = confirm(
+      `Eliminare localmente ${which} per "${currentSpecies.names[0]}"?\n\n` +
+      `Non verrà più mostrata su questo dispositivo (le altre foto della specie restano). ` +
+      `La rimozione viene registrata nel registro locale (scaricabile qui sotto) — usalo solo ` +
+      `se una foto è chiaramente sbagliata o rotta.`
+    );
+    if (!ok) return;
+    const removed = loadRemovedSet();
+    removed.add(currentSourceKey);
+    saveRemovedSet(removed);
+    appendRemovalLog({
+      ts: new Date().toISOString(),
+      speciesId: currentSpecies.id,
+      scientificName: currentSpecies.names[0],
+      sourceKey: currentSourceKey,
+    });
+    rebuildDeckKeepingPosition();
+  });
+
+  document.getElementById("btnDownloadRemovalLog").addEventListener("click", () => {
+    let log = [];
+    try{ log = JSON.parse(lsGet(LS_REMOVAL_LOG) || "[]"); }catch(e){}
+    if (!log.length){
+      alert("Nessun esemplare eliminato finora su questo dispositivo.");
+      return;
+    }
+    const blob = new Blob([JSON.stringify(log, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "registro_rimozioni.json";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+
+  const chkDebugMode = document.getElementById("chkDebugMode");
+  const debugPanel = document.getElementById("debugPanel");
+  const debugPhotoCountSlider = document.getElementById("debugPhotoCount");
+  const debugPhotoCountVal = document.getElementById("debugPhotoCountVal");
+  const chkSequentialMode = document.getElementById("chkSequentialMode");
+
+  function applyDebugPanelVisibility(){
+    debugPanel.classList.toggle("hidden", !debugMode);
+  }
+  chkDebugMode.checked = debugMode;
+  chkSequentialMode.checked = debugSequentialMode;
+  applyDebugPanelVisibility();
+
+  chkDebugMode.addEventListener("change", () => {
+    debugMode = chkDebugMode.checked;
+    lsSet(LS_DEBUG, debugMode ? "1" : "0");
+    applyDebugPanelVisibility();
+    // il mazzo cambia solo se c'è un filtro/modalità attivi: altrimenti non serve
+    // ricostruirlo (evita di "saltare" a un fungo diverso solo accendendo debug mode)
+    if (debugPhotoCountFilter != null || debugSequentialMode) rebuildDeckKeepingPosition();
+  });
+
+  debugPhotoCountSlider.addEventListener("input", () => {
+    debugPhotoCountFilter = parseInt(debugPhotoCountSlider.value, 10);
+    debugPhotoCountVal.textContent = debugPhotoCountFilter + " foto";
+    rebuildDeckKeepingPosition();
+  });
+
+  document.getElementById("btnDebugPhotoCountClear").addEventListener("click", () => {
+    debugPhotoCountFilter = null;
+    debugPhotoCountVal.textContent = "tutte";
+    rebuildDeckKeepingPosition();
+  });
+
+  chkSequentialMode.addEventListener("change", () => {
+    debugSequentialMode = chkSequentialMode.checked;
+    lsSet(LS_DEBUG_SEQUENTIAL, debugSequentialMode ? "1" : "0");
+    // cambia solo l'ordine del mazzo da qui in poi: non deve far "saltare" il fungo
+    // attualmente mostrato, altrimenti ogni click sposterebbe la carta senza motivo
+    rebuildDeckKeepingPosition();
+  });
+
+  let deck = [];
+  let pos = -1;
+  let state = null; // per-card runtime state
+  let currentSpecies = null;
+  let currentSourceKey = null; // "<speciesId>::slide" per ora; in futuro anche "::inat::<obsId>"
+
+  // cronologia di navigazione: permette al pulsante "indietro" di tornare ai funghi
+  // già mostrati, a prescindere da eventuali reshuffle del deck.
+  let history = [];
+  let historyPos = -1;
+  function pushHistory(draw){
+    history = history.slice(0, historyPos + 1);
+    history.push(draw);
+    historyPos = history.length - 1;
+  }
+
+  // --- "elimina esemplare": esclusione locale di un set di foto rotto/sbagliato ---
+  const LS_REMOVED = "funghi_removed_v1";
+  const LS_REMOVAL_LOG = "funghi_removalLog_v1";
+
+  function loadRemovedSet(){
+    try{ return new Set(JSON.parse(lsGet(LS_REMOVED) || "[]")); }
+    catch(e){ return new Set(); }
+  }
+  function saveRemovedSet(set){
+    lsSet(LS_REMOVED, JSON.stringify(Array.from(set)));
+  }
+  function appendRemovalLog(entry){
+    let log = [];
+    try{ log = JSON.parse(lsGet(LS_REMOVAL_LOG) || "[]"); }catch(e){}
+    log.push(entry);
+    lsSet(LS_REMOVAL_LOG, JSON.stringify(log));
+    return log;
+  }
+
+  const cardHost = document.getElementById("cardHost");
+  const counterEl = document.getElementById("counter");
+  const notebook = document.getElementById("notebook");
+  const savedHint = document.getElementById("savedHint");
+
+  function normalize(s){
+    return (s || "")
+      .toString()
+      .normalize("NFD").replace(/[̀-ͯ]/g, "")
+      .toLowerCase()
+      .replace(/[.,'’`]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  // Tutti i nomi (binomi completi) e tutti i generi realmente presenti nel dataset,
+  // normalizzati. Servono a distinguere un refuso tollerabile da una risposta che
+  // corrisponde esattamente a un'ALTRA specie/genere reale (es. "Lepiota nuda" non è
+  // un typo di "Lepista nuda": Lepiota è un genere vero, con specie mortali nel
+  // dataset) — in quel caso la tolleranza ai typo non deve scattare.
+  const ALL_KNOWN_NAMES_NORM = new Set();
+  const ALL_KNOWN_GENERA_NORM = new Set();
+  SPECIES.forEach(sp => {
+    (sp.names || []).forEach(n => {
+      ALL_KNOWN_NAMES_NORM.add(normalize(n));
+      ALL_KNOWN_GENERA_NORM.add(normalize(n.split(" ")[0]));
+    });
+    (sp.members || []).forEach(aliasList => {
+      aliasList.forEach(n => {
+        ALL_KNOWN_NAMES_NORM.add(normalize(n));
+        ALL_KNOWN_GENERA_NORM.add(normalize(n.split(" ")[0]));
+      });
+    });
+  });
+
+  function levenshtein(a, b){
+    const m = a.length, n = b.length;
+    if (m === 0) return n;
+    if (n === 0) return m;
+    let prev = new Array(n + 1);
+    let cur = new Array(n + 1);
+    for (let j = 0; j <= n; j++) prev[j] = j;
+    for (let i = 1; i <= m; i++){
+      cur[0] = i;
+      const ca = a.charCodeAt(i - 1);
+      for (let j = 1; j <= n; j++){
+        const cost = ca === b.charCodeAt(j - 1) ? 0 : 1;
+        cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+      }
+      [prev, cur] = [cur, prev];
+    }
+    return prev[n];
+  }
+
+  // quanti errori di battitura tollerare, in base alla lunghezza della parola/frase
+  function maxEdits(len){
+    if (len <= 4) return 0;
+    if (len <= 7) return 1;
+    if (len <= 12) return 2;
+    return 3;
+  }
+
+  // trova, tra le stringhe candidate (già normalizzate), quella più vicina alla guess normalizzata
+  function bestFuzzyMatch(guess, candidatesNorm){
+    let best = null;
+    for (const c of candidatesNorm){
+      const d = levenshtein(guess, c);
+      if (!best || d < best.dist) best = { value:c, dist:d };
+    }
+    return best;
+  }
+
+  // Confronta guess e candidato PAROLA PER PAROLA (non l'intera stringa): ogni parola deve
+  // stare entro la propria tolleranza in base alla propria lunghezza. Così un genere lungo
+  // che combacia perfettamente non può "finanziare" un epiteto completamente diverso (es.
+  // "Amanita virosa" non deve poter diventare "Amanita verna" solo perché "amanita" è lungo
+  // e la distanza totale rientrerebbe in una soglia calcolata sull'intera frase).
+  // Ritorna la distanza totale se OGNI parola è entro soglia, altrimenti null (niente match).
+  function wordwiseDistance(guessNorm, candidateNorm){
+    const gWords = guessNorm.split(" ");
+    const cWords = candidateNorm.split(" ");
+    if (gWords.length !== cWords.length) return null;
+    let total = 0;
+    for (let i = 0; i < cWords.length; i++){
+      const d = levenshtein(gWords[i], cWords[i]);
+      if (d > maxEdits(cWords[i].length)) return null;
+      total += d;
+    }
+    return total;
+  }
+
+  // come bestFuzzyMatch, ma parola per parola: ogni candidato è ammesso solo se OGNI sua
+  // parola è entro la propria tolleranza (vedi wordwiseDistance).
+  function bestWordwiseMatch(guessNorm, candidatesNorm){
+    let best = null;
+    for (const c of candidatesNorm){
+      const d = wordwiseDistance(guessNorm, c);
+      if (d === null) continue;
+      if (!best || d < best.dist) best = { value:c, dist:d };
+    }
+    return best;
+  }
+
+  function shuffle(arr){
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // ogni "pesca" del mazzo è un campione preciso: o il set di foto delle slide di una
+  // specie, o UNA osservazione iNaturalist di quella specie (le foto di un'osservazione
+  // restano insieme perché complementari). Non c'è distinzione di fonte quando il sistema
+  // propone il fungo: le osservazioni iNaturalist sono filtrate per categoria
+  // (commestibile/mortale/tossico...) e, in debug mode, per numero di foto.
+  function buildDeck(){
+    const removed = loadRemovedSet();
+    const pool = SPECIES.filter(s => activeCats.has(s.cat) && !disabledSpecies.has(s.id));
+    const draws = [];
+
+    pool.forEach(sp => {
+      const obsData = (typeof OBSERVATIONS !== "undefined") ? OBSERVATIONS[sp.id] : null;
+      if (obsData && Array.isArray(obsData.observations)){
+        obsData.observations.forEach(obs => {
+          const key = sp.id + "::inat::" + obs.obs_id;
+          if (removed.has(key)) return;
+          if (debugMode && debugPhotoCountFilter != null
+              && (obs.photos || []).length !== debugPhotoCountFilter) return;
+          draws.push({
+            sp, kind: "inat", sourceKey: key,
+            obsId: obs.obs_id, obsUrl: obs.obs_url, author: obs.author,
+            memberSpecies: obs.member_species || null,
+            photos: (obs.photos || []).map(p => ({
+              src: p.file,
+              credit: { author: p.author, license_code: p.license_code, license_url: p.license_url }
+            }))
+          });
+        });
+      }
+    });
+
+    deck = (debugMode && debugSequentialMode) ? draws : shuffle(draws);
+    pos = 0;
+    history = [];
+    historyPos = -1;
+  }
+
+  // ricostruisce il mazzo (es. dopo un'eliminazione o un cambio di filtro "interno" come il
+  // debug) ma, se possibile, continua a mostrare lo stesso fungo: un reset completo del mazzo
+  // deve avvenire SOLO al refresh della pagina o quando cambia la selezione di categorie/fonte/
+  // specie — mai per un semplice effetto collaterale, altrimenti si perde il punto in cui si era
+  // arrivati (fastidioso, ad es., mentre si scorrono le osservazioni in ordine per ripulirle).
+  function rebuildDeckKeepingPosition(){
+    const prevKey = currentSourceKey;
+    const oldDeck = deck;
+    const oldPos = pos;
+    buildDeck();
+    let match = prevKey ? deck.find(d => d.sourceKey === prevKey) : null;
+    if (!match && oldDeck.length){
+      // il fungo corrente non c'è più nel nuovo mazzo (es. appena eliminato): continua
+      // dal prossimo della stessa sequenza, se ancora presente, invece di tornare all'inizio
+      for (let i = oldPos + 1; i < oldDeck.length; i++){
+        const candidate = deck.find(d => d.sourceKey === oldDeck[i].sourceKey);
+        if (candidate){ match = candidate; break; }
+      }
+    }
+    // nota: buildDeck() ha già azzerato history/historyPos. Passiamo solo forcedDraw
+    // (non un targetHistoryPos) così render() la registra correttamente con
+    // pushHistory invece di lasciare historyPos=0 con history ancora vuoto — altrimenti
+    // "←" risulterebbe disabilitato per sempre dopo un rebuild (mazzo svuotato ma la
+    // carta mostrata mai aggiunta alla cronologia).
+    if (match) render(match);
+    else render();
+  }
+
+  function saveFilters(){
+    lsSet(LS_FILTERS, JSON.stringify(Array.from(activeCats)));
+  }
+  document.querySelectorAll(".chip[data-cat]").forEach(chip => {
+    const cat = chip.dataset.cat;
+    chip.setAttribute("aria-pressed", activeCats.has(cat) ? "true" : "false");
+    chip.addEventListener("click", () => {
+      if (activeCats.has(cat)){
+        if (activeCats.size === 1) return; // keep at least one category active
+        activeCats.delete(cat);
+      } else {
+        activeCats.add(cat);
+      }
+      chip.setAttribute("aria-pressed", activeCats.has(cat) ? "true" : "false");
+      saveFilters();
+      buildDeck();
+      render();
+    });
+  });
+
+  // --- pannello "quali specie includere" ---
+  const CAT_ORDER = ["commestibile", "mortale", "tossico", "condizionata", "sospetto"];
+
+  function renderSpeciesModal(){
+    const body = document.getElementById("speciesModalBody");
+    let html = "";
+    CAT_ORDER.forEach(cat => {
+      const list = SPECIES.filter(s => s.cat === cat);
+      if (!list.length) return;
+      html += `
+        <div class="species-cat-section" data-cat="${cat}">
+          <div class="species-cat-header">
+            <span class="cat-title"><span class="dot" style="background:var(${
+              cat === "commestibile" ? "--edible" : cat === "mortale" ? "--deadly" :
+              cat === "tossico" ? "--toxic" : cat === "condizionata" ? "--condiz" : "--suspect"
+            })"></span>${CAT_LABEL[cat]} (${list.length})</span>
+            <span class="cat-actions">
+              <button class="cat-mini-btn" data-cat-action="enable" data-cat="${cat}">abilita gruppo</button>
+              <button class="cat-mini-btn" data-cat-action="disable" data-cat="${cat}">disabilita gruppo</button>
+            </span>
+          </div>
+          <div class="species-list">
+            ${list.map(sp => {
+              const checked = !disabledSpecies.has(sp.id);
+              const searchBlob = normalize([...sp.names, sp.common || ""].join(" "));
+              return `<label class="species-row${checked ? "" : " disabled-row"}" data-row-for="${sp.id}" data-search="${searchBlob}">
+                <input type="checkbox" data-species-id="${sp.id}" ${checked ? "checked" : ""}>
+                <span class="sci">${escapeHtml(sp.names[0])}</span>
+              </label>`;
+            }).join("")}
+          </div>
+        </div>`;
+    });
+    body.innerHTML = html;
+    applySpeciesSearch();
+  }
+
+  function applySpeciesSearch(){
+    const input = document.getElementById("speciesSearchInput");
+    const q = normalize(input ? input.value : "");
+    document.querySelectorAll(".species-cat-section").forEach(section => {
+      let anyVisible = false;
+      section.querySelectorAll(".species-row").forEach(row => {
+        const match = !q || row.dataset.search.includes(q);
+        row.classList.toggle("search-hidden", !match);
+        if (match) anyVisible = true;
+      });
+      section.classList.toggle("search-hidden", !anyVisible);
+    });
+  }
+
+  // ricorda la selezione di specie all'apertura del pannello, per capire alla chiusura
+  // se è davvero cambiato qualcosa: se l'utente apre e richiude senza toccare nulla (o
+  // con Esc) il mazzo e la cronologia non devono resettarsi senza motivo.
+  let speciesModalSnapshot = null;
+
+  function openSpeciesModal(){
+    const searchInput = document.getElementById("speciesSearchInput");
+    if (searchInput) searchInput.value = "";
+    speciesModalSnapshot = new Set(disabledSpecies);
+    renderSpeciesModal();
+    document.getElementById("speciesModalOverlay").classList.add("open");
+  }
+  function closeSpeciesModal(){
+    document.getElementById("speciesModalOverlay").classList.remove("open");
+    const changed = !speciesModalSnapshot
+      || speciesModalSnapshot.size !== disabledSpecies.size
+      || Array.from(disabledSpecies).some(id => !speciesModalSnapshot.has(id));
+    speciesModalSnapshot = null;
+    if (changed){
+      buildDeck();
+      render();
+    }
+  }
+
+  document.getElementById("btnSpeciesFilter").addEventListener("click", openSpeciesModal);
+  document.getElementById("speciesSearchInput").addEventListener("input", applySpeciesSearch);
+  document.getElementById("btnCloseSpeciesModal").addEventListener("click", closeSpeciesModal);
+  document.getElementById("speciesModalOverlay").addEventListener("click", (e) => {
+    if (e.target.id === "speciesModalOverlay") closeSpeciesModal();
+  });
+
+  document.getElementById("btnEnableAllSpecies").addEventListener("click", () => {
+    disabledSpecies.clear();
+    saveDisabledSpecies();
+    renderSpeciesModal();
+  });
+  document.getElementById("btnDisableAllSpecies").addEventListener("click", () => {
+    SPECIES.forEach(sp => disabledSpecies.add(sp.id));
+    saveDisabledSpecies();
+    renderSpeciesModal();
+  });
+
+  document.getElementById("speciesModalBody").addEventListener("click", (e) => {
+    const btn = e.target.closest(".cat-mini-btn");
+    if (!btn) return;
+    const cat = btn.dataset.catAction ? btn.dataset.cat : null;
+    if (!cat) return;
+    const enable = btn.dataset.catAction === "enable";
+    SPECIES.filter(sp => sp.cat === cat).forEach(sp => {
+      if (enable) disabledSpecies.delete(sp.id); else disabledSpecies.add(sp.id);
+    });
+    saveDisabledSpecies();
+    renderSpeciesModal();
+  });
+
+  document.getElementById("speciesModalBody").addEventListener("change", (e) => {
+    const input = e.target.closest("input[data-species-id]");
+    if (!input) return;
+    const sid = input.dataset.speciesId;
+    if (input.checked) disabledSpecies.delete(sid); else disabledSpecies.add(sid);
+    saveDisabledSpecies();
+    const row = input.closest(".species-row");
+    row.classList.toggle("disabled-row", !input.checked);
+  });
+
+  const DEFAULT_EDIBILITY = {
+    mortale: "MORTALE",
+    tossico: "Tossico",
+    sospetto: "Sospetto, da evitare",
+  };
+
+  function refText(arr){
+    return (arr && arr.length) ? arr.map(x => "- " + x).join("\n") : "";
+  }
+
+  function renderRefFields(sp){
+    const ref = Object.assign({}, sp.ref);
+    // le slide non ripetono la commestibilità per mortali/tossici/sospetti: la si ricava dalla
+    // categoria, così il campo non resta mai vuoto su un fungo mortale
+    if (!(ref.commestibilita && ref.commestibilita.length) && DEFAULT_EDIBILITY[sp.cat]){
+      ref.commestibilita = [DEFAULT_EDIBILITY[sp.cat]];
+    }
+    const PLACEHOLDER = { commestibilita:"non specificata nella slide", habitat:"non descritto nella slide" };
+    NOTE_KEYS.forEach(k => {
+      const el = document.getElementById("n-" + k);
+      const text = refText(ref[k]);
+      if (text){
+        el.textContent = text;
+        el.classList.remove("empty");
+      } else {
+        el.textContent = PLACEHOLDER[k] || "non descritto/a nella slide";
+        el.classList.add("empty");
+      }
+    });
+  }
+
+  const LS_FIELDNOTE_PREFIX = "funghi_fieldnote_";
+  function fieldNoteKey(id){ return LS_FIELDNOTE_PREFIX + id; }
+
+  // salvataggio con debounce del taccuino: tenuto fuori da wireFieldNote (che viene
+  // richiamata ad ogni nuova carta) altrimenti il timer in sospeso della carta
+  // precedente non viene annullato — se si cambia carta entro 350ms dall'ultima
+  // digitazione, il salvataggio tardivo finiva per scrivere il testo della carta NUOVA
+  // sotto la chiave di quella VECCHIA. Qui invece lo si salva subito, sotto la chiave
+  // corretta, prima di passare alla carta successiva.
+  let fieldNoteSave = null;
+  function flushFieldNote(){
+    if (!fieldNoteSave) return;
+    clearTimeout(fieldNoteSave.timer);
+    lsSet(fieldNoteSave.key, fieldNoteSave.value);
+    fieldNoteSave = null;
+  }
+
+  function wireFieldNote(sp){
+    flushFieldNote();
+    const el = document.getElementById("fieldNote");
+    const key = fieldNoteKey(sp.id);
+    el.value = lsGet(key) || "";
+    el.oninput = () => {
+      if (fieldNoteSave) clearTimeout(fieldNoteSave.timer);
+      fieldNoteSave = { key, value: el.value, timer: null };
+      fieldNoteSave.timer = setTimeout(() => {
+        fieldNoteSave = null;
+        lsSet(key, el.value);
+        savedHint.classList.add("show");
+        setTimeout(() => savedHint.classList.remove("show"), 1200);
+      }, 350);
+    };
+  }
+
+  // Nomi validi come risposta per una pesca. Di norma sono i nomi della specie; per le foto
+  // iNaturalist di una carta gruppo è la specie effettivamente fotografata (es. Russula nobilis,
+  // non Russula emetica) con i suoi sinonimi (es. Collybia dealbata = Clitocybe dealbata), più
+  // gli eventuali nomi "a livello di genere" della carta (es. "Clitocybe", "Inocybe").
+  function acceptedNames(draw){
+    const sp = draw.sp;
+    if (!draw.memberSpecies) return sp.names;
+    const m = normalize(draw.memberSpecies);
+    const aliases = (sp.members || []).find(list => list.some(n => normalize(n) === m)) || [];
+    const own = [draw.memberSpecies, ...aliases.filter(n => normalize(n) !== m)];
+    const genusLevel = sp.names.filter(n => !n.includes(" "));
+    return [...own, ...genusLevel];
+  }
+
+  function renderEmpty(msg){
+    cardHost.innerHTML = `<div class="card"><div class="empty-state">${msg}</div></div>`;
+    notebook.style.display = "none";
+    counterEl.textContent = "0 / 0";
+  }
+
+  function render(forcedDraw, targetHistoryPos){
+    if (!deck.length){
+      const anyEnabled = SPECIES.some(s => activeCats.has(s.cat) && !disabledSpecies.has(s.id));
+      renderEmpty(anyEnabled
+        ? "Nessun esemplare disponibile per i filtri selezionati (categoria e/o fonte)."
+        : "Tutte le specie delle categorie selezionate sono disabilitate: riabilitane qualcuna da &ldquo;Specie&hellip;&rdquo;.");
+      return;
+    }
+    if (pos >= deck.length) pos = 0;
+
+    const draw = forcedDraw || deck[pos];
+    const idx = deck.indexOf(draw);
+    if (idx !== -1) pos = idx;
+    if (targetHistoryPos != null) historyPos = targetHistoryPos;
+    else pushHistory(draw);
+    const sp = draw.sp;
+    const names = acceptedNames(draw);
+    state = { revealed:false, correct:false, tries:0 };
+    currentSpecies = sp;
+    currentSourceKey = draw.sourceKey;
+
+    counterEl.textContent = (pos + 1) + " / " + deck.length;
+
+    const ncols = Math.min(draw.photos.length, 2);
+    const photosHtml = draw.photos.map(ph =>
+      `<div class="photo" data-src="${escapeHtml(ph.src)}">
+         <img src="${escapeHtml(ph.src)}" alt="Foto specie da identificare" loading="lazy">
+         <span class="zoom-hint">ingrandisci</span>
+       </div>`
+    ).join("");
+
+    cardHost.innerHTML = `
+      <div class="card">
+        ${sp.group ? '<div class="tag-row"><span class="tag gruppo">gruppo / genere</span></div>' : ''}
+        <div class="photos" style="--ncols:${ncols}">${photosHtml}</div>
+        <div class="answer-row">
+          <input id="guess" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
+                 placeholder="Scrivi il nome scientifico (es. Boletus edulis)">
+          <button class="btn btn-primary" id="btnVerify">Verifica</button>
+        </div>
+        <div class="below-row">
+          <label class="genus-toggle">
+            <input type="checkbox" id="genusToggle" ${genusOnly ? "checked" : ""}>
+            Verifica solo il genere
+          </label>
+          <div class="actions-col">
+            <div class="actions">
+              <button class="btn btn-ghost" id="btnAroma" title="Domande su cose che non si evincono dalla foto, che si possono fare al micologo durante l'esame">Domande carne/odore/sapore</button>
+              <button class="btn btn-ghost" id="btnReveal">Dimmi</button>
+              <button class="btn btn-next btn-prev" id="btnPrev" title="Fungo precedente" aria-label="Fungo precedente">&larr;</button>
+              <button class="btn btn-next" id="btnNext">Prossimo fungo &rarr;</button>
+            </div>
+            <label class="same-species-toggle" title="Il pulsante &quot;Prossimo fungo&quot; ritorna una nuova osservazione della stessa specie del fungo corrente">
+              <input type="checkbox" id="sameSpeciesToggle" ${sameSpeciesMode ? "checked" : ""}>
+              <span>Stessa specie</span>
+            </label>
+          </div>
+        </div>
+        <div class="feedback" id="feedback"></div>
+        <div id="aromaBox"></div>
+        <div id="revealBox"></div>
+        <div id="creditBox"></div>
+      </div>
+    `;
+
+    notebook.style.display = "block";
+    renderRefFields(sp);
+    wireFieldNote(sp);
+
+    document.querySelectorAll(".photo").forEach(p => {
+      p.addEventListener("click", () => openLightbox(p.dataset.src));
+    });
+
+    // autore e licenza non svelano la specie (a differenza del link all'osservazione,
+    // che potrebbe mostrare il nome nella pagina collegata): si possono mostrare subito,
+    // tenendo nascosti solo i link finché non si risponde/si chiede la risposta.
+    function showCredit(revealed){
+      const box = document.getElementById("creditBox");
+      if (draw.kind !== "inat"){ box.innerHTML = ""; return; }
+      const authors = Array.from(new Set(draw.photos.map(p => escapeHtml(p.credit.author))));
+      const lic = draw.photos[0].credit;
+      const label = lic.license_code === "cc0" ? "CC0" : escapeHtml((lic.license_code || "").toUpperCase());
+      const attribution = lic.license_code === "cc0"
+        ? `${authors.join(", ")}, no rights reserved (CC0)`
+        : `© ${authors.join(", ")}, some rights reserved (${label})`;
+      let html = `<div class="credit-line">Foto da iNaturalist: ${attribution}.`;
+      if (revealed){
+        html += ` <a href="${escapeHtml(safeUrl(draw.obsUrl))}" target="_blank" rel="noopener">Vedi l'osservazione</a>`
+          + (lic.license_url ? ` &middot; <a href="${escapeHtml(safeUrl(lic.license_url))}" target="_blank" rel="noopener">licenza</a>` : "");
+      }
+      html += `</div>`;
+      box.innerHTML = html;
+    }
+    showCredit(false);
+
+    const guess = document.getElementById("guess");
+    const feedback = document.getElementById("feedback");
+    const btnVerify = document.getElementById("btnVerify");
+    const btnReveal = document.getElementById("btnReveal");
+    const btnAroma = document.getElementById("btnAroma");
+    const btnNext = document.getElementById("btnNext");
+    const btnPrev = document.getElementById("btnPrev");
+    btnPrev.disabled = historyPos <= 0;
+    const sameSpeciesToggle = document.getElementById("sameSpeciesToggle");
+    const genusToggle = document.getElementById("genusToggle");
+
+    sameSpeciesToggle.addEventListener("change", () => {
+      sameSpeciesMode = sameSpeciesToggle.checked;
+    });
+
+    genusToggle.addEventListener("change", () => {
+      genusOnly = genusToggle.checked;
+      lsSet(LS_GENUS, genusOnly ? "1" : "0");
+    });
+
+    function acceptedGenera(){
+      // {norm, original} per ogni genere accettato (con maiuscola originale, per mostrare la correzione)
+      const seen = new Map();
+      names.forEach(n => {
+        const origGenus = n.split(" ")[0];
+        seen.set(normalize(origGenus), origGenus);
+      });
+      return seen;
+    }
+
+    // valuta la risposta: ritorna {ok, exact, correction} — correction è la grafia corretta
+    // da mostrare quando il match è "quasi giusto" (piccolo typo tollerato)
+    function evaluateGuess(raw){
+      const g = normalize(raw);
+      if (!g) return { ok:false };
+
+      if (genusOnly){
+        const genus = g.split(" ")[0];
+        const map = acceptedGenera();
+        if (map.has(genus)) return { ok:true, exact:true };
+        // un genere scritto per intero che corrisponde a un genere reale DIVERSO non è
+        // un refuso tollerabile: è una risposta sbagliata e specifica (es. "Lepiota" per
+        // "Lepista" — Lepiota è un genere vero, con specie mortali nel dataset)
+        if (ALL_KNOWN_GENERA_NORM.has(genus) && !map.has(genus)) return { ok:false };
+        const best = bestFuzzyMatch(genus, Array.from(map.keys()));
+        if (best && best.dist <= maxEdits(best.value.length)){
+          return { ok:true, exact:false, correction: map.get(best.value) };
+        }
+        return { ok:false };
+      }
+
+      const namesNorm = names.map(normalize);
+      if (namesNorm.includes(g)) return { ok:true, exact:true };
+      // idem per il nome completo: se corrisponde esattamente a un'ALTRA specie reale
+      // del dataset, non tollerare il typo (vedi commento sopra)
+      if (ALL_KNOWN_NAMES_NORM.has(g) && !namesNorm.includes(g)) return { ok:false };
+      const best = bestWordwiseMatch(g, namesNorm);
+      if (best){
+        const idx = namesNorm.indexOf(best.value);
+        return { ok:true, exact:false, correction: names[idx] };
+      }
+      return { ok:false };
+    }
+
+    function flashFeedback(cls, text){
+      feedback.className = "feedback";
+      void feedback.offsetWidth; // forza il reflow così l'animazione riparte anche ai tentativi successivi
+      feedback.classList.add(cls);
+      feedback.innerHTML = text;
+    }
+
+    function doVerify(){
+      const val = guess.value;
+      if (!val.trim()) return;
+      state.tries++;
+      const res = evaluateGuess(val);
+      const typoNote = res.exact === false
+        ? ` <span class="typo-note">(occhio allo spelling: <em>${escapeHtml(res.correction)}</em>)</span>`
+        : "";
+      if (res.ok){
+        if (genusOnly){
+          // match sul solo genere: conferma e lascia provare anche la specie completa
+          flashFeedback("ok", "✓ Genere corretto!" + typoNote + " Prova a indovinare anche la specie completa, disattivando \"solo genere\".");
+        } else {
+          state.correct = true;
+          const firstTry = state.tries === 1 && !state.revealed;
+          flashFeedback("ok", (firstTry ? "✓ Esatto al primo colpo!" : "✓ Esatto!") + typoNote);
+          revealAnswer(true);
+        }
+      } else {
+        flashFeedback("bad", state.tries === 1 ? "✗ Non corretto, riprova." : "✗ Ancora no, riprova.");
+        guess.select();
+      }
+    }
+
+    function revealAnswer(bySuccess){
+      state.revealed = true;
+      const box = document.getElementById("revealBox");
+      const shown = draw.memberSpecies ? names.filter(n => n.includes(" ")) : names;
+      const sciList = shown.map(n => `<span class="sci">${escapeHtml(n)}</span>`).join(" &nbsp;/&nbsp; ");
+      const catTag = `<span class="tag ${sp.cat}" style="margin-bottom:8px"><span class="dot"></span>${CAT_LABEL[sp.cat]}</span><br>`;
+      box.innerHTML = `<div class="reveal-box">${catTag}${sciList}${sp.common ? `<br><span class="common">${escapeHtml(sp.common)}</span>` : ""}</div>`;
+      if (!bySuccess){
+        feedback.className = "feedback info";
+        feedback.textContent = "Ecco la risposta:";
+      }
+      showCredit(true);
+    }
+
+    btnVerify.addEventListener("click", doVerify);
+    guess.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
+    btnReveal.addEventListener("click", () => revealAnswer(false));
+
+    let aromaShown = false;
+    btnAroma.addEventListener("click", () => {
+      aromaShown = !aromaShown;
+      const box = document.getElementById("aromaBox");
+      if (!aromaShown){ box.innerHTML = ""; btnAroma.textContent = "Domande carne/odore/sapore"; return; }
+      btnAroma.textContent = "Nascondi risposta";
+      const notes = (sp.ref && sp.ref.carne) || [];
+      box.innerHTML = notes.length
+        ? `<div class="reveal-box aroma">${notes.map(n => `- ${escapeHtml(n)}`).join("<br>")}</div>`
+        : `<div class="reveal-box aroma muted">Nessuna nota su carne/odore/sapore in questa scheda del corso.</div>`;
+    });
+    btnNext.addEventListener("click", () => {
+      if (historyPos < history.length - 1){
+        render(history[historyPos + 1], historyPos + 1);
+        return;
+      }
+      if (sameSpeciesMode){
+        const candidates = [];
+        for (let i = 0; i < deck.length; i++){
+          if (i !== pos && deck[i].sp.id === sp.id) candidates.push(i);
+        }
+        if (!candidates.length){
+          flashFeedback("info", "Nessun'altra foto disponibile per questa specie con i filtri attuali.");
+          return;
+        }
+        pos = candidates[Math.floor(Math.random() * candidates.length)];
+        render();
+        return;
+      }
+      pos++;
+      if (pos >= deck.length){
+        if (!(debugMode && debugSequentialMode)){
+          deck = shuffle(deck);
+          // evita che il rimescolamento metta come prima carta la stessa appena vista
+          if (deck.length > 1 && deck[0].sourceKey === draw.sourceKey){
+            [deck[0], deck[1]] = [deck[1], deck[0]];
+          }
+        }
+        pos = 0;
+      }
+      render();
+    });
+
+    btnPrev.addEventListener("click", () => {
+      if (historyPos <= 0) return;
+      render(history[historyPos - 1], historyPos - 1);
+    });
+
+    guess.focus();
+  }
+
+  function openLightbox(src){
+    document.getElementById("lightboxImg").src = src;
+    document.getElementById("lightbox").classList.add("open");
+  }
+  document.getElementById("lightbox").addEventListener("click", () => {
+    document.getElementById("lightbox").classList.remove("open");
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    const lb = document.getElementById("lightbox");
+    if (lb.classList.contains("open")){ lb.classList.remove("open"); return; }
+    if (document.getElementById("speciesModalOverlay").classList.contains("open")) closeSpeciesModal();
+  });
+
+  buildDeck();
+  render();
+})();
+</script>

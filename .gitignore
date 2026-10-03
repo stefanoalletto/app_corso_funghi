@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+*.part
+
+# backup locale, a piena risoluzione, delle foto iNaturalist prima della
+# compressione (images/inat/ contiene le versioni compresse effettivamente
+# usate dall'app). Non va pushato: serve solo come copia di sicurezza locale.
+images_inat_original_resolution/
+
+# foto delle slide del corso: non più usate come fonte dall'app (solo iNaturalist),
+# tenute in locale per backup/possibile riuso futuro, non pubblicate
+images/slides/

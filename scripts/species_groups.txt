@@ -1,0 +1,4 @@
+russula_gruppo_emeticine	Russula emetica,Russula mairei;Russula nobilis,Russula sylvestris;Russula silvestris,Russula griseascens
+clitocybe_bianche_gruppo	Clitocybe dealbata;Collybia dealbata,Clitocybe rivulosa;Collybia rivulosa,Clitocybe phyllophila;Collybia phyllophila,Clitocybe phaeophthalma;Singerocybe phaeophthalma
+inocybe_sp	Inocybe geophylla,Inocybe rimosa;Pseudosperma rimosum,Inocybe erubescens;Inosperma erubescens,Inocybe corydalina
+cantharellus_gruppo	Cantharellus pallens,Cantharellus amethysteus,Cantharellus friesii
