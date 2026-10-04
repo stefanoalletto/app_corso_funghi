@@ -110,6 +110,7 @@ const SPECIES = [
     cappello:["6-20 cm","ad \"ogiva\" od ovoide allungato","superficie lacerata da squame fioccose bianche, che maturano rapidamente verso tinte più scure fino al nero"],
     imenio:["lamelle libere e fitte, da giovane bianche, poi rosa, infine nere e deliquescenti"],
     gambo:["cilindrico, slanciato e cavo, con un anello posto in basso"],
+    carne:["tenera, acquosa, bianca, poi rosata, infine nerastra e deliquescente","odore mite, sapore gradevole"],
     habitat:["saprotrofo terricolo, comune in estate e autunno nei prati e nei giardini"]
   } },
 { id:"hydnum_repandum", cat:"commestibile", names:["Hydnum repandum"], common:"Steccherino dorato", n:1,
@@ -133,10 +134,23 @@ const SPECIES = [
   },
 },
 { id:"lactarius_salmonicolor", cat:"commestibile", names:["Lactarius salmonicolor"], common:"Sanguinello dell'abete bianco", n:1,
-  ref:{ commestibilita:["Commestibilità libera"], cappello:["zonature concentriche ben visibili"], gambo:["presenza di scrobicoli (piccole fossette)"], carne:["lattice color carota, immutabile"], habitat:["esclusivo di abete bianco"] }
+  ref:{
+    commestibilita:["Commestibilità libera"],
+    cappello:["zonature concentriche ben visibili","nessuna macchia o sfumatura verdastra (non inverdisce)"],
+    gambo:["presenza di scrobicoli (piccole fossette)","scrobicoli piccoli, allungati, ellittici e irregolari, molto caratteristici"],
+    carne:["lattice color carota, immutabile"],
+    habitat:["esclusivo di abete bianco","autunnale (ottobre-novembre)"]
+  }
 },
 { id:"lactarius_deterrimus", cat:"commestibile", names:["Lactarius deterrimus"], common:"Sanguinello dell'abete rosso", n:1,
-  ref:{ commestibilita:["Commestibilità libera"], gambo:["quasi sempre senza scrobicoli"], carne:["lattice color carota, immutabile"], habitat:["esclusivo di abete rosso"] }
+  ref:{
+    commestibilita:["Commestibilità libera"],
+    cappello:["4-10 cm, convesso da giovane, poi piano-convesso e infine imbutiforme","arancio intenso o arancio-brunastro, inverdisce facilmente","cuticola separabile, lucida e viscida a tempo umido, con zonature concentriche"],
+    imenio:["lamelle abbastanza fitte, arcuate o subdecorrenti, forcate vicino al gambo","colore arancio-giallognolo/arancio-rosato, si macchiano di verde dove ferite o toccate"],
+    gambo:["quasi sempre senza scrobicoli","cilindrico, a volte eccentrico, fragile e presto cavo","concolore al cappello ma più scuro"],
+    carne:["lattice color carota, immutabile","arancio pallido sotto la cuticola, biancastra al centro","sapore amarognolo, odore fruttato-acidulo poco gradevole"],
+    habitat:["esclusivo di abete rosso","peccete umide, da luglio a ottobre"]
+  }
 },
 { id:"macrolepiota_procera", cat:"commestibile", names:["Macrolepiota procera"], common:"Mazza di tamburo", n:1,
   ref:{
@@ -188,7 +202,15 @@ const SPECIES = [
     habitat:["simbionte molto diffuso sia di latifoglie che di conifere, si raccoglie da primavera ad autunno, prevalentemente diffuso nelle \"peccete\""]
   },
 },
-{ id:"cantharellus_gruppo", cat:"commestibile", names:["Cantharellus pallens","Cantharellus amethysteus","Cantharellus friesii"], common:"Gruppo del cibarius (pallens / amethysteus / friesii)", n:2, group:true, ref:{ commestibilita:["Commestibilità libera"] } },
+{ id:"cantharellus_gruppo", cat:"commestibile", label:"Gruppo Cantharellus cibarius (pallens / amethysteus / friesii)", names:["Cantharellus pallens","Cantharellus amethysteus","Cantharellus friesii"], common:"Gruppo del cibarius (pallens / amethysteus / friesii)", n:2, group:true,
+  ref:{
+    commestibilita:["Commestibilità libera"],
+    cappello:["C. amethysteus: simile al cibarius, ma con squamette appressate violaceo-ametista","C. pallens: ricoperto da una pruina biancastra che si asporta facilmente e scompare con lo sviluppo; margine a lungo involuto","C. friesii: piccolo (circa 3 cm), lobato, vellutato, arancio vivo/arancio carota"],
+    imenio:["C. amethysteus: pseudolamelle molto pallide","C. pallens: pseudolamelle pallide, più chiare verso il gambo","C. friesii: pseudolamelle rosa salmone vivo, molto anastomizzate"],
+    gambo:["C. pallens: robusto, svasato e quasi bulboso alla base, pruinoso come il cappello","C. friesii: pieno, fibroso"],
+    carne:["C. amethysteus e C. pallens: tendono a virare al rugginoso al tocco","C. friesii: forte odore di albicocca"],
+    habitat:["C. amethysteus: soprattutto sotto faggio e conifere, agosto-settembre","C. pallens: boschi di latifoglia e misti, anche mediterranei su suolo acido, soprattutto a giugno","C. friesii: suoli acidi, conifere, castagno e faggio, su muschio e pendii umidi, giugno-luglio"]
+  } },
 { id:"cantharellus_lutescens", cat:"commestibile", names:["Cantharellus lutescens","Craterellus lutescens"], common:"Finferla", n:2,
   ref:{
     commestibilita:["Commestibilità libera"],
@@ -306,6 +328,7 @@ const SPECIES = [
     cappello:["liscio, con fibrille innate sulla cuticola","margine liscio","colore variabile: dal bianco al verde oliva, giallo-verdastro, nocciola, fino al marrone grigio"],
     imenio:["lamelle bianche, libere al gambo (fungo eterogeneo)"],
     gambo:["cilindrico, a base bulbosa","ampio anello bianco a gonnellino","decorazioni a pelle di serpente","evidente e grossa volva bianca a sacco alla base"],
+    carne:["bianca, compatta poi sempre più cedevole a maturità","odore quasi nullo da giovane, poi mielato, rancido e infine cadaverico negli esemplari vecchi","sapore dolciastro"],
     habitat:["tipico di boschi di latifoglia"]
   } },
 { id:"amanita_phalloides_alba", cat:"mortale", names:["Amanita phalloides forma alba","Amanita phalloides var. alba","Amanita phalloides"], common:"Forma completamente bianca", n:2,
@@ -313,6 +336,7 @@ const SPECIES = [
     cappello:["liscio, sericeo, con fibrille innate","margine liscio","colore completamente bianco in ogni parte"],
     imenio:["lamelle libere al gambo"],
     gambo:["cilindrico, a base bulbosa","ampio anello","decorazioni a pelle di serpente (visibili a luce radente)","importante volva sacciforme"],
+    carne:["bianca, compatta poi sempre più cedevole a maturità","odore quasi nullo da giovane, poi mielato, rancido e infine cadaverico negli esemplari vecchi","sapore dolciastro"],
     habitat:["boschi caldi e asciutti di latifoglia"]
   } },
 { id:"amanita_virosa", cat:"mortale", names:["Amanita virosa"], common:"", n:2,
@@ -333,16 +357,18 @@ const SPECIES = [
   } },
 { id:"cortinarius_speciosissimus", cat:"mortale", names:["Cortinarius speciosissimus","Cortinarius rubellus","Cortinarius orellanoides"], common:"", n:2,
   ref:{
-    cappello:["umbone acuto ben marcato","colorazioni sul bruno-rugginoso"],
-    gambo:["decorazioni a bande oblique","cortina molto evanescente nei giovani esemplari"],
-    carne:["sapore amarognolo","odore nettamente rafanoide (di ravanello)"],
-    habitat:["conifere, generalmente abete rosso"]
+    cappello:["umbone acuto ben marcato","colorazioni sul bruno-rugginoso","3-7 cm, conico-campanulato poi convesso-appianato","superficie fibrillosa, a volte con squamette arancio verso il margine"],
+    imenio:["lamelle piuttosto rade e larghe, bruno-rosse, concolori al cappello"],
+    gambo:["decorazioni a bande oblique","cortina molto evanescente nei giovani esemplari","5-14 cm, cilindrico o leggermente clavato, base attenuata","bande giallo pallido a zig-zag (residui del velo), a volte visibili solo a luce radente"],
+    carne:["sapore amarognolo","odore nettamente rafanoide (di ravanello)","colore giallo-ocra/bruno-fulvo, soprattutto alla base del gambo"],
+    habitat:["conifere, generalmente abete rosso","peccete subalpine su suolo acido, con muschio e mirtillo, estate-autunno","frequente sulle Alpi, raro sugli Appennini"]
   } },
 { id:"lepiota_brunneoincarnata", cat:"mortale", names:["Lepiota brunneoincarnata"], common:"Lepiota di piccola taglia", n:1,
   ref:{
     cappello:["da campanulato a spianato","umbone ottuso bruno vinoso scuro al centro","superficie coperta da squame concentriche bruno scure"],
     imenio:["lamelle bianche, libere al gambo (fungo eterogeneo)"],
     gambo:["cilindrico, bianco nella parte alta","anello effimero nella parte mediana","sotto l'anello, ornamentazione simile a quella del cappello"],
+    carne:["biancastra, con tonalità vinose chiare verso la base del gambo","odore penetrante, a volte fruttato; sapore da mite a leggermente acidulo"],
     habitat:["saprotrofo: parchi, giardini, prati, anche vasi di fiori"]
   } },
 { id:"lepiota_subincarnata", cat:"mortale", names:["Lepiota subincarnata","Lepiota josserandii"], common:"Lepiota di piccola taglia", n:1,
@@ -381,6 +407,7 @@ const SPECIES = [
     cappello:["liscio, bianco","senza fibrille innate sul cappello"],
     imenio:["fungo eterogeneo, lamelle bianche"],
     gambo:["cilindrico, a base bulbosa","anello presente","evidente volva che racchiude il bulbo"],
+    carne:["bianca, tenera nel cappello, più fibrosa nel gambo","odore insignificante, sgradevole negli esemplari adulti; sapore non significativo"],
     habitat:["primaverile, boschi caldi di latifoglia (Italia centro-meridionale)"]
   } },
 { id:"leotia_lubrica", cat:"mortale", names:["Leotia lubrica"], common:"", n:2,
@@ -428,6 +455,7 @@ const SPECIES = [
   members:[["Inocybe geophylla"],["Pseudosperma rimosum","Inocybe rimosa"],["Inosperma erubescens","Inocybe erubescens"],["Inocybe corydalina"]],
   ref:{
     cappello:["portamento \"inociboide\": a pagoda, più o meno umbonato, mai liscio","spesso ruvido, squamuloso o rimoso","colori smorti: dal crema all'ocraceo fino al grigiastro"],
+    imenio:["lamelle da adnate a quasi libere, a maturità color ocra o tabacco (sporata ocra)"],
     gambo:["cilindrico, a volte con piccolo bulbo basale"],
     carne:["bianca, con odori particolari, spesso spermatici"],
     habitat:["boschi sia di latifoglie che di conifere"]
@@ -482,11 +510,18 @@ const SPECIES = [
     habitat:["boschi di quercia e castagno, tarda estate"]
   } },
 { id:"ramaria_pallida", cat:"tossico", names:["Ramaria pallida"], common:"", n:1,
-  ref:{ carne:["genere difficile da determinare con certezza: le colorazioni si assomigliano molto tra specie, soprattutto a maturità"] } },
+  ref:{
+    cappello:["nessun vero cappello: corpo fruttifero coralloide di 6-15 cm, a ramificazioni fitte ed erette","colori smorti con riflessi rosa-lilacini da giovane, poi crema-ocra/ocra-brunastro","apici dei rami con 3-4 punte, normalmente denticolate"],
+    gambo:["base carnosa e compatta, simile a un tronco, biancastra"],
+    carne:["genere difficile da determinare con certezza: le colorazioni si assomigliano molto tra specie, soprattutto a maturità","compatta, biancastra, immutabile al taglio","odore di cicoria tostata o leggermente di liquirizia; sapore dolce, appena amarognolo dopo lunga masticazione"],
+    habitat:["boschi di conifere montani (abete rosso e bianco), anche misti con latifoglie","da fine estate ai primi geli"]
+  } },
 { id:"lactarius_torminosus", cat:"tossico", names:["Lactarius torminosus"], common:"", n:1,
   ref:{
-    cappello:["rosato, margine follettato/lanoso","zonature concentriche"],
-    carne:["lattice bianco (non arancione)","sapore biancastro ma piccantissimo","odore fruttato"],
+    cappello:["rosato, margine follettato/lanoso","zonature concentriche","5-12 cm, compatto, convesso e molto involuto, poi depresso/imbutiforme","peluria a ciuffi sul margine che nei giovani copre le lamelle"],
+    imenio:["lamelle molto fitte e sottili, crema pallido con sfumature rosate"],
+    gambo:["cilindrico o leggermente attenuato alla base","da biancastro a quasi concolore al cappello, spesso più scuro all'apice"],
+    carne:["lattice bianco (non arancione)","sapore biancastro ma piccantissimo","odore fruttato","bianca con sfumature rosate verso la superficie"],
     habitat:["simbionte esclusivo di betulla"]
   } },
 { id:"tricholoma_sciodes", cat:"tossico", names:["Tricholoma sciodes"], common:"", n:1,
@@ -499,14 +534,19 @@ const SPECIES = [
   } },
 { id:"tricholoma_virgatum", cat:"tossico", names:["Tricholoma virgatum"], common:"", n:1,
   ref:{
-    cappello:["netto umbone acuto al centro, ben marcato","colore di fondo grigio cinereo, piuttosto scuro"],
+    cappello:["netto umbone acuto al centro, ben marcato","colore di fondo grigio cinereo, piuttosto scuro","conico, poi campanulato e infine appianato; aspetto lucente, con fini fibrille grigio-nerastre","margine spesso lobato e fessurato negli adulti"],
+    imenio:["lamelle fitte, smarginate, biancastre da giovani, poi crema-grigiastre con macchie rugginose"],
+    gambo:["cilindrico, clavato verso la base semibulbosa","biancastro, finemente puntinato all'apice"],
+    carne:["biancastra, grigio chiaro nel cappello e in alto nel gambo, appena ocracea alla base","odore leggero, un po' rafanoide","sapore prima amaro, poi subito acre e infine piccante"],
     habitat:["boschi di conifere, con preferenza per pino silvestre e abete rosso"]
   } },
 { id:"tylopilus_felleus", cat:"tossico", names:["Tylopilus felleus"], common:"Fiele di terra", n:1,
   ref:{
+    cappello:["4-15 cm, emisferico, poi convesso e infine pulvinato","cuticola asciutta, finemente vellutata, si screpola col secco","colore da bruno chiaro a nocciola, camoscio, ocra, a volte grigiastro"],
     imenio:["pori che tendono al rosa con la maturazione"],
     gambo:["evidente reticolo bruno scuro, molto in rilievo"],
-    carne:["sapore amarissimo"]
+    carne:["sapore amarissimo"],
+    habitat:["da giugno a ottobre, boschi di conifere e latifoglie su suolo acido, anche castagneti"]
   } },
 { id:"amanita_ovoidea", cat:"tossico", names:["Amanita ovoidea"], common:"", n:2,
   ref:{
@@ -529,6 +569,7 @@ const SPECIES = [
     cappello:["ovoidale, colore grigio-piombo"],
     imenio:["lamelle fittissime, nerastre, deliquescenti (si sciolgono a maturità)"],
     gambo:["biancastro"],
+    carne:["molto esigua, biancastra","odore non significativo, sapore dolciastro"],
     habitat:["dove sia sepolto materiale organico marcescente"]
   } },
 
@@ -541,6 +582,7 @@ const SPECIES = [
     cappello:["poco striato, mai igrofano, squame sempre presenti al centro"],
     imenio:["lamelle bianche/crema, arcuato-decorrenti (sporata bianca)"],
     gambo:["bianco e striato sopra l'anello, colorato con fiocchi biancastri sotto","anello doppio persistente, bordo giallo"],
+    carne:["soda nel cappello, fibrosa e coriacea nel gambo (che per questo non si consuma)","odore tenue, fungino, poco gradevole; sapore acidulo-dolciastro"],
     habitat:["parassita di latifoglie e pini, pianura/collina molto infossato"]
   } },
 { id:"armillaria_ostoyae", cat:"condizionata", names:["Armillaria ostoyae"], common:"Chiodino", n:0,
@@ -571,10 +613,11 @@ const SPECIES = [
 { id:"armillaria_tabescens", cat:"condizionata", names:["Armillaria tabescens"], common:"Chiodino senza anello", n:1,
   ref:{
     commestibilita:["Sbollentatura, lunga cottura, sgambatura (tempi non specificati nelle slide del corso)"],
-    cappello:["umbone presente, squame al centro"],
-    imenio:["lamelle bianche/crema, arcuato-decorrenti (sporata bianca)"],
-    gambo:["slanciato, flessuoso, superficie fibrillosa e striata","anello assente"],
-    habitat:["parassita di latifoglie, pianura/collina"]
+    cappello:["umbone presente, squame al centro","4-8 cm, tenace ed elastico, igrofano","colore bruno-ocra/tabacco, squamette concolori più fitte al centro","margine sottile e lobato"],
+    imenio:["lamelle bianche/crema, arcuato-decorrenti (sporata bianca)","fitte, rosate negli esemplari maturi (colore della carne, non delle spore)"],
+    gambo:["slanciato, flessuoso, superficie fibrillosa e striata","anello assente","8-12 cm, molto tenace e fibroso, spesso ricurvo","in alto concolore al cappello, in basso ocra-bruno più scuro"],
+    carne:["poco abbondante, elastica nel cappello, tenace e fibrosa nel gambo","biancastra, fulvo-rossastra alla base del gambo","odore gradevole, poco caratteristico"],
+    habitat:["parassita di latifoglie, pianura/collina","cespitoso, in gruppi numerosi su tronchi e radici, con preferenza per le querce"]
   } },
 { id:"leccinum_aurantiacum", cat:"condizionata", names:["Leccinum aurantiacum"], common:"", n:1,
   ref:{
@@ -598,10 +641,10 @@ const SPECIES = [
   ref:{
     commestibilita:["Lunga cottura, sgambatura (tempi non specificati nelle slide del corso)"],
     imenio:["pori piccoli, tondi, grigiastri"],
-    cappello:["rosso brunastro"],
-    gambo:["squamoso: squame rosso-bruno"],
-    carne:["mite; bianca, poi rosa, poi violetto"],
-    habitat:["simbionte di latifoglie"]
+    cappello:["rosso brunastro","da sferico a convesso-pulvinato, colori da rosso-arancio a rosso mattone","cuticola feltrata, asciutta, viscida a tempo umido, sporgente oltre il margine"],
+    gambo:["squamoso: squame rosso-bruno","cilindrico, slanciato, fibroso","squame presto bruno-rossastre poi più scure; base spesso con macchie verde-bluastre"],
+    carne:["mite; bianca, poi rosa, poi violetto","tenera nel cappello, soda e fibrosa nel gambo; col tempo annerisce"],
+    habitat:["simbionte di latifoglie","in particolare quercia, castagno e carpino"]
   } },
 { id:"leccinum_scabrum", cat:"condizionata", names:["Leccinum scabrum"], common:"", n:1,
   ref:{
@@ -615,20 +658,22 @@ const SPECIES = [
 { id:"morchella_esculenta", cat:"condizionata", names:["Morchella esculenta"], common:"Spugnola gialla", n:1,
   ref:{
     commestibilita:["Lunga cottura, mai crude (tempi non specificati nelle slide del corso)"],
-    cappello:["mitra formata da alveoli (cellette) accostate, disposte casualmente","cappello (mitra) e gambo differenziati","mitra arrotondata, colore giallastro"],
-    gambo:["gambo e cappello vuoti internamente"],
-    habitat:["ascomicete, crescita primaverile"]
+    cappello:["mitra formata da alveoli (cellette) accostate, disposte casualmente","cappello (mitra) e gambo differenziati","mitra arrotondata, colore giallastro","forma variabile: tondeggiante, ovoide o conica; colore da giallo-ocra a ocra-olivastro, bruno o grigio-nerastro"],
+    gambo:["gambo e cappello vuoti internamente","generalmente tozzo, più corto della mitra, allargato alla base","superficie rugolosa/pruinosa, biancastra o bianco-crema, spesso con macchie rugginose alla base"],
+    carne:["biancastra, leggermente paglierina a maturità, cerosa","odore spermatico, sapore dolciastro e gradevole"],
+    habitat:["ascomicete, crescita primaverile","da metà marzo a inizio giugno, in ambienti freschi e umidi su terreni sciolti","probabilmente legata a frassino, olmo, alberi da frutto; anche sotto pioppo e abete rosso"]
   } },
 { id:"morchella_elata", cat:"condizionata", names:["Morchella elata"], common:"Spugnola nera", n:1,
   ref:{
     commestibilita:["Lunga cottura, mai crude (tempi non specificati nelle slide del corso)"],
-    cappello:["mitra formata da alveoli (cellette) accostate, disposte longitudinalmente","cappello (mitra) e gambo differenziati","mitra allungata/conica, colore crema/bruno/nerastro"],
+    cappello:["mitra formata da alveoli (cellette) accostate, disposte longitudinalmente","cappello (mitra) e gambo differenziati","mitra allungata/conica, colore crema/bruno/nerastro","forma slanciata, alveoli lunghi e profondi"],
     gambo:["gambo e cappello vuoti internamente"],
-    habitat:["ascomicete, crescita primaverile"]
+    carne:["odore salmastro a maturità"],
+    habitat:["ascomicete, crescita primaverile","saprotrofa su residui legnosi, soprattutto di abete rosso; anche nella pacciamatura di corteccia"]
   } },
 { id:"russula_olivacea", cat:"condizionata", names:["Russula olivacea"], common:"", n:1,
   ref:{
-    commestibilita:["Lunga cottura (tempi non specificati nelle slide del corso)"],
+    commestibilita:["Cottura condizionata: tempi di cottura lunghi, non inferiori a 40 minuti, al fine di inattivare le tossine termolabili contenute"],
     cappello:["superficie opaca, cuticola spesso raggrinzita in cerchi concentrici, da verde oliva a rosso vinoso"],
     imenio:["lamelle ventricose, adnate, forcate, prima crema poi giallo ocra, senza lamellule, fragili"],
     gambo:["quasi sempre sfumato di lilla all'apice"],
@@ -641,6 +686,7 @@ const SPECIES = [
     cappello:["viscido, cuticola separabile","cuticola giallastra-bruno mattone"],
     imenio:["pori con goccioline nel giovane"],
     gambo:["senza anello, con granulazioni","chiazze brune alla base"],
+    carne:["bianco-giallastra, immutabile","soda e compatta nei giovani, spugnosa e molliccia negli adulti","sapore leggermente acidulo o resinoso, odore tenue o leggermente fruttato"],
     habitat:["simbionte di pino a 2 aghi"]
   } },
 { id:"suillus_luteus", cat:"condizionata", names:["Suillus luteus"], common:"", n:1,
@@ -649,6 +695,7 @@ const SPECIES = [
     cappello:["viscido, cuticola separabile","cuticola bruno-violacea"],
     imenio:["pori immutabili alla pressione","reticolo giallo sopra l'anello, punteggiature giallo-marrone sotto"],
     gambo:["con anello evidente, violaceo nella pagina inferiore"],
+    carne:["bianca, soda e compatta negli esemplari giovani"],
     habitat:["simbionte di pino a 2 aghi"]
   } },
 { id:"suillus_grevillei", cat:"condizionata", names:["Suillus grevillei"], common:"", n:1,
@@ -675,7 +722,13 @@ const SPECIES = [
 // ---------------- TOSSICI, aggiunte da Lezione 2 ----------------
 
 // ---------------- SOSPETTI (Lezione 2) ----------------
-{ id:"hygrophoropsis_aurantiaca", cat:"sospetto", names:["Hygrophoropsis aurantiaca"], common:"Falso finferlo", n:2, ref:{} },
+{ id:"hygrophoropsis_aurantiaca", cat:"sospetto", names:["Hygrophoropsis aurantiaca"], common:"Falso finferlo", n:2,
+  ref:{
+    cappello:["colore arancio acceso in ogni parte del fungo"],
+    imenio:["lamelle decorrenti, forcate, tipicamente arancioni"],
+    carne:["odore erbaceo, sapore dolce"],
+    habitat:["saprotrofo su residui vegetali, dall'estate al tardo autunno"]
+  } },
 
 // ---------------- SOSPETTI (Lezione 5) ----------------
 { id:"clitocybe_nebularis", cat:"sospetto", names:["Clitocybe nebularis"], common:"Fungo delle nebbie", n:2,
@@ -714,7 +767,39 @@ const SPECIES = [
     cappello:["da emisferico a convesso, superficie finemente vellutata","cuticola ocra-olivastro/bruno-camoscio, vira al blu al tocco"],
     imenio:["tubuli gialli poi verdastri, virano nettamente al blu a contatto con l'aria","pori giallo-arancio fino al rosso mattone, viranti al blu scuro al tocco"],
     gambo:["evidente reticolo rosso a maglie allungate","forma panciuta, a volte slanciata","colore giallastro, bruno-rossastro verso la base","vira al blu al tocco"],
-    carne:["giallognola, colore barbabietola verso la base del gambo e nel cappello","rossa appena sotto il punto di contatto con i tubuli (\"linea di Bataille\" alla sezione)","tutto il fungo, sezionato, vira al blu anche all'interno","grata al gusto e all'olfatto"]
+    carne:["giallognola, colore barbabietola verso la base del gambo e nel cappello","rossa appena sotto il punto di contatto con i tubuli (\"linea di Bataille\" alla sezione)","tutto il fungo, sezionato, vira al blu anche all'interno","grata al gusto e all'olfatto"],
+    habitat:["estivo-autunnale, predilige i terreni calcarei ma cresce anche su suolo neutro o subacido","con latifoglie (faggio, quercia, carpino) e conifere (pino, abete), anche nei parchi cittadini, dal mare alla montagna"]
   },
 },
 ];
+
+// Specie del programma d'esame (elenchi regionali FVG: commestibili, condizionati, sospetti,
+// mortali, tossici). Le voci "e relativo gruppo" / "tutte le specie" sono espanse nelle carte
+// corrispondenti presenti sopra.
+const EXAM_SPECIES_IDS = new Set([
+  // commestibilità libera
+  "amanita_caesarea", "agaricus_campestris",
+  "boletus_edulis", "boletus_aereus", "boletus_pinophilus", "boletus_aestivalis",
+  "clitocybe_geotropa", "calocybe_gambosa", "calvatia_gigantea", "calvatia_utriformis",
+  "coprinus_comatus", "hydnum_repandum",
+  "lactarius_deliciosus", "lactarius_salmonicolor", "lactarius_deterrimus",
+  "macrolepiota_procera", "rozites_caperatus", "russula_cyanoxantha", "russula_virescens",
+  "cantharellus_cibarius", "cantharellus_lutescens", "cantharellus_tubaeformis",
+  "craterellus_cornucopioides", "agrocybe_aegerita",
+  // commestibilità condizionata
+  "armillaria_mellea", "armillaria_ostoyae", "armillaria_gallica", "armillaria_cepistipes", "armillaria_tabescens",
+  "leccinum_aurantiacum", "leccinum_carpini", "leccinum_quercinum", "leccinum_scabrum",
+  "russula_olivacea", "morchella_esculenta", "morchella_elata",
+  // sospetti
+  "clitocybe_nebularis", "leucoagaricus_leucothites", "macrolepiota_rhacodes", "boletus_luridus",
+  // mortali
+  "amanita_phalloides", "amanita_phalloides_alba", "amanita_virosa",
+  "cortinarius_orellanus", "cortinarius_speciosissimus",
+  "lepiota_brunneoincarnata", "lepiota_subincarnata",
+  // tossici
+  "amanita_pantherina", "amanita_muscaria", "agaricus_xanthodermus", "clitocybe_bianche_gruppo",
+  "inocybe_sp", "paxillus_involutus", "entoloma_sinuatum", "gyromitra_esculenta",
+  "omphalotus_olearius", "hypholoma_fasciculare", "ramaria_pallida", "lactarius_torminosus",
+  "russula_gruppo_emeticine", "boletus_satanas", "tricholoma_pardinum",
+  "tricholoma_sciodes", "tricholoma_virgatum", "tylopilus_felleus", "amanita_ovoidea",
+]);

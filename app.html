@@ -378,7 +378,7 @@
   }
   .modal-close:hover{ color:var(--ink); }
   .modal-toolbar{
-    display:flex; gap:8px; padding:12px 20px; border-bottom:1px solid var(--line); flex-shrink:0;
+    display:flex; flex-wrap:wrap; gap:8px; padding:12px 20px; border-bottom:1px solid var(--line); flex-shrink:0;
   }
   .species-search{
     flex:1; min-width:0;
@@ -445,7 +445,7 @@
     <div class="notebook-head">
       <div>
         <h2>Caratteri morfologici</h2>
-        <div class="sub">Così come riportati nelle slide del corso.</div>
+        <div class="sub">Dalle slide del corso, integrate con funghiitaliani.it dove incomplete.</div>
       </div>
       <button class="btn btn-ghost" id="btnToggleRef">Nascondi caratteristiche</button>
     </div>
@@ -491,6 +491,11 @@
             <input type="checkbox" id="chkSequentialMode"> modalità non casuale (ordine fisso, senza ripetizioni fino in fondo al mazzo)
           </label>
         </div>
+        <div class="row">
+          <label class="debug-toggle">
+            <input type="checkbox" id="chkSingleObsMode"> singola osservazione per specie (la prima)
+          </label>
+        </div>
       </div>
     </div>
   </footer>
@@ -507,6 +512,7 @@
     <div class="modal-toolbar">
       <button class="btn btn-ghost btn-sm" id="btnEnableAllSpecies">Abilita tutte</button>
       <button class="btn btn-ghost btn-sm" id="btnDisableAllSpecies">Disabilita tutte</button>
+      <button class="btn btn-ghost btn-sm" id="btnExamOnlySpecies">Solo specie esame</button>
       <input type="text" id="speciesSearchInput" class="species-search" placeholder="Cerca specie&hellip;" autocomplete="off">
     </div>
     <div class="modal-body" id="speciesModalBody"></div>
@@ -564,6 +570,8 @@
 
   const LS_DEBUG_SEQUENTIAL = "funghi_debugSequentialMode";
   let debugSequentialMode = lsGet(LS_DEBUG_SEQUENTIAL) === "1";
+  const LS_DEBUG_SINGLE_OBS = "funghi_debugSingleObsMode";
+  let debugSingleObsMode = lsGet(LS_DEBUG_SINGLE_OBS) === "1";
 
   const LS_REF_HIDDEN = "funghi_refHidden";
   let refHidden = lsGet(LS_REF_HIDDEN) === "1";
@@ -629,12 +637,14 @@
   const debugPhotoCountSlider = document.getElementById("debugPhotoCount");
   const debugPhotoCountVal = document.getElementById("debugPhotoCountVal");
   const chkSequentialMode = document.getElementById("chkSequentialMode");
+  const chkSingleObsMode = document.getElementById("chkSingleObsMode");
 
   function applyDebugPanelVisibility(){
     debugPanel.classList.toggle("hidden", !debugMode);
   }
   chkDebugMode.checked = debugMode;
   chkSequentialMode.checked = debugSequentialMode;
+  chkSingleObsMode.checked = debugSingleObsMode;
   applyDebugPanelVisibility();
 
   chkDebugMode.addEventListener("change", () => {
@@ -643,7 +653,7 @@
     applyDebugPanelVisibility();
     // il mazzo cambia solo se c'è un filtro/modalità attivi: altrimenti non serve
     // ricostruirlo (evita di "saltare" a un fungo diverso solo accendendo debug mode)
-    if (debugPhotoCountFilter != null || debugSequentialMode) rebuildDeckKeepingPosition();
+    if (debugPhotoCountFilter != null || debugSequentialMode || debugSingleObsMode) rebuildDeckKeepingPosition();
   });
 
   debugPhotoCountSlider.addEventListener("input", () => {
@@ -663,6 +673,12 @@
     lsSet(LS_DEBUG_SEQUENTIAL, debugSequentialMode ? "1" : "0");
     // cambia solo l'ordine del mazzo da qui in poi: non deve far "saltare" il fungo
     // attualmente mostrato, altrimenti ogni click sposterebbe la carta senza motivo
+    rebuildDeckKeepingPosition();
+  });
+
+  chkSingleObsMode.addEventListener("change", () => {
+    debugSingleObsMode = chkSingleObsMode.checked;
+    lsSet(LS_DEBUG_SINGLE_OBS, debugSingleObsMode ? "1" : "0");
     rebuildDeckKeepingPosition();
   });
 
@@ -826,11 +842,16 @@
     pool.forEach(sp => {
       const obsData = (typeof OBSERVATIONS !== "undefined") ? OBSERVATIONS[sp.id] : null;
       if (obsData && Array.isArray(obsData.observations)){
+        let tookOne = false;
         obsData.observations.forEach(obs => {
           const key = sp.id + "::inat::" + obs.obs_id;
           if (removed.has(key)) return;
           if (debugMode && debugPhotoCountFilter != null
               && (obs.photos || []).length !== debugPhotoCountFilter) return;
+          if (debugMode && debugSingleObsMode){
+            if (tookOne) return;
+            tookOne = true;
+          }
           draws.push({
             sp, kind: "inat", sourceKey: key,
             obsId: obs.obs_id, obsUrl: obs.obs_url, author: obs.author,
@@ -925,7 +946,7 @@
               const searchBlob = normalize([...sp.names, sp.common || ""].join(" "));
               return `<label class="species-row${checked ? "" : " disabled-row"}" data-row-for="${sp.id}" data-search="${searchBlob}">
                 <input type="checkbox" data-species-id="${sp.id}" ${checked ? "checked" : ""}>
-                <span class="sci">${escapeHtml(sp.names[0])}</span>
+                <span class="sci">${escapeHtml(sp.label || sp.names[0])}</span>
               </label>`;
             }).join("")}
           </div>
@@ -990,6 +1011,11 @@
     saveDisabledSpecies();
     renderSpeciesModal();
   });
+  document.getElementById("btnExamOnlySpecies").addEventListener("click", () => {
+    disabledSpecies = new Set(SPECIES.filter(sp => !EXAM_SPECIES_IDS.has(sp.id)).map(sp => sp.id));
+    saveDisabledSpecies();
+    renderSpeciesModal();
+  });
 
   document.getElementById("speciesModalBody").addEventListener("click", (e) => {
     const btn = e.target.closest(".cat-mini-btn");
@@ -1031,7 +1057,7 @@
     if (!(ref.commestibilita && ref.commestibilita.length) && DEFAULT_EDIBILITY[sp.cat]){
       ref.commestibilita = [DEFAULT_EDIBILITY[sp.cat]];
     }
-    const PLACEHOLDER = { commestibilita:"non specificata nella slide", habitat:"non descritto nella slide" };
+    const PLACEHOLDER = { commestibilita:"non specificata", habitat:"non descritto" };
     NOTE_KEYS.forEach(k => {
       const el = document.getElementById("n-" + k);
       const text = refText(ref[k]);
@@ -1039,7 +1065,7 @@
         el.textContent = text;
         el.classList.remove("empty");
       } else {
-        el.textContent = PLACEHOLDER[k] || "non descritto/a nella slide";
+        el.textContent = PLACEHOLDER[k] || "non descritto/a";
         el.classList.add("empty");
       }
     });
@@ -1316,7 +1342,7 @@
       const notes = (sp.ref && sp.ref.carne) || [];
       box.innerHTML = notes.length
         ? `<div class="reveal-box aroma">${notes.map(n => `- ${escapeHtml(n)}`).join("<br>")}</div>`
-        : `<div class="reveal-box aroma muted">Nessuna nota su carne/odore/sapore in questa scheda del corso.</div>`;
+        : `<div class="reveal-box aroma muted">Nessuna nota su carne/odore/sapore per questa specie.</div>`;
     });
     btnNext.addEventListener("click", () => {
       if (historyPos < history.length - 1){
