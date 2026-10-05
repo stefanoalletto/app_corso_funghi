@@ -362,6 +362,9 @@
     padding:5vh 16px; overflow-y:auto;
   }
   .modal-overlay.open{ display:flex; }
+  .app-version{ font-size:11px; color:var(--muted); margin-bottom:6px; }
+  .changelog-version{ font-weight:600; margin:14px 0 4px; }
+  .changelog-list{ margin:0; padding-left:20px; font-size:14px; }
   .modal-panel{
     background:var(--surface); border:1px solid var(--line); border-radius:14px;
     box-shadow:var(--shadow); width:100%; max-width:640px; max-height:90vh;
@@ -467,6 +470,7 @@
   </div>
 
   <footer>
+    <div class="app-version" id="appVersion"></div>
     Foto dalla community di iNaturalist, licenze Creative Commons individuali (vedi CREDITS.md) &mdash; uso didattico personale.
     <div class="danger-zone">
       <button class="linklike-muted" id="btnRemoveSpecimen" title="Rimuove localmente le foto attualmente mostrate, per esempio se una foto è palesemente sbagliata o rotta">Elimina esemplare corrente</button>
@@ -503,6 +507,16 @@
 
 <div class="lightbox" id="lightbox"><img id="lightboxImg" src="" alt=""></div>
 
+<div class="modal-overlay" id="changelogOverlay">
+  <div class="modal-panel">
+    <div class="modal-header">
+      <h2>Novità dalla tua ultima visita</h2>
+      <button class="modal-close" id="changelogClose" aria-label="Chiudi">&times;</button>
+    </div>
+    <div class="modal-body" id="changelogBody"></div>
+  </div>
+</div>
+
 <div class="modal-overlay" id="speciesModalOverlay">
   <div class="modal-panel">
     <div class="modal-header">
@@ -521,6 +535,7 @@
 
 <script src="data.js"></script>
 <script src="data/observations.js"></script>
+<script src="changelog.js"></script>
 <script>
 (function(){
   "use strict";
@@ -1398,6 +1413,26 @@
     if (lb.classList.contains("open")){ lb.classList.remove("open"); return; }
     if (document.getElementById("speciesModalOverlay").classList.contains("open")) closeSpeciesModal();
   });
+
+  // versione + novità: mostra il changelog se la versione è più alta dell'ultima vista
+  (function(){
+    const LS_VERSION = "funghi_lastSeenVersion";
+    const parse = v => String(v).split(".").map(n => parseInt(n, 10) || 0);
+    const cmp = (a, b) => { const x = parse(a), y = parse(b); for (let i = 0; i < 3; i++){ if ((x[i]||0) !== (y[i]||0)) return (x[i]||0) - (y[i]||0); } return 0; };
+    document.getElementById("appVersion").textContent = "v" + APP_VERSION;
+    const last = lsGet(LS_VERSION);
+    lsSet(LS_VERSION, APP_VERSION);
+    if (!last || cmp(APP_VERSION, last) <= 0) return;   // primo accesso o nessuna novità
+    const news = CHANGELOG.filter(c => cmp(c.version, last) > 0 && cmp(c.version, APP_VERSION) <= 0);
+    if (!news.length) return;
+    document.getElementById("changelogBody").innerHTML = news.map(c =>
+      `<div class="changelog-version">v${escapeHtml(c.version)}</div><ul class="changelog-list">${c.notes.map(n => `<li>${escapeHtml(n)}</li>`).join("")}</ul>`).join("");
+    const ov = document.getElementById("changelogOverlay");
+    ov.classList.add("open");
+    const close = () => ov.classList.remove("open");
+    document.getElementById("changelogClose").addEventListener("click", close);
+    ov.addEventListener("click", e => { if (e.target === ov) close(); });
+  })();
 
   buildDeck();
   render();
