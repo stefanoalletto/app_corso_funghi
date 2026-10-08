@@ -1,0 +1,120 @@
+{
+ "agaricus_campestris": [
+  52613485,
+  188195887,
+  317834840
+ ],
+ "agrocybe_aegerita": [
+  185729825
+ ],
+ "amanita_caesarea": [
+  193380910,
+  243334373
+ ],
+ "amanita_citrina": [
+  61277971
+ ],
+ "amanita_phalloides": [
+  4627347,
+  80666015,
+  328122888
+ ],
+ "amanita_phalloides_alba": [
+  9490308,
+  254314963
+ ],
+ "amanita_virosa": [
+  131980595
+ ],
+ "armillaria_gallica": [
+  315318789
+ ],
+ "armillaria_mellea": [
+  135809880
+ ],
+ "armillaria_ostoyae": [
+  96702221
+ ],
+ "armillaria_tabescens": [
+  136010635
+ ],
+ "boletus_aereus": [
+  42241559,
+  111577565,
+  139216857
+ ],
+ "boletus_aestivalis": [
+  312394213,
+  339592627,
+  399834361
+ ],
+ "boletus_edulis": [
+  2313778
+ ],
+ "boletus_pinophilus": [
+  4750101,
+  28159153
+ ],
+ "boletus_satanas": [
+  178182083
+ ],
+ "cantharellus_cibarius": [
+  236505961
+ ],
+ "clitocybe_bianche_gruppo": [
+  145707480,
+  147175643
+ ],
+ "cortinarius_orellanus": [
+  188780072
+ ],
+ "craterellus_cornucopioides": [
+  62502503
+ ],
+ "galerina_marginata": [
+  315583847
+ ],
+ "hygrophoropsis_aurantiaca": [
+  36947195
+ ],
+ "hypholoma_fasciculare": [
+  18868442
+ ],
+ "lactarius_deterrimus": [
+  180497811
+ ],
+ "lactarius_torminosus": [
+  31909266
+ ],
+ "lepiota_subincarnata": [
+  304524172
+ ],
+ "omphalotus_olearius": [
+  40980023,
+  402412466
+ ],
+ "paxillus_involutus": [
+  98659191,
+  137604421,
+  325696137
+ ],
+ "rozites_caperatus": [
+  378940915
+ ],
+ "russula_cyanoxantha": [
+  93270566,
+  296595745
+ ],
+ "russula_gruppo_emeticine": [
+  137217975
+ ],
+ "suillus_luteus": [
+  190106452
+ ],
+ "tricholoma_pardinum": [
+  320495095
+ ],
+ "tricholoma_virgatum": [
+  328806764
+ ]
+}

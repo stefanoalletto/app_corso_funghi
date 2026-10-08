@@ -33,6 +33,7 @@ scripts/
   fetch_inaturalist.py  scarica le foto iNaturalist rispettando le licenze
   species.txt           elenco specie -> nome scientifico (con eventuali sinonimi)
   species_groups.txt     elenco delle carte "gruppo" (più specie in un pool condiviso)
+  replace_removed.py     sostituisce le osservazioni eliminate (registro dell'app) con nuove da iNaturalist
   compress_one_inat.sh   comprime una foto iNaturalist (libjpeg-turbo, 900px, qualità 72)
 fonts/                 font ospitati in locale (niente richieste a Google Fonts), licenza OFL
 CREDITS.md             attribuzione per ogni foto iNaturalist (autore, licenza, link)
@@ -67,3 +68,16 @@ Le identificazioni delle foto dipendono dal consenso della community di iNatural
 (osservazioni "research grade"). Possono contenere errori.
 Questa app serve solo per esercitarsi al riconoscimento visivo: **non usarla come unica
 fonte per decidere se un fungo è commestibile.**
+
+## Sostituire le osservazioni sbagliate
+
+Dalla debug mode dell'app, "Elimina esemplare corrente" rimuove un'osservazione solo nel
+browser e la annota nel registro scaricabile. Per toglierle davvero e rimpiazzarle:
+
+```
+python3 scripts/replace_removed.py ~/Downloads/registro_rimozioni.json --dry-run
+python3 scripts/replace_removed.py ~/Downloads/registro_rimozioni.json
+```
+
+Gli id eliminati finiscono in `data/removed_observations.json` (cumulativo, da committare):
+il fetch non li ripescherà mai. Le voci già eliminate in passato sono gestite.

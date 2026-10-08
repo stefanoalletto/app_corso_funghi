@@ -45,6 +45,10 @@ LICENSE_URL = {
     "cc-by-nc": "https://creativecommons.org/licenses/by-nc/4.0/",
 }
 MAX_PER_OBSERVER = 2
+MAX_PER_OBSERVER_RELAXED = 5  # solo se non bastano osservazioni con 3-4 foto (vedi FILTER_PASSES)
+# passate di selezione, in ordine: (min foto, max osservazioni per autore). Si passa alla successiva
+# solo se la precedente non ha raggiunto il target.
+FILTER_PASSES = [(3, MAX_PER_OBSERVER), (3, MAX_PER_OBSERVER_RELAXED), (1, MAX_PER_OBSERVER_RELAXED)]
 MIN_PHOTOS = 1  # priorità 4->3->2->1 (vedi fetch_raw_candidates/collect_observations): 1 è l'ultima spiaggia
 MAX_PHOTOS = 4
 MIN_REQUEST_INTERVAL = 1.1  # secondi, ben sotto il limite di 100/min di iNaturalist
@@ -57,6 +61,16 @@ SPECIES_TXT = os.path.join(HERE, "species.txt")
 GROUPS_TXT = os.path.join(HERE, "species_groups.txt")
 OBSERVATIONS_JSON = os.path.join(DATA_DIR, "observations.json")
 CREDITS_MD = os.path.join(ROOT, "CREDITS.md")
+# osservazioni eliminate a mano (registro rimozioni): non vanno mai ripescate. Scritto da replace_removed.py
+REMOVED_JSON = os.path.join(DATA_DIR, "removed_observations.json")
+
+
+def load_removed_ids(sid):
+    """obs_id eliminati a mano per questa specie/gruppo (vuoto se il file non esiste)."""
+    if not os.path.exists(REMOVED_JSON):
+        return set()
+    with open(REMOVED_JSON, encoding="utf-8") as f:
+        return set(json.load(f).get(sid, []))
 
 _last_request_time = 0.0
 
@@ -215,14 +229,14 @@ def fetch_raw_candidates(taxon_id, target):
     return candidates
 
 
-def _passes_filters(obs, seen_obs_ids, observer_count, rejected):
+def _passes_filters(obs, seen_obs_ids, observer_count, rejected, min_photos=MIN_PHOTOS, cap=MAX_PER_OBSERVER):
     """Controlla licenza/numero foto/cap-osservatore/duplicati. Se passa, aggiorna lo stato e ritorna True."""
     obs_id = obs.get("id")
     if obs_id in seen_obs_ids:
         rejected["duplicato"] += 1
         return False
     photos = obs.get("photos", [])
-    if not (MIN_PHOTOS <= len(photos) <= MAX_PHOTOS):
+    if not (min_photos <= len(photos) <= MAX_PHOTOS):
         rejected['num_foto'] += 1
         return False
     licenses = [p.get("license_code") for p in photos]
@@ -230,7 +244,7 @@ def _passes_filters(obs, seen_obs_ids, observer_count, rejected):
         rejected["licenza"] += 1
         return False
     observer = (obs.get("user") or {}).get("login", "sconosciuto")
-    if observer_count.get(observer, 0) >= MAX_PER_OBSERVER:
+    if observer_count.get(observer, 0) >= cap:
         rejected["cap_osservatore"] += 1
         return False
     seen_obs_ids.add(obs_id)
@@ -254,11 +268,12 @@ def collect_observations(taxon_id, target, exclude_ids=None, observer_count=None
     rejected = {"licenza": 0, "num_foto": 0, "cap_osservatore": 0, "duplicato": 0}
     seen_obs_ids = set(exclude_ids or ())
     observer_count = dict(observer_count or {})
-    for obs in candidates:
-        if len(valid) >= target:
-            break
-        if _passes_filters(obs, seen_obs_ids, observer_count, rejected):
-            valid.append(obs)
+    for min_photos, cap in FILTER_PASSES:
+        for obs in candidates:
+            if len(valid) >= target:
+                break
+            if _passes_filters(obs, seen_obs_ids, observer_count, rejected, min_photos, cap):
+                valid.append(obs)
     return valid, rejected, len(candidates)
 
 
@@ -280,28 +295,30 @@ def collect_observations_pooled(taxa, target, exclude_ids=None, observer_count=N
     rejected = {"licenza": 0, "num_foto": 0, "cap_osservatore": 0, "duplicato": 0}
     seen_obs_ids = set(exclude_ids or ())
     observer_count = dict(observer_count or {})
-    active = [tid for tid, _ in taxa]
+    for min_photos, cap in FILTER_PASSES:
+        idx = {tid: 0 for tid, _ in taxa}
+        active = [tid for tid, _ in taxa]
 
-    while active and len(valid) < target:
-        progressed = False
-        for tid in list(active):
-            lst = candidate_lists[tid]
-            i = idx[tid]
-            while i < len(lst):
-                obs = lst[i]
-                i += 1
-                if _passes_filters(obs, seen_obs_ids, observer_count, rejected):
-                    obs["_member_species"] = name_by_taxon[tid]
-                    valid.append(obs)
-                    progressed = True
+        while active and len(valid) < target:
+            progressed = False
+            for tid in list(active):
+                lst = candidate_lists[tid]
+                i = idx[tid]
+                while i < len(lst):
+                    obs = lst[i]
+                    i += 1
+                    if _passes_filters(obs, seen_obs_ids, observer_count, rejected, min_photos, cap):
+                        obs["_member_species"] = name_by_taxon[tid]
+                        valid.append(obs)
+                        progressed = True
+                        break
+                idx[tid] = i
+                if i >= len(lst) and tid in active:
+                    active.remove(tid)
+                if len(valid) >= target:
                     break
-            idx[tid] = i
-            if i >= len(lst) and tid in active:
-                active.remove(tid)
-            if len(valid) >= target:
+            if not progressed and len(valid) < target:
                 break
-        if not progressed and len(valid) < target:
-            break
 
     total_candidates = sum(len(v) for v in candidate_lists.values())
     per_species_counts = {}
@@ -443,6 +460,7 @@ def main():
         existing_entry = all_data.get(sid)
         existing_observations = existing_entry["observations"] if existing_entry else []
         exclude_ids = {o["obs_id"] for o in existing_observations}
+        removed_ids = load_removed_ids(sid)
         already = len(exclude_ids)
         remaining = max(0, args.target - already)
 
@@ -463,7 +481,7 @@ def main():
                 existing_observer_count[login] = existing_observer_count.get(login, 0) + 1
 
         valid_obs, rejected, n_candidates = collect_observations(
-            taxon_id, remaining, exclude_ids, existing_observer_count)
+            taxon_id, remaining, exclude_ids | removed_ids, existing_observer_count)
         found_new = len(valid_obs)
         total_after = already + found_new
         shortfall = total_after < args.target
@@ -560,6 +578,7 @@ def main():
         existing_entry = all_data.get(gid)
         existing_observations = existing_entry["observations"] if existing_entry else []
         exclude_ids = {o["obs_id"] for o in existing_observations}
+        removed_ids = load_removed_ids(gid)
         already = len(exclude_ids)
         remaining = max(0, group_target - already)
 
@@ -576,7 +595,7 @@ def main():
                 existing_observer_count[login] = existing_observer_count.get(login, 0) + 1
 
         valid_obs, rejected, n_candidates, per_species_counts = collect_observations_pooled(
-            taxa, remaining, exclude_ids, existing_observer_count)
+            taxa, remaining, exclude_ids | removed_ids, existing_observer_count)
         found_new = len(valid_obs)
         total_after = already + found_new
         shortfall = total_after < group_target

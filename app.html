@@ -22,6 +22,7 @@
     --condiz:#39708a;    --condiz-bg:#dfeaf0;   --condiz-line:#b7cddb;
     --suspect:#6d5b96;   --suspect-bg:#e7e1f2;  --suspect-line:#cbbde3;
 
+    --ok-bg:#dff7e3; --ok-ink:#0b4a18; --ok-line:#1fa23a; --bad-bg:#ffe3e0; --bad-ink:#7a0f08; --bad-line:#e5352b;
     --ok:#2f7a3d;
     --bad:#b23a2f;
     --shadow: 0 1px 2px rgba(42,36,29,.06), 0 8px 24px -12px rgba(42,36,29,.25);
@@ -43,6 +44,7 @@
       --condiz:#8ec2dd;  --condiz-bg:#1f303a;  --condiz-line:#3c5b6c;
       --suspect:#c2aee0; --suspect-bg:#2b2438; --suspect-line:#493c63;
 
+      --ok-bg:#12381a; --ok-ink:#cdf5d3; --ok-line:#3ddc5c; --bad-bg:#4a1612; --bad-ink:#ffd4d0; --bad-line:#ff5a4d;
       --ok:#8fca8b;
       --bad:#e39089;
       --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
@@ -64,6 +66,7 @@
     --condiz:#8ec2dd;  --condiz-bg:#1f303a;  --condiz-line:#3c5b6c;
     --suspect:#c2aee0; --suspect-bg:#2b2438; --suspect-line:#493c63;
 
+    --ok-bg:#12381a; --ok-ink:#cdf5d3; --ok-line:#3ddc5c; --bad-bg:#4a1612; --bad-ink:#ffd4d0; --bad-line:#ff5a4d;
     --ok:#8fca8b;
     --bad:#e39089;
     --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -12px rgba(0,0,0,.6);
@@ -202,6 +205,8 @@
   }
   #guess:focus{ outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent); }
   #guess[disabled]{ opacity:.6; }
+  #guess.bad{ border-color:var(--bad-line); background:var(--bad-bg); color:var(--bad-ink); box-shadow:0 0 0 3px rgba(229,53,43,.35); animation:shake .32s; }
+  #guess.ok{ border-color:var(--ok-line); background:var(--ok-bg); color:var(--ok-ink); box-shadow:0 0 0 3px rgba(31,162,58,.35); }
   .btn{
     font-family:"Work Sans", sans-serif; font-weight:600; font-size:14.5px;
     padding:12px 18px; border-radius:9px; border:1.5px solid transparent;
@@ -220,6 +225,7 @@
   .btn:disabled{ opacity:.45; cursor:not-allowed; }
 
   .below-row{ display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top:12px; }
+  .genus-hint{ font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--muted); }
   .genus-toggle{
     display:flex; align-items:center; gap:7px;
     font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--muted);
@@ -240,13 +246,13 @@
     min-height:24px; margin-top:12px; font-weight:600; font-size:14.5px;
     display:flex; align-items:center; gap:8px;
   }
-  .feedback.ok{ color:var(--ok); }
-  .feedback.bad{ color:var(--bad); animation:shake .32s; }
+  .feedback.ok{ color:var(--ok-ink); background:var(--ok-bg); border-left:5px solid var(--ok-line); padding:7px 12px; border-radius:7px; }
+  .feedback.bad{ color:var(--bad-ink); background:var(--bad-bg); border-left:5px solid var(--bad-line); padding:7px 12px; border-radius:7px; animation:shake .32s; }
   .feedback.info{ color:var(--muted); font-weight:500; }
   .typo-note{ color:var(--muted); font-weight:500; font-size:13px; }
   .typo-note em{ font-family:"Fraunces", serif; font-style:italic; }
   @keyframes shake{ 0%,100%{transform:translateX(0)} 25%{transform:translateX(-5px)} 75%{transform:translateX(5px)} }
-  @media (prefers-reduced-motion: reduce){ .feedback.bad{ animation:none; } }
+  @media (prefers-reduced-motion: reduce){ .feedback.bad, #guess.bad{ animation:none; } }
 
   .reveal-box{
     margin-top:6px; padding:12px 14px; border-radius:9px;
@@ -556,7 +562,6 @@
   }
 
   const NOTE_KEYS = ["commestibilita","cappello","imenio","gambo","carne","habitat"];
-  const LS_GENUS = "funghi_genusOnly";
   const LS_FILTERS = "funghi_filters_v1";
   const CAT_LABEL = { commestibile:"Commestibile", mortale:"Mortale", tossico:"Tossico", condizionata:"Commestibilità condizionata", sospetto:"Sospetto" };
 
@@ -576,7 +581,6 @@
     lsSet(LS_DISABLED_SPECIES, JSON.stringify(Array.from(disabledSpecies)));
   }
 
-  let genusOnly = lsGet(LS_GENUS) === "1";
   let sameSpeciesMode = false; // non persistito: si resetta ad ogni apertura della pagina
 
   const LS_DEBUG = "funghi_debugMode";
@@ -1181,10 +1185,7 @@
           <button class="btn btn-primary" id="btnVerify">Verifica</button>
         </div>
         <div class="below-row">
-          <label class="genus-toggle">
-            <input type="checkbox" id="genusToggle" ${genusOnly ? "checked" : ""}>
-            Verifica solo il genere
-          </label>
+          <span class="genus-hint">Una sola parola = si verifica solo il genere</span>
           <div class="actions-col">
             <div class="actions">
               <button class="btn btn-ghost" id="btnAroma" title="Domande su cose che non si evincono dalla foto, che si possono fare al micologo durante l'esame">Domande carne/odore/sapore</button>
@@ -1244,15 +1245,9 @@
     const btnPrev = document.getElementById("btnPrev");
     btnPrev.disabled = historyPos <= 0;
     const sameSpeciesToggle = document.getElementById("sameSpeciesToggle");
-    const genusToggle = document.getElementById("genusToggle");
 
     sameSpeciesToggle.addEventListener("change", () => {
       sameSpeciesMode = sameSpeciesToggle.checked;
-    });
-
-    genusToggle.addEventListener("change", () => {
-      genusOnly = genusToggle.checked;
-      lsSet(LS_GENUS, genusOnly ? "1" : "0");
     });
 
     function acceptedGenera(){
@@ -1271,8 +1266,8 @@
       const g = normalize(raw);
       if (!g) return { ok:false };
 
-      if (genusOnly){
-        const genus = g.split(" ")[0];
+      if (!g.includes(" ")){
+        const genus = g;
         const map = acceptedGenera();
         if (map.has(genus)) return { ok:true, exact:true };
         // un genere scritto per intero che corrisponde a un genere reale DIVERSO non è
@@ -1314,10 +1309,13 @@
       const typoNote = res.exact === false
         ? ` <span class="typo-note">(occhio allo spelling: <em>${escapeHtml(res.correction)}</em>)</span>`
         : "";
+      guess.classList.remove("ok", "bad");
+      void guess.offsetWidth; // riavvia l'animazione dello shake
+      guess.classList.add(res.ok ? "ok" : "bad");
       if (res.ok){
-        if (genusOnly){
-          // match sul solo genere: conferma e lascia provare anche la specie completa
-          flashFeedback("ok", "✓ Genere corretto!" + typoNote + " Prova a indovinare anche la specie completa, disattivando \"solo genere\".");
+        if (!guess.value.trim().includes(" ")){
+          // una sola parola: match sul solo genere, lascia provare anche la specie completa
+          flashFeedback("ok", "✓ Genere corretto!" + typoNote + " Prova a indovinare anche la specie completa (genere + specie).");
         } else {
           state.correct = true;
           const firstTry = state.tries === 1 && !state.revealed;
@@ -1345,6 +1343,7 @@
     }
 
     btnVerify.addEventListener("click", doVerify);
+    guess.addEventListener("input", () => guess.classList.remove("ok", "bad"));
     guess.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
     btnReveal.addEventListener("click", () => revealAnswer(false));
 
