@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Revisione osservazioni</title>
+<style>
+  :root{ --bg:#f2ecdd; --surface:#fffdf7; --ink:#2a2418; --muted:#7a705c; --line:#d8ccb0; --accent:#6b4a1e; --bad:#b23a2f; --bad-bg:#ffe3e0; --ok:#2f7a3d; --ok-bg:#dff7e3; }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#1d1a14; --surface:#27231b; --ink:#eee6d3; --muted:#a89d85; --line:#3d3729; --accent:#d9b074; --bad:#e39089; --bad-bg:#4a1612; --ok:#8fca8b; --ok-bg:#12381a; }
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--ink); font:14px/1.45 system-ui, sans-serif; }
+  header{ position:sticky; top:0; z-index:5; background:var(--surface); border-bottom:1px solid var(--line); padding:10px 16px; display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; }
+  header h1{ font-size:17px; margin:0; }
+  header .grow{ flex:1; }
+  main{ max-width:1400px; margin:0 auto; padding:12px 16px 60px; }
+  a{ color:var(--accent); }
+  button{ font:inherit; cursor:pointer; border:1px solid var(--line); background:var(--surface); color:var(--ink); border-radius:7px; padding:6px 12px; }
+  button:hover{ border-color:var(--accent); }
+  button:disabled{ opacity:.45; cursor:not-allowed; }
+  button.primary{ background:var(--accent); color:var(--bg); border-color:var(--accent); font-weight:600; }
+  button.danger{ color:var(--bad); border-color:var(--bad); }
+  .sp{ scroll-margin-top:64px; border:1px solid var(--line); border-radius:9px; background:var(--surface); margin:8px 0; }
+  .sp > .sum{ display:flex; gap:10px; align-items:center; padding:10px 14px; cursor:pointer; user-select:none; }
+  .sp > .sum:hover{ background:rgba(128,128,128,.08); }
+  .sp .name{ font-weight:600; font-style:italic; }
+  .sp .meta{ color:var(--muted); font-size:12.5px; }
+  .badge{ border-radius:99px; padding:1px 9px; font-size:12px; background:var(--bad-bg); color:var(--bad); }
+  .badge.ok{ background:var(--ok-bg); color:var(--ok); }
+  .body{ border-top:1px solid var(--line); padding:8px 14px 14px; }
+  .bar{ display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; margin:6px 0 10px; }
+  .row{ display:flex; gap:12px; align-items:flex-start; padding:8px 0; border-top:1px solid var(--line); }
+  .row .photos{ flex:1; display:flex; gap:6px; overflow-x:auto; }
+  .row .photos img{ height:200px; width:auto; border-radius:5px; flex:none; background:rgba(128,128,128,.15); }
+  .row .side{ width:150px; flex:none; display:flex; flex-direction:column; gap:6px; font-size:12.5px; }
+  .row.removed .photos{ opacity:.3; }
+  .row.removed{ background:var(--bad-bg); }
+  .row.picked{ background:var(--ok-bg); }
+  .row .photos img{ cursor:zoom-in; }
+  #lb{ position:fixed; inset:0; z-index:20; background:rgba(0,0,0,.92); display:none; align-items:center; justify-content:center; }
+  #lb.open{ display:flex; }
+  #lb img{ max-width:96vw; max-height:96vh; object-fit:contain; cursor:zoom-out; }
+  #lb .nav{ position:absolute; top:50%; transform:translateY(-50%); font-size:34px; color:#fff; background:rgba(255,255,255,.12); border:0; border-radius:50%; width:48px; height:48px; padding:0; }
+  #lb .prev{ left:12px; } #lb .next{ right:12px; }
+  .note{ color:var(--muted); font-size:12.5px; }
+  @media (max-width:700px){ .row{ flex-direction:column; } .row .side{ width:auto; flex-direction:row; flex-wrap:wrap; align-items:center; } .row .photos img{ height:150px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Revisione osservazioni</h1>
+  <a href="app.html">&larr; torna all'app</a>
+  <span class="grow"></span>
+  <span id="totals" class="note"></span>
+  <button id="btnExport" class="primary">Scarica decisioni salvate (JSON)</button>
+  <button id="btnReset" class="danger" title="Cancella eliminazioni, scelte e scarti salvati in questo browser">Azzera tutto</button>
+</header>
+<main>
+  <p class="note">Apri una specie (una alla volta: le foto delle altre non vengono scaricate). "Elimina" segna l'osservazione da rimuovere;
+    per ogni eliminazione vengono cercati in background nuovi candidati su iNaturalist. A fine specie usa "Concludi eliminazione"
+    per scegliere i sostituti e poi "Accetta candidati e salva". Quando hai finito, premi "Scarica decisioni salvate" in alto
+    e invia il file. Le decisioni sono salvate nel browser (localStorage).</p>
+  <div id="list"></div>
+</main>
+<div id="lb"><button class="nav prev" aria-label="Precedente">&lsaquo;</button><img alt=""><button class="nav next" aria-label="Successiva">&rsaquo;</button></div>
+
+<script src="data.js"></script>
+<script src="data/observations.js"></script>
+<script>
+(function(){
+  "use strict";
+  const LS_KEY = "funghi_review_v1";
+  const API = "https://api.inaturalist.org/v1";
+  const ALLOWED = new Set(["cc0", "cc-by", "cc-by-nc"]);
+  const CANDIDATES_PER_REMOVAL = 3, MIN_CANDIDATES = 6;
+  const batchFor = n => Math.max(MIN_CANDIDATES, CANDIDATES_PER_REMOVAL * n); // candidati da proporre per n sostituti mancanti
+  const STRONG_CAP = 2, WEAK_CAP = 5, MAX_PAGES = 4;
+
+  // ---- stato persistito: { [sid]: { removed:[obs_id], picked:[candidate], rejected:[obs_id] } }
+  let state = {};
+  try { state = JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {}; } catch (e) { state = {}; }
+  function save(){ try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) {} }
+  function st(sid){ return state[sid] || (state[sid] = { removed:[], picked:[], rejected:[] }); }
+
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+  function safeUrl(u){ return /^https:\/\//.test(u || "") ? u : ""; }
+
+  const spById = new Map(SPECIES.map(s => [s.id, s]));
+  // per ora solo le specie del programma d'esame
+  const sids = Object.keys(OBSERVATIONS).filter(sid => EXAM_SPECIES_IDS.has(sid)).sort((a, b) => label(a).localeCompare(label(b)));
+  function label(sid){ const s = spById.get(sid); return s ? s.names[0] : sid; }
+
+  // ---- blacklist delle eliminazioni passate (data/removed_observations.json)
+  let blacklist = {};
+  const blacklistReady = fetch("data/removed_observations.json").then(r => r.ok ? r.json() : {}).then(j => { blacklist = j; }).catch(() => {});
+
+  // ---- fetch iNaturalist con coda (max ~1 richiesta/secondo)
+  let queue = Promise.resolve();
+  function apiGet(path, params){
+    const run = () => fetch(API + path + "?" + new URLSearchParams(params)).then(r => {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    });
+    const p = queue.then(run);
+    queue = p.catch(() => {}).then(() => new Promise(r => setTimeout(r, 1100)));
+    return p;
+  }
+
+  // ---- pool di candidati per specie (solo in memoria)
+  const pools = {}; // sid -> {strong:[], weak:[], seen:Set, page:0, done:false, loading:Promise|null, error:null}
+  function pool(sid){ return pools[sid] || (pools[sid] = { strong:[], weak:[], seen:new Set(), page:0, done:false, loading:null, error:null }); }
+
+  function existingIds(sid){
+    const ids = new Set(OBSERVATIONS[sid].observations.map(o => o.obs_id));
+    (blacklist[sid] || []).forEach(i => ids.add(i));
+    st(sid).rejected.forEach(i => ids.add(i));
+    st(sid).picked.forEach(c => ids.add(c.obs_id));
+    return ids;
+  }
+  function authorCounts(sid){
+    const c = {};
+    OBSERVATIONS[sid].observations.forEach(o => { if (o.author_login) c[o.author_login] = (c[o.author_login] || 0) + 1; });
+    return c;
+  }
+  function largeUrl(u){ return (u || "").replace(/\/(square|small|thumb|medium|original)\./, "/large."); }
+
+  function toCandidate(o){
+    const photos = (o.photos || []).map(p => ({ url: largeUrl(p.url), license_code: p.license_code }));
+    const login = (o.user && o.user.login) || "sconosciuto";
+    return {
+      obs_id: o.id, obs_url: "https://www.inaturalist.org/observations/" + o.id,
+      author: (o.user && o.user.name) || login, author_login: login,
+      photos
+    };
+  }
+
+  async function loadPage(sid){
+    const e = OBSERVATIONS[sid], p = pool(sid);
+    const ids = e.taxon_ids ? e.taxon_ids.join(",") : e.taxon_id;
+    p.page++;
+    const data = await apiGet("/observations", {
+      taxon_id: ids, quality_grade: "research", captive: "false", photos: "true",
+      per_page: 200, page: p.page, order_by: "votes", order: "desc"
+    });
+    const results = data.results || [];
+    if (results.length < 200 || p.page >= MAX_PAGES) p.done = true;
+    for (let i = results.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [results[i], results[j]] = [results[j], results[i]]; }
+    const taken = existingIds(sid), authors = authorCounts(sid);
+    [...p.strong, ...p.weak].forEach(c => authors[c.author_login] = (authors[c.author_login] || 0) + 1);
+    for (const o of results) {
+      if (taken.has(o.id) || p.seen.has(o.id)) continue;
+      const photos = o.photos || [];
+      if (!photos.length || photos.length > 4 || photos.some(ph => !ALLOWED.has(ph.license_code))) continue;
+      const c = toCandidate(o);
+      if (e.is_group) c.member_species = (o.taxon && o.taxon.name) || "";
+      p.seen.add(o.id);
+      const n = authors[c.author_login] || 0;
+      if (photos.length >= 3 && n < STRONG_CAP) { p.strong.push(c); authors[c.author_login] = n + 1; }
+      else if (n < WEAK_CAP) p.weak.push(c);
+    }
+  }
+
+  // garantisce che ci siano abbastanza candidati NON scelti da mostrare (p.batch), o che le pagine siano finite.
+  // `batch`, se dato, imposta quanti candidati non scelti mostrare.
+  function ensurePool(sid, batch){
+    const p = pool(sid);
+    if (batch != null) p.batch = batch;
+    if (p.loading) return p.loading;
+    p.loading = (async () => {
+      try {
+        await blacklistReady;
+        p.error = null;
+        while (unpicked(sid).length < (p.batch || 0) && !p.done) { await loadPage(sid); render(sid, true); }
+      } catch (err) { p.error = String(err.message || err); }
+      p.loading = null;
+      render(sid, true);
+    })();
+    return p.loading;
+  }
+  function available(sid){
+    const p = pool(sid), taken = existingIds(sid);
+    const strong = p.strong.filter(c => !taken.has(c.obs_id) || st(sid).picked.some(x => x.obs_id === c.obs_id));
+    const weak = p.done ? p.weak.filter(c => !taken.has(c.obs_id) || st(sid).picked.some(x => x.obs_id === c.obs_id)) : [];
+    return strong.concat(weak);
+  }
+  function unpicked(sid){ const pk = st(sid).picked; return available(sid).filter(c => !pk.some(x => x.obs_id === c.obs_id)); }
+  function wanted(sid){ return batchFor(st(sid).removed.length); }
+
+  // ---- UI
+  const list = document.getElementById("list");
+  const views = {}; // sid -> "review" | "candidates"
+  let openSid = null;
+
+  sids.forEach(sid => {
+    const d = document.createElement("div");
+    d.className = "sp"; d.id = "sp-" + sid;
+    list.appendChild(d);
+  });
+
+  function totals(){
+    let r = 0, k = 0;
+    Object.values(state).forEach(s => { r += s.removed.length; k += s.picked.length; });
+    document.getElementById("totals").textContent = `da eliminare: ${r} · sostituti scelti: ${k}`;
+  }
+
+  function render(sid, keepScroll){
+    const box = document.getElementById("sp-" + sid), s = st(sid), obs = OBSERVATIONS[sid].observations;
+    const isOpen = sid === openSid;
+    const nRem = s.removed.length, nPick = s.picked.length;
+    let html = `<div class="sum" data-act="toggle"><span>${isOpen ? "▾" : "▸"}</span><span class="name">${esc(label(sid))}</span>
+      <span class="meta">${obs.length} osservazioni</span>`
+      + (nRem ? `<span class="badge">${nRem} da eliminare</span>` : "")
+      + (nPick ? `<span class="badge ok">${nPick}/${nRem} sostituti</span>` : "")
+      + (st(sid).done ? `<span class="badge ok">salvata ✓</span>` : "") + `</div>`;
+    if (isOpen) html += `<div class="body">${(views[sid] || "review") === "candidates" ? candidatesHtml(sid) : reviewHtml(sid)}</div>`;
+    const y = window.scrollY;
+    box.innerHTML = html;
+    if (keepScroll) window.scrollTo(0, y);
+    totals();
+  }
+
+  function photosHtml(srcs){ return srcs.map(u => `<img src="${esc(safeUrl(u) || u)}" loading="lazy" alt="">`).join(""); }
+
+  function reviewHtml(sid){
+    const s = st(sid), p = pool(sid);
+    const nRem = s.removed.length;
+    let html = `<div class="bar">`
+      + (nRem ? "" : `<span class="note">Segna le osservazioni da eliminare.</span>`)
+      + (nRem ? `<span class="note">candidati pronti: ${available(sid).length}${p.loading ? " (ricerca in corso…)" : ""}${p.error ? " — errore: " + esc(p.error) : ""}</span>` : "")
+      + `</div>`;
+    OBSERVATIONS[sid].observations.forEach(o => {
+      const removed = s.removed.includes(o.obs_id);
+      html += `<div class="row ${removed ? "removed" : ""}"><div class="photos">${photosHtml(o.photos.map(x => x.file))}</div>
+        <div class="side"><a href="${esc(o.obs_url)}" target="_blank" rel="noopener">${o.obs_id}</a>
+        ${o.member_species ? `<span class="note"><i>${esc(o.member_species)}</i></span>` : ""}
+        <button class="${removed ? "" : "danger"}" data-act="rem" data-id="${o.obs_id}">${removed ? "Ripristina" : "Elimina osservazione"}</button></div></div>`;
+    });
+    if (s.done) html = `<div class="bar"><b>Revisione accettata e salvata.</b><button data-act="reopen">Riapri</button></div>` + html;
+    else if (nRem) html += `<div class="bar" style="margin-top:12px"><button class="primary" data-act="conclude">Concludi eliminazione e revisiona candidati (${nRem} da sostituire)</button></div>`;
+    return html;
+  }
+
+  function candidatesHtml(sid){
+    const s = st(sid), p = pool(sid), need = s.removed.length, got = s.picked.length;
+    const remaining = need - got;
+    const rest = unpicked(sid);
+    const avail = s.picked.concat(rest.slice(0, p.batch || 0));
+    const canMore = remaining > 0 && !p.loading && (rest.length > (p.batch || 0) || !p.done);
+    let html = `<div class="bar"><button data-act="back">&larr; torna alla revisione</button>
+      <b>Scegli ${need} sostituti — selezionati ${got}/${need}</b>
+      <span class="note">${p.loading ? "ricerca di altri candidati…" : ""}${p.error ? "errore: " + esc(p.error) : ""}${p.done && rest.length <= (p.batch || 0) ? "candidati esauriti" : ""}</span>
+      <button data-act="more" ${canMore ? "" : "disabled"} title="Scarta i candidati non scelti e ne mostra ${batchFor(remaining)} nuovi">Cerca altri candidati</button></div>`;
+    const picks = s.picked.length;
+    const saveBar = `<div class="bar" style="margin-top:12px"><button class="primary" data-act="accept" ${picks ? "" : "disabled"}>Accetta candidati e salva (${picks}/${need})</button>
+      <span class="note">Segna la specie come pronta e scarica il file delle decisioni.</span></div>`;
+    avail.forEach(c => {
+      const picked = s.picked.some(x => x.obs_id === c.obs_id);
+      html += `<div class="row ${picked ? "picked" : ""}"><div class="photos">${photosHtml(c.photos.map(x => x.url))}</div>
+        <div class="side"><a href="${esc(c.obs_url)}" target="_blank" rel="noopener">${c.obs_id}</a>
+        ${c.member_species ? `<span class="note"><i>${esc(c.member_species)}</i></span>` : ""}
+        <span class="note">${c.photos.length} foto · ${esc(c.author)}</span>
+        <button class="${picked ? "" : "primary"}" data-act="pick" data-id="${c.obs_id}" ${!picked && got >= need ? "disabled" : ""}>${picked ? "Deseleziona" : "Scegli"}</button>
+        ${picked ? "" : `<button data-act="reject" data-id="${c.obs_id}" title="Non riproporre mai più">Scarta</button>`}</div></div>`;
+    });
+    return html + saveBar;
+  }
+
+  list.addEventListener("click", ev => {
+    const el = ev.target.closest("[data-act]");
+    if (!el) return;
+    const box = el.closest(".sp"), sid = box.id.slice(3), act = el.dataset.act, id = Number(el.dataset.id), s = st(sid);
+    if (act === "toggle") {
+      const prev = openSid;
+      openSid = (prev === sid) ? null : sid;
+      if (prev && prev !== sid) { render(prev); }   // chiude (e svuota il DOM) la specie aperta prima
+      render(sid);
+      if (openSid === sid) { box.scrollIntoView({ block: "start" }); if (s.removed.length) ensurePool(sid, Math.max(pool(sid).batch || 0, wanted(sid))); }
+      return;
+    }
+    if (s.done && !["toggle", "reopen"].includes(act)) return;
+    if (act === "rem") {
+      if (s.removed.includes(id)) s.removed = s.removed.filter(x => x !== id);
+      else { s.removed.push(id); ensurePool(sid, Math.max(pool(sid).batch || 0, wanted(sid))); }
+      // se ci sono più sostituti scelti che eliminazioni, toglie gli ultimi
+      while (s.picked.length > s.removed.length) s.picked.pop();
+    }
+    if (act === "conclude") { views[sid] = "candidates"; ensurePool(sid, Math.max(pool(sid).batch || 0, wanted(sid))); }
+    if (act === "back") views[sid] = "review";
+    if (act === "reopen") s.done = false;
+    if (act === "accept") {
+      if (s.picked.length < s.removed.length && !confirm(`Hai scelto ${s.picked.length} sostituti su ${s.removed.length} eliminazioni: la specie resterà con meno osservazioni. Procedere?`)) return;
+      s.done = true; views[sid] = "review"; save();
+      // chiude questa specie e apre la prima ancora da fare (non salvata)
+      const next = sids.find(x => !st(x).done);
+      openSid = next || null;
+      render(sid);
+      if (next) { render(next); document.getElementById("sp-" + next).scrollIntoView({ block: "start" }); if (st(next).removed.length) ensurePool(next, Math.max(pool(next).batch || 0, wanted(next))); }
+      return;
+    }
+    if (act === "more") {
+      // scarta tutti i candidati non scelti (mai più riproposti), poi mostra 2 nuovi per ogni sostituto ancora mancante
+      unpicked(sid).slice(0, pool(sid).batch || 0).forEach(c => s.rejected.push(c.obs_id));
+      ensurePool(sid, batchFor(s.removed.length - s.picked.length));
+    }
+    if (act === "pick") {
+      // il lotto mostrato resta stabile: scegliere un candidato non fa comparire un sostituto "a sorpresa"
+      const pb = pool(sid);
+      if (s.picked.some(x => x.obs_id === id)) { s.picked = s.picked.filter(x => x.obs_id !== id); pb.batch = (pb.batch || 0) + 1; }
+      else if (s.picked.length < s.removed.length) { s.picked.push(available(sid).find(c => c.obs_id === id)); pb.batch = Math.max(0, (pb.batch || 0) - 1); }
+    }
+    if (act === "reject") {
+      s.rejected.push(id);
+      ensurePool(sid); // reintegra il pool
+    }
+    save();
+    const switched = act === "conclude" || act === "back";
+    render(sid, !switched);
+    if (switched) box.scrollIntoView({ block: "start" }); // cambio vista: riparti dall'inizio del blocco
+  });
+
+  // esporta solo le specie "accettate e salvate"
+  function exportDecisions(){
+    const out = { generated: new Date().toISOString(), removed: [], picked: [], rejected: [] };
+    Object.entries(state).filter(([, s]) => s.done).forEach(([sid, s]) => {
+      s.removed.forEach(id => out.removed.push({ speciesId: sid, sourceKey: sid + "::inat::" + id }));
+      s.picked.forEach(c => out.picked.push(Object.assign({ speciesId: sid }, c)));
+      s.rejected.forEach(id => out.rejected.push({ speciesId: sid, obs_id: id }));
+    });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(out, null, 2)], { type: "application/json" }));
+    a.download = "decisioni_revisione.json";
+    a.click();
+  }
+  // lightbox: click su una foto per ingrandirla; frecce/Esc da tastiera
+  const lb = document.getElementById("lb"), lbImg = lb.querySelector("img");
+  let lbSet = [], lbIdx = 0;
+  function lbShow(){ lbImg.src = lbSet[lbIdx].src; }
+  function lbClose(){ lb.classList.remove("open"); lbImg.removeAttribute("src"); }
+  function lbStep(d){ lbIdx = (lbIdx + d + lbSet.length) % lbSet.length; lbShow(); }
+  list.addEventListener("click", ev => {
+    const img = ev.target.closest(".photos img");
+    if (!img) return;
+    lbSet = Array.from(img.parentElement.querySelectorAll("img"));
+    lbIdx = lbSet.indexOf(img);
+    lbShow(); lb.classList.add("open");
+  });
+  lb.addEventListener("click", ev => {
+    if (ev.target.classList.contains("prev")) lbStep(-1);
+    else if (ev.target.classList.contains("next")) lbStep(1);
+    else lbClose();
+  });
+  document.addEventListener("keydown", ev => {
+    if (!lb.classList.contains("open")) return;
+    if (ev.key === "Escape") lbClose();
+    else if (ev.key === "ArrowLeft") lbStep(-1);
+    else if (ev.key === "ArrowRight") lbStep(1);
+  });
+  document.getElementById("btnExport").addEventListener("click", exportDecisions);
+  document.getElementById("btnReset").addEventListener("click", () => {
+    if (!confirm("Cancellare tutte le eliminazioni, scelte e scarti salvati?")) return;
+    state = {}; save(); sids.forEach(sid => render(sid));
+  });
+
+  sids.forEach(sid => render(sid));
+})();
+</script>
+</body>
+</html>

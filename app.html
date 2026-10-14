@@ -443,7 +443,7 @@
       <button class="chip c-mort" data-cat="mortale" aria-pressed="true">Mortali</button>
       <button class="chip c-toss" data-cat="tossico" aria-pressed="true">Tossici</button>
       <button class="chip c-cond" data-cat="condizionata" aria-pressed="true">Comm. condizionata</button>
-      <button class="chip c-susp" data-cat="sospetto" aria-pressed="true">Sospetti</button>
+      <button class="chip c-susp" data-cat="sospetto" aria-pressed="true" title="Sospetti per la legge regionale FVG">Sospetti</button>
       <button class="chip chip-outline" id="btnSpeciesFilter">Specie&hellip;</button>
     </div>
   </div>
@@ -482,6 +482,8 @@
       <button class="linklike-muted" id="btnRemoveSpecimen" title="Rimuove localmente le foto attualmente mostrate, per esempio se una foto è palesemente sbagliata o rotta">Elimina esemplare corrente</button>
       <span class="sep">&middot;</span>
       <button class="linklike-muted" id="btnDownloadRemovalLog">Scarica registro rimozioni</button>
+      <span class="sep">&middot;</span>
+      <a class="linklike-muted" href="review.html">Revisione osservazioni</a>
     </div>
     <div class="debug-zone">
       <label class="debug-toggle">
@@ -572,7 +574,8 @@
   }catch(e){}
 
   const LS_DISABLED_SPECIES = "funghi_disabledSpecies_v1";
-  let disabledSpecies = new Set();
+  // di default (nessuna scelta salvata) sono attive solo le specie del programma d'esame
+  let disabledSpecies = new Set(SPECIES.filter(sp => !EXAM_SPECIES_IDS.has(sp.id)).map(sp => sp.id));
   try{
     const savedDisabled = JSON.parse(lsGet(LS_DISABLED_SPECIES) || "null");
     if (Array.isArray(savedDisabled)) disabledSpecies = new Set(savedDisabled);
@@ -1062,7 +1065,7 @@
   const DEFAULT_EDIBILITY = {
     mortale: "MORTALE",
     tossico: "Tossico",
-    sospetto: "Sospetto, da evitare",
+    sospetto: "Sospetto per la legge regionale FVG, da evitare",
   };
 
   function refText(arr){

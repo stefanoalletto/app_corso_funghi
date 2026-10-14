@@ -58,82 +58,66 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_caesarea | © Алена Ручка, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/97131000](https://www.inaturalist.org/observations/97131000) |
 | amanita_caesarea | © Алена Ручка, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/97131000](https://www.inaturalist.org/observations/97131000) |
 | amanita_caesarea | © Алена Ручка, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/97131000](https://www.inaturalist.org/observations/97131000) |
-| amanita_caesarea | © Paola Fallabrini, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64227819](https://www.inaturalist.org/observations/64227819) |
-| amanita_caesarea | © Paola Fallabrini, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64227819](https://www.inaturalist.org/observations/64227819) |
-| amanita_caesarea | © Paola Fallabrini, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64227819](https://www.inaturalist.org/observations/64227819) |
 | amanita_caesarea | © Богданович Светлана, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246329229](https://www.inaturalist.org/observations/246329229) |
 | amanita_caesarea | © Богданович Светлана, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246329229](https://www.inaturalist.org/observations/246329229) |
 | amanita_caesarea | © Богданович Светлана, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246329229](https://www.inaturalist.org/observations/246329229) |
-| amanita_caesarea | Алексей Ябс, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/86753111](https://www.inaturalist.org/observations/86753111) |
-| amanita_caesarea | Алексей Ябс, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/86753111](https://www.inaturalist.org/observations/86753111) |
-| amanita_caesarea | Алексей Ябс, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/86753111](https://www.inaturalist.org/observations/86753111) |
-| amanita_caesarea | © Júlia Santo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/66089224](https://www.inaturalist.org/observations/66089224) |
-| amanita_caesarea | © Júlia Santo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/66089224](https://www.inaturalist.org/observations/66089224) |
-| amanita_caesarea | © Júlia Santo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/66089224](https://www.inaturalist.org/observations/66089224) |
-| amanita_caesarea | © Miguel Ángel Bermejo Roa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185535325](https://www.inaturalist.org/observations/185535325) |
-| amanita_caesarea | © Miguel Ángel Bermejo Roa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185535325](https://www.inaturalist.org/observations/185535325) |
-| amanita_caesarea | © Miguel Ángel Bermejo Roa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185535325](https://www.inaturalist.org/observations/185535325) |
 | amanita_caesarea | © esradonmez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/362837352](https://www.inaturalist.org/observations/362837352) |
 | amanita_caesarea | © esradonmez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/362837352](https://www.inaturalist.org/observations/362837352) |
 | amanita_caesarea | © esradonmez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/362837352](https://www.inaturalist.org/observations/362837352) |
 | amanita_caesarea | © habibyildizz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326592626](https://www.inaturalist.org/observations/326592626) |
 | amanita_caesarea | © habibyildizz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326592626](https://www.inaturalist.org/observations/326592626) |
 | amanita_caesarea | © habibyildizz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326592626](https://www.inaturalist.org/observations/326592626) |
-| amanita_caesarea | © Girouette, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187503649](https://www.inaturalist.org/observations/187503649) |
-| amanita_caesarea | © Girouette, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187503649](https://www.inaturalist.org/observations/187503649) |
-| amanita_caesarea | © Girouette, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187503649](https://www.inaturalist.org/observations/187503649) |
 | amanita_caesarea | © Josué Amoroso, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248350578](https://www.inaturalist.org/observations/248350578) |
 | amanita_caesarea | © Josué Amoroso, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248350578](https://www.inaturalist.org/observations/248350578) |
 | amanita_caesarea | © Josué Amoroso, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248350578](https://www.inaturalist.org/observations/248350578) |
 | amanita_caesarea | © M. Salimeh, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/142906964](https://www.inaturalist.org/observations/142906964) |
 | amanita_caesarea | © M. Salimeh, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/142906964](https://www.inaturalist.org/observations/142906964) |
 | amanita_caesarea | © M. Salimeh, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/142906964](https://www.inaturalist.org/observations/142906964) |
-| amanita_caesarea | © Наталья Пикалова, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/318433151](https://www.inaturalist.org/observations/318433151) |
-| amanita_caesarea | © Наталья Пикалова, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/318433151](https://www.inaturalist.org/observations/318433151) |
-| amanita_caesarea | © Наталья Пикалова, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/318433151](https://www.inaturalist.org/observations/318433151) |
 | amanita_caesarea | © Man C. Alin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/386013555](https://www.inaturalist.org/observations/386013555) |
 | amanita_caesarea | © Man C. Alin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/386013555](https://www.inaturalist.org/observations/386013555) |
 | amanita_caesarea | © Man C. Alin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/386013555](https://www.inaturalist.org/observations/386013555) |
 | amanita_caesarea | © Dimitǎr Boevski, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/216337944](https://www.inaturalist.org/observations/216337944) |
 | amanita_caesarea | © Dimitǎr Boevski, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/216337944](https://www.inaturalist.org/observations/216337944) |
 | amanita_caesarea | © Dimitǎr Boevski, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/216337944](https://www.inaturalist.org/observations/216337944) |
-| amanita_caesarea | © Lazar Popović, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/91397347](https://www.inaturalist.org/observations/91397347) |
-| amanita_caesarea | © Lazar Popović, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/91397347](https://www.inaturalist.org/observations/91397347) |
-| amanita_caesarea | © Lazar Popović, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/91397347](https://www.inaturalist.org/observations/91397347) |
 | amanita_caesarea | © Loïc Chalmandrier, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/327362312](https://www.inaturalist.org/observations/327362312) |
 | amanita_caesarea | © Loïc Chalmandrier, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/327362312](https://www.inaturalist.org/observations/327362312) |
 | amanita_caesarea | © Loïc Chalmandrier, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/327362312](https://www.inaturalist.org/observations/327362312) |
-| amanita_caesarea | © peaweevil1234, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/304697292](https://www.inaturalist.org/observations/304697292) |
-| amanita_caesarea | © peaweevil1234, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/304697292](https://www.inaturalist.org/observations/304697292) |
-| amanita_caesarea | © peaweevil1234, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/304697292](https://www.inaturalist.org/observations/304697292) |
+| amanita_caesarea | © jorgemartin71, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/197385785](https://www.inaturalist.org/observations/197385785) |
+| amanita_caesarea | © jorgemartin71, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/197385785](https://www.inaturalist.org/observations/197385785) |
+| amanita_caesarea | © jorgemartin71, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/197385785](https://www.inaturalist.org/observations/197385785) |
+| amanita_caesarea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/271503623](https://www.inaturalist.org/observations/271503623) |
+| amanita_caesarea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/271503623](https://www.inaturalist.org/observations/271503623) |
+| amanita_caesarea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/271503623](https://www.inaturalist.org/observations/271503623) |
+| amanita_caesarea | © Ladislav Milunović, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132602544](https://www.inaturalist.org/observations/132602544) |
+| amanita_caesarea | © Ladislav Milunović, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132602544](https://www.inaturalist.org/observations/132602544) |
+| amanita_caesarea | © Ladislav Milunović, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132602544](https://www.inaturalist.org/observations/132602544) |
+| amanita_caesarea | © Nicolas HELITAS, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/254658608](https://www.inaturalist.org/observations/254658608) |
+| amanita_caesarea | © Nicolas HELITAS, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/254658608](https://www.inaturalist.org/observations/254658608) |
+| amanita_caesarea | © Nicolas HELITAS, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/254658608](https://www.inaturalist.org/observations/254658608) |
+| amanita_caesarea | © hherb, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193031234](https://www.inaturalist.org/observations/193031234) |
+| amanita_caesarea | © hherb, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193031234](https://www.inaturalist.org/observations/193031234) |
+| amanita_caesarea | © hherb, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193031234](https://www.inaturalist.org/observations/193031234) |
+| amanita_caesarea | © Adrien Nouailhane, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/63387438](https://www.inaturalist.org/observations/63387438) |
+| amanita_caesarea | © Adrien Nouailhane, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/63387438](https://www.inaturalist.org/observations/63387438) |
+| amanita_caesarea | © Adrien Nouailhane, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/63387438](https://www.inaturalist.org/observations/63387438) |
+| amanita_caesarea | © giacomorossetti, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317645039](https://www.inaturalist.org/observations/317645039) |
+| amanita_caesarea | © giacomorossetti, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317645039](https://www.inaturalist.org/observations/317645039) |
+| amanita_caesarea | © giacomorossetti, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317645039](https://www.inaturalist.org/observations/317645039) |
+| amanita_caesarea | © piero, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314982279](https://www.inaturalist.org/observations/314982279) |
+| amanita_caesarea | © piero, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314982279](https://www.inaturalist.org/observations/314982279) |
+| amanita_caesarea | © piero, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314982279](https://www.inaturalist.org/observations/314982279) |
 | agaricus_campestris | © Maria Conchita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/16552900](https://www.inaturalist.org/observations/16552900) |
 | agaricus_campestris | © Maria Conchita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/16552900](https://www.inaturalist.org/observations/16552900) |
 | agaricus_campestris | © Maria Conchita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/16552900](https://www.inaturalist.org/observations/16552900) |
 | agaricus_campestris | © Maria Conchita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/16552900](https://www.inaturalist.org/observations/16552900) |
-| agaricus_campestris | © floweroid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/55824714](https://www.inaturalist.org/observations/55824714) |
-| agaricus_campestris | © floweroid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/55824714](https://www.inaturalist.org/observations/55824714) |
-| agaricus_campestris | © floweroid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/55824714](https://www.inaturalist.org/observations/55824714) |
-| agaricus_campestris | © floweroid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/55824714](https://www.inaturalist.org/observations/55824714) |
 | agaricus_campestris | © abreinin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/33676857](https://www.inaturalist.org/observations/33676857) |
 | agaricus_campestris | © abreinin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/33676857](https://www.inaturalist.org/observations/33676857) |
 | agaricus_campestris | © abreinin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/33676857](https://www.inaturalist.org/observations/33676857) |
 | agaricus_campestris | © abreinin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/33676857](https://www.inaturalist.org/observations/33676857) |
-| agaricus_campestris | © sageost, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246703080](https://www.inaturalist.org/observations/246703080) |
-| agaricus_campestris | © sageost, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246703080](https://www.inaturalist.org/observations/246703080) |
-| agaricus_campestris | © sageost, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246703080](https://www.inaturalist.org/observations/246703080) |
-| agaricus_campestris | © sageost, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246703080](https://www.inaturalist.org/observations/246703080) |
 | agaricus_campestris | Florent, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/137642728](https://www.inaturalist.org/observations/137642728) |
 | agaricus_campestris | Florent, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/137642728](https://www.inaturalist.org/observations/137642728) |
 | agaricus_campestris | Florent, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/137642728](https://www.inaturalist.org/observations/137642728) |
 | agaricus_campestris | Florent, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/137642728](https://www.inaturalist.org/observations/137642728) |
-| agaricus_campestris | © marissa jacobs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/178978219](https://www.inaturalist.org/observations/178978219) |
-| agaricus_campestris | © marissa jacobs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/178978219](https://www.inaturalist.org/observations/178978219) |
-| agaricus_campestris | © marissa jacobs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/178978219](https://www.inaturalist.org/observations/178978219) |
-| agaricus_campestris | © marissa jacobs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/178978219](https://www.inaturalist.org/observations/178978219) |
-| agaricus_campestris | © licheness, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/56709873](https://www.inaturalist.org/observations/56709873) |
-| agaricus_campestris | © licheness, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/56709873](https://www.inaturalist.org/observations/56709873) |
-| agaricus_campestris | © licheness, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/56709873](https://www.inaturalist.org/observations/56709873) |
-| agaricus_campestris | © licheness, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/56709873](https://www.inaturalist.org/observations/56709873) |
 | agaricus_campestris | © Ethan Gilmore, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/146157852](https://www.inaturalist.org/observations/146157852) |
 | agaricus_campestris | © Ethan Gilmore, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/146157852](https://www.inaturalist.org/observations/146157852) |
 | agaricus_campestris | © Ethan Gilmore, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/146157852](https://www.inaturalist.org/observations/146157852) |
@@ -158,26 +142,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agaricus_campestris | © SpacemanSpiffy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/237013240](https://www.inaturalist.org/observations/237013240) |
 | agaricus_campestris | © SpacemanSpiffy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/237013240](https://www.inaturalist.org/observations/237013240) |
 | agaricus_campestris | © SpacemanSpiffy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/237013240](https://www.inaturalist.org/observations/237013240) |
-| agaricus_campestris | © Bodo Nuñez Oberg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/53370226](https://www.inaturalist.org/observations/53370226) |
-| agaricus_campestris | © Bodo Nuñez Oberg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/53370226](https://www.inaturalist.org/observations/53370226) |
-| agaricus_campestris | © Bodo Nuñez Oberg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/53370226](https://www.inaturalist.org/observations/53370226) |
-| agaricus_campestris | © Bodo Nuñez Oberg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/53370226](https://www.inaturalist.org/observations/53370226) |
-| agaricus_campestris | © luciedefreitas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100388518](https://www.inaturalist.org/observations/100388518) |
-| agaricus_campestris | © luciedefreitas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100388518](https://www.inaturalist.org/observations/100388518) |
-| agaricus_campestris | © luciedefreitas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100388518](https://www.inaturalist.org/observations/100388518) |
-| agaricus_campestris | © luciedefreitas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100388518](https://www.inaturalist.org/observations/100388518) |
 | agaricus_campestris | © Stargazer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/149278816](https://www.inaturalist.org/observations/149278816) |
 | agaricus_campestris | © Stargazer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/149278816](https://www.inaturalist.org/observations/149278816) |
 | agaricus_campestris | © Stargazer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/149278816](https://www.inaturalist.org/observations/149278816) |
 | agaricus_campestris | © Stargazer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/149278816](https://www.inaturalist.org/observations/149278816) |
-| agaricus_campestris | © Manuel Raab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/134744940](https://www.inaturalist.org/observations/134744940) |
-| agaricus_campestris | © Manuel Raab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/134744940](https://www.inaturalist.org/observations/134744940) |
-| agaricus_campestris | © Manuel Raab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/134744940](https://www.inaturalist.org/observations/134744940) |
-| agaricus_campestris | © Manuel Raab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/134744940](https://www.inaturalist.org/observations/134744940) |
-| agaricus_campestris | ahaislip, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/20731065](https://www.inaturalist.org/observations/20731065) |
-| agaricus_campestris | ahaislip, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/20731065](https://www.inaturalist.org/observations/20731065) |
-| agaricus_campestris | ahaislip, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/20731065](https://www.inaturalist.org/observations/20731065) |
-| agaricus_campestris | ahaislip, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/20731065](https://www.inaturalist.org/observations/20731065) |
 | agaricus_campestris | © Bodo Nuñez Oberg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/173359510](https://www.inaturalist.org/observations/173359510) |
 | agaricus_campestris | © Bodo Nuñez Oberg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/173359510](https://www.inaturalist.org/observations/173359510) |
 | agaricus_campestris | © Bodo Nuñez Oberg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/173359510](https://www.inaturalist.org/observations/173359510) |
@@ -213,9 +181,33 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agaricus_campestris | © Mark Jenne, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/263816714](https://www.inaturalist.org/observations/263816714) |
 | agaricus_campestris | © Mark Jenne, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/263816714](https://www.inaturalist.org/observations/263816714) |
 | agaricus_campestris | © Mark Jenne, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/263816714](https://www.inaturalist.org/observations/263816714) |
-| agaricus_campestris | © Карина Лавицкая, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/53492304](https://www.inaturalist.org/observations/53492304) |
-| agaricus_campestris | © Карина Лавицкая, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/53492304](https://www.inaturalist.org/observations/53492304) |
-| agaricus_campestris | © Карина Лавицкая, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/53492304](https://www.inaturalist.org/observations/53492304) |
+| agaricus_campestris | © Stephen Bucklin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/52890861](https://www.inaturalist.org/observations/52890861) |
+| agaricus_campestris | © Stephen Bucklin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/52890861](https://www.inaturalist.org/observations/52890861) |
+| agaricus_campestris | © Stephen Bucklin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/52890861](https://www.inaturalist.org/observations/52890861) |
+| agaricus_campestris | © tblades, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/130054141](https://www.inaturalist.org/observations/130054141) |
+| agaricus_campestris | © tblades, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/130054141](https://www.inaturalist.org/observations/130054141) |
+| agaricus_campestris | © tblades, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/130054141](https://www.inaturalist.org/observations/130054141) |
+| agaricus_campestris | © amy_perkovic, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/135818050](https://www.inaturalist.org/observations/135818050) |
+| agaricus_campestris | © amy_perkovic, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/135818050](https://www.inaturalist.org/observations/135818050) |
+| agaricus_campestris | © amy_perkovic, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/135818050](https://www.inaturalist.org/observations/135818050) |
+| agaricus_campestris | © Alexander Naumov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/331207724](https://www.inaturalist.org/observations/331207724) |
+| agaricus_campestris | © Alexander Naumov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/331207724](https://www.inaturalist.org/observations/331207724) |
+| agaricus_campestris | © Alexander Naumov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/331207724](https://www.inaturalist.org/observations/331207724) |
+| agaricus_campestris | © hilmialkimozkok7, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/205144164](https://www.inaturalist.org/observations/205144164) |
+| agaricus_campestris | © hilmialkimozkok7, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/205144164](https://www.inaturalist.org/observations/205144164) |
+| agaricus_campestris | © hilmialkimozkok7, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/205144164](https://www.inaturalist.org/observations/205144164) |
+| agaricus_campestris | © Kherlenchimeg Nyamsuren, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/214747870](https://www.inaturalist.org/observations/214747870) |
+| agaricus_campestris | © Kherlenchimeg Nyamsuren, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/214747870](https://www.inaturalist.org/observations/214747870) |
+| agaricus_campestris | © Kherlenchimeg Nyamsuren, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/214747870](https://www.inaturalist.org/observations/214747870) |
+| agaricus_campestris | © Patrick R McGown, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/244947230](https://www.inaturalist.org/observations/244947230) |
+| agaricus_campestris | © Patrick R McGown, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/244947230](https://www.inaturalist.org/observations/244947230) |
+| agaricus_campestris | © Patrick R McGown, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/244947230](https://www.inaturalist.org/observations/244947230) |
+| agaricus_campestris | © bettina-fellov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/137128359](https://www.inaturalist.org/observations/137128359) |
+| agaricus_campestris | © bettina-fellov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/137128359](https://www.inaturalist.org/observations/137128359) |
+| agaricus_campestris | © bettina-fellov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/137128359](https://www.inaturalist.org/observations/137128359) |
+| agaricus_campestris | © CBurchat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132552613](https://www.inaturalist.org/observations/132552613) |
+| agaricus_campestris | © CBurchat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132552613](https://www.inaturalist.org/observations/132552613) |
+| agaricus_campestris | © CBurchat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132552613](https://www.inaturalist.org/observations/132552613) |
 | boletus_edulis | © Jon Sullivan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/4507308](https://www.inaturalist.org/observations/4507308) |
 | boletus_edulis | © Jon Sullivan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/4507308](https://www.inaturalist.org/observations/4507308) |
 | boletus_edulis | © Jon Sullivan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/4507308](https://www.inaturalist.org/observations/4507308) |
@@ -3063,46 +3055,14 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | marasmius_oreades | © Jean-Marie Frenoux, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190680748](https://www.inaturalist.org/observations/190680748) |
 | marasmius_oreades | © Jean-Marie Frenoux, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190680748](https://www.inaturalist.org/observations/190680748) |
 | marasmius_oreades | © Jean-Marie Frenoux, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190680748](https://www.inaturalist.org/observations/190680748) |
-| amanita_phalloides | © Inês Monteiro, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325250452](https://www.inaturalist.org/observations/325250452) |
-| amanita_phalloides | © Inês Monteiro, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325250452](https://www.inaturalist.org/observations/325250452) |
-| amanita_phalloides | © Inês Monteiro, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325250452](https://www.inaturalist.org/observations/325250452) |
-| amanita_phalloides | © Inês Monteiro, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325250452](https://www.inaturalist.org/observations/325250452) |
-| amanita_phalloides | © Taye Bright, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251709727](https://www.inaturalist.org/observations/251709727) |
-| amanita_phalloides | © Taye Bright, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251709727](https://www.inaturalist.org/observations/251709727) |
-| amanita_phalloides | © Taye Bright, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251709727](https://www.inaturalist.org/observations/251709727) |
-| amanita_phalloides | © Taye Bright, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251709727](https://www.inaturalist.org/observations/251709727) |
 | amanita_phalloides | © brian_nz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/5835709](https://www.inaturalist.org/observations/5835709) |
 | amanita_phalloides | © brian_nz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/5835709](https://www.inaturalist.org/observations/5835709) |
 | amanita_phalloides | © brian_nz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/5835709](https://www.inaturalist.org/observations/5835709) |
 | amanita_phalloides | © brian_nz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/5835709](https://www.inaturalist.org/observations/5835709) |
-| amanita_phalloides | Julia Ariadna, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/149396503](https://www.inaturalist.org/observations/149396503) |
-| amanita_phalloides | Julia Ariadna, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/149396503](https://www.inaturalist.org/observations/149396503) |
-| amanita_phalloides | Julia Ariadna, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/149396503](https://www.inaturalist.org/observations/149396503) |
-| amanita_phalloides | Julia Ariadna, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/149396503](https://www.inaturalist.org/observations/149396503) |
-| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325838931](https://www.inaturalist.org/observations/325838931) |
-| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325838931](https://www.inaturalist.org/observations/325838931) |
-| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325838931](https://www.inaturalist.org/observations/325838931) |
-| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325838931](https://www.inaturalist.org/observations/325838931) |
-| amanita_phalloides | © teddydolstra, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/305275205](https://www.inaturalist.org/observations/305275205) |
-| amanita_phalloides | © teddydolstra, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/305275205](https://www.inaturalist.org/observations/305275205) |
-| amanita_phalloides | © teddydolstra, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/305275205](https://www.inaturalist.org/observations/305275205) |
-| amanita_phalloides | © teddydolstra, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/305275205](https://www.inaturalist.org/observations/305275205) |
-| amanita_phalloides | © Diana Zhen Zhang, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/199397157](https://www.inaturalist.org/observations/199397157) |
-| amanita_phalloides | © Diana Zhen Zhang, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/199397157](https://www.inaturalist.org/observations/199397157) |
-| amanita_phalloides | © Diana Zhen Zhang, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/199397157](https://www.inaturalist.org/observations/199397157) |
-| amanita_phalloides | © Diana Zhen Zhang, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/199397157](https://www.inaturalist.org/observations/199397157) |
 | amanita_phalloides | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/4575186](https://www.inaturalist.org/observations/4575186) |
 | amanita_phalloides | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/4575186](https://www.inaturalist.org/observations/4575186) |
 | amanita_phalloides | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/4575186](https://www.inaturalist.org/observations/4575186) |
 | amanita_phalloides | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/4575186](https://www.inaturalist.org/observations/4575186) |
-| amanita_phalloides | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/361883359](https://www.inaturalist.org/observations/361883359) |
-| amanita_phalloides | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/361883359](https://www.inaturalist.org/observations/361883359) |
-| amanita_phalloides | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/361883359](https://www.inaturalist.org/observations/361883359) |
-| amanita_phalloides | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/361883359](https://www.inaturalist.org/observations/361883359) |
-| amanita_phalloides | © John Joseph Giacinto, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/104018221](https://www.inaturalist.org/observations/104018221) |
-| amanita_phalloides | © John Joseph Giacinto, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/104018221](https://www.inaturalist.org/observations/104018221) |
-| amanita_phalloides | © John Joseph Giacinto, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/104018221](https://www.inaturalist.org/observations/104018221) |
-| amanita_phalloides | © John Joseph Giacinto, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/104018221](https://www.inaturalist.org/observations/104018221) |
 | amanita_phalloides | © Jason Karpen-Dernburg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/362597490](https://www.inaturalist.org/observations/362597490) |
 | amanita_phalloides | © Jason Karpen-Dernburg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/362597490](https://www.inaturalist.org/observations/362597490) |
 | amanita_phalloides | © Jason Karpen-Dernburg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/362597490](https://www.inaturalist.org/observations/362597490) |
@@ -3119,34 +3079,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_phalloides | © Dylan T. Taylor, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250688438](https://www.inaturalist.org/observations/250688438) |
 | amanita_phalloides | © Dylan T. Taylor, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250688438](https://www.inaturalist.org/observations/250688438) |
 | amanita_phalloides | © Dylan T. Taylor, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250688438](https://www.inaturalist.org/observations/250688438) |
-| amanita_phalloides | © shaunplumtree, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322935896](https://www.inaturalist.org/observations/322935896) |
-| amanita_phalloides | © shaunplumtree, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322935896](https://www.inaturalist.org/observations/322935896) |
-| amanita_phalloides | © shaunplumtree, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322935896](https://www.inaturalist.org/observations/322935896) |
-| amanita_phalloides | © shaunplumtree, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322935896](https://www.inaturalist.org/observations/322935896) |
-| amanita_phalloides | © Christie Greening, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/259694910](https://www.inaturalist.org/observations/259694910) |
-| amanita_phalloides | © Christie Greening, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/259694910](https://www.inaturalist.org/observations/259694910) |
-| amanita_phalloides | © Christie Greening, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/259694910](https://www.inaturalist.org/observations/259694910) |
-| amanita_phalloides | © Christie Greening, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/259694910](https://www.inaturalist.org/observations/259694910) |
 | amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188639875](https://www.inaturalist.org/observations/188639875) |
 | amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188639875](https://www.inaturalist.org/observations/188639875) |
 | amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188639875](https://www.inaturalist.org/observations/188639875) |
 | amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188639875](https://www.inaturalist.org/observations/188639875) |
-| amanita_phalloides | © Theo Fiedler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/131797587](https://www.inaturalist.org/observations/131797587) |
-| amanita_phalloides | © Theo Fiedler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/131797587](https://www.inaturalist.org/observations/131797587) |
-| amanita_phalloides | © Theo Fiedler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/131797587](https://www.inaturalist.org/observations/131797587) |
-| amanita_phalloides | © Theo Fiedler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/131797587](https://www.inaturalist.org/observations/131797587) |
-| amanita_phalloides | © jwhunt, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100801256](https://www.inaturalist.org/observations/100801256) |
-| amanita_phalloides | © jwhunt, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100801256](https://www.inaturalist.org/observations/100801256) |
-| amanita_phalloides | © jwhunt, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100801256](https://www.inaturalist.org/observations/100801256) |
-| amanita_phalloides | © jwhunt, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100801256](https://www.inaturalist.org/observations/100801256) |
-| amanita_phalloides | © vuikaan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321646445](https://www.inaturalist.org/observations/321646445) |
-| amanita_phalloides | © vuikaan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321646445](https://www.inaturalist.org/observations/321646445) |
-| amanita_phalloides | © vuikaan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321646445](https://www.inaturalist.org/observations/321646445) |
-| amanita_phalloides | © vuikaan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321646445](https://www.inaturalist.org/observations/321646445) |
-| amanita_phalloides | © the_daniel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/321861585](https://www.inaturalist.org/observations/321861585) |
-| amanita_phalloides | © the_daniel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/321861585](https://www.inaturalist.org/observations/321861585) |
-| amanita_phalloides | © the_daniel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/321861585](https://www.inaturalist.org/observations/321861585) |
-| amanita_phalloides | © the_daniel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/321861585](https://www.inaturalist.org/observations/321861585) |
 | amanita_phalloides | © Chris Loves Nature, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/175278718](https://www.inaturalist.org/observations/175278718) |
 | amanita_phalloides | © Chris Loves Nature, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/175278718](https://www.inaturalist.org/observations/175278718) |
 | amanita_phalloides | © Chris Loves Nature, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/175278718](https://www.inaturalist.org/observations/175278718) |
@@ -3155,18 +3091,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_phalloides | © kangalf, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/283342951](https://www.inaturalist.org/observations/283342951) |
 | amanita_phalloides | © kangalf, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/283342951](https://www.inaturalist.org/observations/283342951) |
 | amanita_phalloides | © kangalf, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/283342951](https://www.inaturalist.org/observations/283342951) |
-| amanita_phalloides | © dindelion, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103350251](https://www.inaturalist.org/observations/103350251) |
-| amanita_phalloides | © dindelion, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103350251](https://www.inaturalist.org/observations/103350251) |
-| amanita_phalloides | © dindelion, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103350251](https://www.inaturalist.org/observations/103350251) |
-| amanita_phalloides | © dindelion, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103350251](https://www.inaturalist.org/observations/103350251) |
 | amanita_phalloides | © Francisco Valverde, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326356523](https://www.inaturalist.org/observations/326356523) |
 | amanita_phalloides | © Francisco Valverde, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326356523](https://www.inaturalist.org/observations/326356523) |
 | amanita_phalloides | © Francisco Valverde, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326356523](https://www.inaturalist.org/observations/326356523) |
 | amanita_phalloides | © Francisco Valverde, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326356523](https://www.inaturalist.org/observations/326356523) |
-| amanita_phalloides | © Harte Singer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236175267](https://www.inaturalist.org/observations/236175267) |
-| amanita_phalloides | © Harte Singer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236175267](https://www.inaturalist.org/observations/236175267) |
-| amanita_phalloides | © Harte Singer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236175267](https://www.inaturalist.org/observations/236175267) |
-| amanita_phalloides | © Harte Singer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236175267](https://www.inaturalist.org/observations/236175267) |
 | amanita_phalloides | © motaevsergei, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/323474958](https://www.inaturalist.org/observations/323474958) |
 | amanita_phalloides | © motaevsergei, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/323474958](https://www.inaturalist.org/observations/323474958) |
 | amanita_phalloides | © motaevsergei, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/323474958](https://www.inaturalist.org/observations/323474958) |
@@ -3175,38 +3103,67 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_phalloides | © desireep, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/44652497](https://www.inaturalist.org/observations/44652497) |
 | amanita_phalloides | © desireep, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/44652497](https://www.inaturalist.org/observations/44652497) |
 | amanita_phalloides | © desireep, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/44652497](https://www.inaturalist.org/observations/44652497) |
-| amanita_phalloides | © prometeo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/124712477](https://www.inaturalist.org/observations/124712477) |
-| amanita_phalloides | © prometeo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/124712477](https://www.inaturalist.org/observations/124712477) |
-| amanita_phalloides | © prometeo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/124712477](https://www.inaturalist.org/observations/124712477) |
-| amanita_phalloides | © prometeo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/124712477](https://www.inaturalist.org/observations/124712477) |
 | amanita_phalloides | © Chris Valdés, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/343890379](https://www.inaturalist.org/observations/343890379) |
 | amanita_phalloides | © Chris Valdés, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/343890379](https://www.inaturalist.org/observations/343890379) |
 | amanita_phalloides | © Chris Valdés, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/343890379](https://www.inaturalist.org/observations/343890379) |
 | amanita_phalloides | © Chris Valdés, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/343890379](https://www.inaturalist.org/observations/343890379) |
-| amanita_virosa | © Sergey Tempus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398121940](https://www.inaturalist.org/observations/398121940) |
-| amanita_virosa | © Sergey Tempus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398121940](https://www.inaturalist.org/observations/398121940) |
-| amanita_virosa | © Sergey Tempus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398121940](https://www.inaturalist.org/observations/398121940) |
-| amanita_virosa | © Sergey Tempus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398121940](https://www.inaturalist.org/observations/398121940) |
+| amanita_phalloides | © Simon Nicholas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/285725333](https://www.inaturalist.org/observations/285725333) |
+| amanita_phalloides | © Simon Nicholas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/285725333](https://www.inaturalist.org/observations/285725333) |
+| amanita_phalloides | © Simon Nicholas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/285725333](https://www.inaturalist.org/observations/285725333) |
+| amanita_phalloides | Sigrid Jakob, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/63534337](https://www.inaturalist.org/observations/63534337) |
+| amanita_phalloides | Sigrid Jakob, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/63534337](https://www.inaturalist.org/observations/63534337) |
+| amanita_phalloides | Sigrid Jakob, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/63534337](https://www.inaturalist.org/observations/63534337) |
+| amanita_phalloides | © wilfredj, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/242910872](https://www.inaturalist.org/observations/242910872) |
+| amanita_phalloides | © wilfredj, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/242910872](https://www.inaturalist.org/observations/242910872) |
+| amanita_phalloides | © wilfredj, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/242910872](https://www.inaturalist.org/observations/242910872) |
+| amanita_phalloides | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188040336](https://www.inaturalist.org/observations/188040336) |
+| amanita_phalloides | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188040336](https://www.inaturalist.org/observations/188040336) |
+| amanita_phalloides | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188040336](https://www.inaturalist.org/observations/188040336) |
+| amanita_phalloides | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245302539](https://www.inaturalist.org/observations/245302539) |
+| amanita_phalloides | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245302539](https://www.inaturalist.org/observations/245302539) |
+| amanita_phalloides | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245302539](https://www.inaturalist.org/observations/245302539) |
+| amanita_phalloides | © Jef Taylor, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187529441](https://www.inaturalist.org/observations/187529441) |
+| amanita_phalloides | © Jef Taylor, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187529441](https://www.inaturalist.org/observations/187529441) |
+| amanita_phalloides | © Jef Taylor, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187529441](https://www.inaturalist.org/observations/187529441) |
+| amanita_phalloides | © Antonio Xeira, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103187534](https://www.inaturalist.org/observations/103187534) |
+| amanita_phalloides | © Antonio Xeira, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103187534](https://www.inaturalist.org/observations/103187534) |
+| amanita_phalloides | © Antonio Xeira, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103187534](https://www.inaturalist.org/observations/103187534) |
+| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325914190](https://www.inaturalist.org/observations/325914190) |
+| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325914190](https://www.inaturalist.org/observations/325914190) |
+| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325914190](https://www.inaturalist.org/observations/325914190) |
+| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325914190](https://www.inaturalist.org/observations/325914190) |
+| amanita_phalloides | © samzanita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324976635](https://www.inaturalist.org/observations/324976635) |
+| amanita_phalloides | © samzanita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324976635](https://www.inaturalist.org/observations/324976635) |
+| amanita_phalloides | © samzanita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324976635](https://www.inaturalist.org/observations/324976635) |
+| amanita_phalloides | © morgan yacullo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143543125](https://www.inaturalist.org/observations/143543125) |
+| amanita_phalloides | © morgan yacullo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143543125](https://www.inaturalist.org/observations/143543125) |
+| amanita_phalloides | © morgan yacullo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143543125](https://www.inaturalist.org/observations/143543125) |
+| amanita_phalloides | © SiphonophoreSlinger, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/186551590](https://www.inaturalist.org/observations/186551590) |
+| amanita_phalloides | © SiphonophoreSlinger, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/186551590](https://www.inaturalist.org/observations/186551590) |
+| amanita_phalloides | © SiphonophoreSlinger, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/186551590](https://www.inaturalist.org/observations/186551590) |
+| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/331235931](https://www.inaturalist.org/observations/331235931) |
+| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/331235931](https://www.inaturalist.org/observations/331235931) |
+| amanita_phalloides | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/331235931](https://www.inaturalist.org/observations/331235931) |
+| amanita_phalloides | © Dr. Fabio Mao Valletta, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140955836](https://www.inaturalist.org/observations/140955836) |
+| amanita_phalloides | © Dr. Fabio Mao Valletta, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140955836](https://www.inaturalist.org/observations/140955836) |
+| amanita_phalloides | © Dr. Fabio Mao Valletta, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140955836](https://www.inaturalist.org/observations/140955836) |
+| amanita_phalloides | © Allea Cauilan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/166366583](https://www.inaturalist.org/observations/166366583) |
+| amanita_phalloides | © Allea Cauilan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/166366583](https://www.inaturalist.org/observations/166366583) |
+| amanita_phalloides | © Allea Cauilan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/166366583](https://www.inaturalist.org/observations/166366583) |
+| amanita_phalloides | © Allea Cauilan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/166366583](https://www.inaturalist.org/observations/166366583) |
+| amanita_phalloides | © Tom May, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/162815887](https://www.inaturalist.org/observations/162815887) |
+| amanita_phalloides | © Tom May, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/162815887](https://www.inaturalist.org/observations/162815887) |
+| amanita_phalloides | © Tom May, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/162815887](https://www.inaturalist.org/observations/162815887) |
+| amanita_phalloides | © Павлик Лисицын, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/182790926](https://www.inaturalist.org/observations/182790926) |
+| amanita_phalloides | © Павлик Лисицын, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/182790926](https://www.inaturalist.org/observations/182790926) |
+| amanita_phalloides | © Павлик Лисицын, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/182790926](https://www.inaturalist.org/observations/182790926) |
+| amanita_phalloides | © Myles McSweeney, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/136465579](https://www.inaturalist.org/observations/136465579) |
+| amanita_phalloides | © Myles McSweeney, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/136465579](https://www.inaturalist.org/observations/136465579) |
+| amanita_phalloides | © Myles McSweeney, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/136465579](https://www.inaturalist.org/observations/136465579) |
 | amanita_virosa | © Kari Elo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236484788](https://www.inaturalist.org/observations/236484788) |
 | amanita_virosa | © Kari Elo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236484788](https://www.inaturalist.org/observations/236484788) |
 | amanita_virosa | © Kari Elo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236484788](https://www.inaturalist.org/observations/236484788) |
 | amanita_virosa | © Kari Elo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236484788](https://www.inaturalist.org/observations/236484788) |
-| amanita_virosa | © mansikki, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/182806389](https://www.inaturalist.org/observations/182806389) |
-| amanita_virosa | © mansikki, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/182806389](https://www.inaturalist.org/observations/182806389) |
-| amanita_virosa | © mansikki, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/182806389](https://www.inaturalist.org/observations/182806389) |
-| amanita_virosa | © mansikki, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/182806389](https://www.inaturalist.org/observations/182806389) |
-| amanita_virosa | © vladimir-65, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/399791474](https://www.inaturalist.org/observations/399791474) |
-| amanita_virosa | © vladimir-65, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/399791474](https://www.inaturalist.org/observations/399791474) |
-| amanita_virosa | © vladimir-65, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/399791474](https://www.inaturalist.org/observations/399791474) |
-| amanita_virosa | © vladimir-65, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/399791474](https://www.inaturalist.org/observations/399791474) |
-| amanita_virosa | © Christel Westerlund Hägglund, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/235542440](https://www.inaturalist.org/observations/235542440) |
-| amanita_virosa | © Christel Westerlund Hägglund, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/235542440](https://www.inaturalist.org/observations/235542440) |
-| amanita_virosa | © Christel Westerlund Hägglund, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/235542440](https://www.inaturalist.org/observations/235542440) |
-| amanita_virosa | © Christel Westerlund Hägglund, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/235542440](https://www.inaturalist.org/observations/235542440) |
-| amanita_virosa | © al_fa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/239771559](https://www.inaturalist.org/observations/239771559) |
-| amanita_virosa | © al_fa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/239771559](https://www.inaturalist.org/observations/239771559) |
-| amanita_virosa | © al_fa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/239771559](https://www.inaturalist.org/observations/239771559) |
-| amanita_virosa | © al_fa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/239771559](https://www.inaturalist.org/observations/239771559) |
 | amanita_virosa | © Veveris, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/396609100](https://www.inaturalist.org/observations/396609100) |
 | amanita_virosa | © Veveris, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/396609100](https://www.inaturalist.org/observations/396609100) |
 | amanita_virosa | © Veveris, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/396609100](https://www.inaturalist.org/observations/396609100) |
@@ -3215,18 +3172,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314056102](https://www.inaturalist.org/observations/314056102) |
 | amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314056102](https://www.inaturalist.org/observations/314056102) |
 | amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314056102](https://www.inaturalist.org/observations/314056102) |
-| amanita_virosa | © Вадим Рыбаков, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/233922566](https://www.inaturalist.org/observations/233922566) |
-| amanita_virosa | © Вадим Рыбаков, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/233922566](https://www.inaturalist.org/observations/233922566) |
-| amanita_virosa | © Вадим Рыбаков, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/233922566](https://www.inaturalist.org/observations/233922566) |
-| amanita_virosa | © Вадим Рыбаков, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/233922566](https://www.inaturalist.org/observations/233922566) |
 | amanita_virosa | © Matthias Thomssen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/301587525](https://www.inaturalist.org/observations/301587525) |
 | amanita_virosa | © Matthias Thomssen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/301587525](https://www.inaturalist.org/observations/301587525) |
 | amanita_virosa | © Matthias Thomssen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/301587525](https://www.inaturalist.org/observations/301587525) |
 | amanita_virosa | © Matthias Thomssen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/301587525](https://www.inaturalist.org/observations/301587525) |
-| amanita_virosa | © Django de Herder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245122713](https://www.inaturalist.org/observations/245122713) |
-| amanita_virosa | © Django de Herder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245122713](https://www.inaturalist.org/observations/245122713) |
-| amanita_virosa | © Django de Herder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245122713](https://www.inaturalist.org/observations/245122713) |
-| amanita_virosa | © Django de Herder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245122713](https://www.inaturalist.org/observations/245122713) |
 | amanita_virosa | © Егор, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398448645](https://www.inaturalist.org/observations/398448645) |
 | amanita_virosa | © Егор, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398448645](https://www.inaturalist.org/observations/398448645) |
 | amanita_virosa | © Егор, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398448645](https://www.inaturalist.org/observations/398448645) |
@@ -3239,14 +3188,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_virosa | © Martin W, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/390059909](https://www.inaturalist.org/observations/390059909) |
 | amanita_virosa | © Martin W, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/390059909](https://www.inaturalist.org/observations/390059909) |
 | amanita_virosa | © Martin W, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/390059909](https://www.inaturalist.org/observations/390059909) |
-| amanita_virosa | © kmns, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180486181](https://www.inaturalist.org/observations/180486181) |
-| amanita_virosa | © kmns, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180486181](https://www.inaturalist.org/observations/180486181) |
-| amanita_virosa | © kmns, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180486181](https://www.inaturalist.org/observations/180486181) |
-| amanita_virosa | © kmns, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180486181](https://www.inaturalist.org/observations/180486181) |
-| amanita_virosa | © Antti Henttonen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/133080503](https://www.inaturalist.org/observations/133080503) |
-| amanita_virosa | © Antti Henttonen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/133080503](https://www.inaturalist.org/observations/133080503) |
-| amanita_virosa | © Antti Henttonen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/133080503](https://www.inaturalist.org/observations/133080503) |
-| amanita_virosa | © Antti Henttonen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/133080503](https://www.inaturalist.org/observations/133080503) |
 | amanita_virosa | © Waltraud Schmelmer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/303387531](https://www.inaturalist.org/observations/303387531) |
 | amanita_virosa | © Waltraud Schmelmer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/303387531](https://www.inaturalist.org/observations/303387531) |
 | amanita_virosa | © Waltraud Schmelmer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/303387531](https://www.inaturalist.org/observations/303387531) |
@@ -3259,10 +3200,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_virosa | © Kari Elo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/182608128](https://www.inaturalist.org/observations/182608128) |
 | amanita_virosa | © Kari Elo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/182608128](https://www.inaturalist.org/observations/182608128) |
 | amanita_virosa | © Kari Elo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/182608128](https://www.inaturalist.org/observations/182608128) |
-| amanita_virosa | © torstendavidsen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/178844704](https://www.inaturalist.org/observations/178844704) |
-| amanita_virosa | © torstendavidsen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/178844704](https://www.inaturalist.org/observations/178844704) |
-| amanita_virosa | © torstendavidsen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/178844704](https://www.inaturalist.org/observations/178844704) |
-| amanita_virosa | © torstendavidsen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/178844704](https://www.inaturalist.org/observations/178844704) |
 | amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/35692997](https://www.inaturalist.org/observations/35692997) |
 | amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/35692997](https://www.inaturalist.org/observations/35692997) |
 | amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/35692997](https://www.inaturalist.org/observations/35692997) |
@@ -3271,37 +3208,63 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_virosa | © Martina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/231582536](https://www.inaturalist.org/observations/231582536) |
 | amanita_virosa | © Martina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/231582536](https://www.inaturalist.org/observations/231582536) |
 | amanita_virosa | © Martina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/231582536](https://www.inaturalist.org/observations/231582536) |
-| amanita_virosa | © ingerlene, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185285713](https://www.inaturalist.org/observations/185285713) |
-| amanita_virosa | © ingerlene, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185285713](https://www.inaturalist.org/observations/185285713) |
-| amanita_virosa | © ingerlene, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185285713](https://www.inaturalist.org/observations/185285713) |
-| amanita_virosa | © ingerlene, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185285713](https://www.inaturalist.org/observations/185285713) |
-| amanita_virosa | © Patrice Dupont, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/393692905](https://www.inaturalist.org/observations/393692905) |
-| amanita_virosa | © Patrice Dupont, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/393692905](https://www.inaturalist.org/observations/393692905) |
-| amanita_virosa | © Patrice Dupont, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/393692905](https://www.inaturalist.org/observations/393692905) |
-| amanita_virosa | © Patrice Dupont, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/393692905](https://www.inaturalist.org/observations/393692905) |
-| amanita_virosa | © Jyrki Sahinoja, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180254145](https://www.inaturalist.org/observations/180254145) |
-| amanita_virosa | © Jyrki Sahinoja, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180254145](https://www.inaturalist.org/observations/180254145) |
-| amanita_virosa | © Jyrki Sahinoja, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180254145](https://www.inaturalist.org/observations/180254145) |
-| amanita_virosa | © Jyrki Sahinoja, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180254145](https://www.inaturalist.org/observations/180254145) |
 | amanita_virosa | © ainali, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/308683133](https://www.inaturalist.org/observations/308683133) |
 | amanita_virosa | © ainali, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/308683133](https://www.inaturalist.org/observations/308683133) |
 | amanita_virosa | © ainali, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/308683133](https://www.inaturalist.org/observations/308683133) |
 | amanita_virosa | © ainali, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/308683133](https://www.inaturalist.org/observations/308683133) |
-| amanita_virosa | © zak2k, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/237949167](https://www.inaturalist.org/observations/237949167) |
-| amanita_virosa | © zak2k, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/237949167](https://www.inaturalist.org/observations/237949167) |
-| amanita_virosa | © zak2k, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/237949167](https://www.inaturalist.org/observations/237949167) |
-| amanita_virosa | © zak2k, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/237949167](https://www.inaturalist.org/observations/237949167) |
 | amanita_virosa | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240611111](https://www.inaturalist.org/observations/240611111) |
 | amanita_virosa | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240611111](https://www.inaturalist.org/observations/240611111) |
 | amanita_virosa | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240611111](https://www.inaturalist.org/observations/240611111) |
 | amanita_virosa | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240611111](https://www.inaturalist.org/observations/240611111) |
-| amanita_virosa | © marsusram, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/15879178](https://www.inaturalist.org/observations/15879178) |
-| amanita_virosa | © marsusram, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/15879178](https://www.inaturalist.org/observations/15879178) |
-| amanita_virosa | © marsusram, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/15879178](https://www.inaturalist.org/observations/15879178) |
-| amanita_virosa | © marsusram, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/15879178](https://www.inaturalist.org/observations/15879178) |
-| amanita_virosa | © oki-x, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236038652](https://www.inaturalist.org/observations/236038652) |
-| amanita_virosa | © oki-x, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236038652](https://www.inaturalist.org/observations/236038652) |
-| amanita_virosa | © oki-x, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/236038652](https://www.inaturalist.org/observations/236038652) |
+| amanita_virosa | © Jesse Kalwij, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/90634513](https://www.inaturalist.org/observations/90634513) |
+| amanita_virosa | © Jesse Kalwij, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/90634513](https://www.inaturalist.org/observations/90634513) |
+| amanita_virosa | © Jesse Kalwij, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/90634513](https://www.inaturalist.org/observations/90634513) |
+| amanita_virosa | © jordan-hill, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/221819157](https://www.inaturalist.org/observations/221819157) |
+| amanita_virosa | © jordan-hill, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/221819157](https://www.inaturalist.org/observations/221819157) |
+| amanita_virosa | © jordan-hill, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/221819157](https://www.inaturalist.org/observations/221819157) |
+| amanita_virosa | © Виктор, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/92658100](https://www.inaturalist.org/observations/92658100) |
+| amanita_virosa | © Виктор, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/92658100](https://www.inaturalist.org/observations/92658100) |
+| amanita_virosa | © Виктор, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/92658100](https://www.inaturalist.org/observations/92658100) |
+| amanita_virosa | © Marina Privalova, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/106479965](https://www.inaturalist.org/observations/106479965) |
+| amanita_virosa | © Marina Privalova, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/106479965](https://www.inaturalist.org/observations/106479965) |
+| amanita_virosa | © Marina Privalova, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/106479965](https://www.inaturalist.org/observations/106479965) |
+| amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/37495884](https://www.inaturalist.org/observations/37495884) |
+| amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/37495884](https://www.inaturalist.org/observations/37495884) |
+| amanita_virosa | © Vladimir Bryukhov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/37495884](https://www.inaturalist.org/observations/37495884) |
+| amanita_virosa | © Анна Квашнина, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/391353348](https://www.inaturalist.org/observations/391353348) |
+| amanita_virosa | © Анна Квашнина, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/391353348](https://www.inaturalist.org/observations/391353348) |
+| amanita_virosa | © Анна Квашнина, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/391353348](https://www.inaturalist.org/observations/391353348) |
+| amanita_virosa | © Helmling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179703964](https://www.inaturalist.org/observations/179703964) |
+| amanita_virosa | © Helmling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179703964](https://www.inaturalist.org/observations/179703964) |
+| amanita_virosa | © Helmling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179703964](https://www.inaturalist.org/observations/179703964) |
+| amanita_virosa | © Ruslan Gleb, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246329848](https://www.inaturalist.org/observations/246329848) |
+| amanita_virosa | © Ruslan Gleb, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246329848](https://www.inaturalist.org/observations/246329848) |
+| amanita_virosa | © Ruslan Gleb, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246329848](https://www.inaturalist.org/observations/246329848) |
+| amanita_virosa | © areder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/313144112](https://www.inaturalist.org/observations/313144112) |
+| amanita_virosa | © areder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/313144112](https://www.inaturalist.org/observations/313144112) |
+| amanita_virosa | © areder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/313144112](https://www.inaturalist.org/observations/313144112) |
+| amanita_virosa | © Juha Tuomola, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/33362960](https://www.inaturalist.org/observations/33362960) |
+| amanita_virosa | © Juha Tuomola, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/33362960](https://www.inaturalist.org/observations/33362960) |
+| amanita_virosa | © Juha Tuomola, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/33362960](https://www.inaturalist.org/observations/33362960) |
+| amanita_virosa | © Ela kruglik, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/351934758](https://www.inaturalist.org/observations/351934758) |
+| amanita_virosa | © Ela kruglik, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/351934758](https://www.inaturalist.org/observations/351934758) |
+| amanita_virosa | © Ela kruglik, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/351934758](https://www.inaturalist.org/observations/351934758) |
+| amanita_virosa | © Jarkko Peltoniemi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/55796736](https://www.inaturalist.org/observations/55796736) |
+| amanita_virosa | © Jarkko Peltoniemi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/55796736](https://www.inaturalist.org/observations/55796736) |
+| amanita_virosa | © Jarkko Peltoniemi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/55796736](https://www.inaturalist.org/observations/55796736) |
+| amanita_virosa | © Aurelija, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/397516898](https://www.inaturalist.org/observations/397516898) |
+| amanita_virosa | © Aurelija, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/397516898](https://www.inaturalist.org/observations/397516898) |
+| amanita_virosa | © Aurelija, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/397516898](https://www.inaturalist.org/observations/397516898) |
+| amanita_virosa | Victoria Lazareva, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/236988469](https://www.inaturalist.org/observations/236988469) |
+| amanita_virosa | Victoria Lazareva, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/236988469](https://www.inaturalist.org/observations/236988469) |
+| amanita_virosa | Victoria Lazareva, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/236988469](https://www.inaturalist.org/observations/236988469) |
+| amanita_virosa | © pulmat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179017244](https://www.inaturalist.org/observations/179017244) |
+| amanita_virosa | © pulmat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179017244](https://www.inaturalist.org/observations/179017244) |
+| amanita_virosa | © pulmat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179017244](https://www.inaturalist.org/observations/179017244) |
+| amanita_virosa | © epackard, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/129720276](https://www.inaturalist.org/observations/129720276) |
+| amanita_virosa | © epackard, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/129720276](https://www.inaturalist.org/observations/129720276) |
+| amanita_virosa | © epackard, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/129720276](https://www.inaturalist.org/observations/129720276) |
+| amanita_virosa | © epackard, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/129720276](https://www.inaturalist.org/observations/129720276) |
 | cortinarius_orellanus | © uwekozina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185178442](https://www.inaturalist.org/observations/185178442) |
 | cortinarius_orellanus | © uwekozina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185178442](https://www.inaturalist.org/observations/185178442) |
 | cortinarius_orellanus | © uwekozina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/185178442](https://www.inaturalist.org/observations/185178442) |
@@ -4206,50 +4169,22 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | leotia_lubrica | © gerardomiguelalonso-gmam04, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246934299](https://www.inaturalist.org/observations/246934299) |
 | leotia_lubrica | © gerardomiguelalonso-gmam04, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246934299](https://www.inaturalist.org/observations/246934299) |
 | leotia_lubrica | © gerardomiguelalonso-gmam04, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246934299](https://www.inaturalist.org/observations/246934299) |
-| amanita_pantherina | © Simone Fontana, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/129667527](https://www.inaturalist.org/observations/129667527) |
-| amanita_pantherina | © Simone Fontana, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/129667527](https://www.inaturalist.org/observations/129667527) |
-| amanita_pantherina | © Simone Fontana, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/129667527](https://www.inaturalist.org/observations/129667527) |
-| amanita_pantherina | © Simone Fontana, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/129667527](https://www.inaturalist.org/observations/129667527) |
-| amanita_pantherina | © Yaman Omran, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249378680](https://www.inaturalist.org/observations/249378680) |
-| amanita_pantherina | © Yaman Omran, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249378680](https://www.inaturalist.org/observations/249378680) |
-| amanita_pantherina | © Yaman Omran, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249378680](https://www.inaturalist.org/observations/249378680) |
-| amanita_pantherina | © Yaman Omran, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249378680](https://www.inaturalist.org/observations/249378680) |
-| amanita_pantherina | © maria_lydia_ardan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/152823064](https://www.inaturalist.org/observations/152823064) |
-| amanita_pantherina | © maria_lydia_ardan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/152823064](https://www.inaturalist.org/observations/152823064) |
-| amanita_pantherina | © maria_lydia_ardan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/152823064](https://www.inaturalist.org/observations/152823064) |
-| amanita_pantherina | © maria_lydia_ardan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/152823064](https://www.inaturalist.org/observations/152823064) |
 | amanita_pantherina | © neilfletcher, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/142386027](https://www.inaturalist.org/observations/142386027) |
 | amanita_pantherina | © neilfletcher, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/142386027](https://www.inaturalist.org/observations/142386027) |
 | amanita_pantherina | © neilfletcher, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/142386027](https://www.inaturalist.org/observations/142386027) |
 | amanita_pantherina | © neilfletcher, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/142386027](https://www.inaturalist.org/observations/142386027) |
-| amanita_pantherina | © Lena Zentall, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/40861291](https://www.inaturalist.org/observations/40861291) |
-| amanita_pantherina | © Lena Zentall, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/40861291](https://www.inaturalist.org/observations/40861291) |
-| amanita_pantherina | © Lena Zentall, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/40861291](https://www.inaturalist.org/observations/40861291) |
-| amanita_pantherina | © Lena Zentall, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/40861291](https://www.inaturalist.org/observations/40861291) |
 | amanita_pantherina | © Colin Ralston, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/77618074](https://www.inaturalist.org/observations/77618074) |
 | amanita_pantherina | © Colin Ralston, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/77618074](https://www.inaturalist.org/observations/77618074) |
 | amanita_pantherina | © Colin Ralston, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/77618074](https://www.inaturalist.org/observations/77618074) |
 | amanita_pantherina | © Colin Ralston, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/77618074](https://www.inaturalist.org/observations/77618074) |
-| amanita_pantherina | Patrick Le Mao, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/319781157](https://www.inaturalist.org/observations/319781157) |
-| amanita_pantherina | Patrick Le Mao, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/319781157](https://www.inaturalist.org/observations/319781157) |
-| amanita_pantherina | Patrick Le Mao, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/319781157](https://www.inaturalist.org/observations/319781157) |
-| amanita_pantherina | Patrick Le Mao, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/319781157](https://www.inaturalist.org/observations/319781157) |
 | amanita_pantherina | © lizziepop, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/10946019](https://www.inaturalist.org/observations/10946019) |
 | amanita_pantherina | © lizziepop, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/10946019](https://www.inaturalist.org/observations/10946019) |
 | amanita_pantherina | © lizziepop, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/10946019](https://www.inaturalist.org/observations/10946019) |
 | amanita_pantherina | © lizziepop, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/10946019](https://www.inaturalist.org/observations/10946019) |
-| amanita_pantherina | © balawu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/94907521](https://www.inaturalist.org/observations/94907521) |
-| amanita_pantherina | © balawu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/94907521](https://www.inaturalist.org/observations/94907521) |
-| amanita_pantherina | © balawu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/94907521](https://www.inaturalist.org/observations/94907521) |
-| amanita_pantherina | © balawu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/94907521](https://www.inaturalist.org/observations/94907521) |
 | amanita_pantherina | © Ivor Wilson, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/27014997](https://www.inaturalist.org/observations/27014997) |
 | amanita_pantherina | © Ivor Wilson, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/27014997](https://www.inaturalist.org/observations/27014997) |
 | amanita_pantherina | © Ivor Wilson, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/27014997](https://www.inaturalist.org/observations/27014997) |
 | amanita_pantherina | © Ivor Wilson, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/27014997](https://www.inaturalist.org/observations/27014997) |
-| amanita_pantherina | © Alan Rockefeller, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/19171686](https://www.inaturalist.org/observations/19171686) |
-| amanita_pantherina | © Alan Rockefeller, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/19171686](https://www.inaturalist.org/observations/19171686) |
-| amanita_pantherina | © Alan Rockefeller, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/19171686](https://www.inaturalist.org/observations/19171686) |
-| amanita_pantherina | © Alan Rockefeller, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/19171686](https://www.inaturalist.org/observations/19171686) |
 | amanita_pantherina | © Dreki, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246900046](https://www.inaturalist.org/observations/246900046) |
 | amanita_pantherina | © Dreki, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246900046](https://www.inaturalist.org/observations/246900046) |
 | amanita_pantherina | © Dreki, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246900046](https://www.inaturalist.org/observations/246900046) |
@@ -4258,14 +4193,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_pantherina | © Babette Köhler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/25797105](https://www.inaturalist.org/observations/25797105) |
 | amanita_pantherina | © Babette Köhler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/25797105](https://www.inaturalist.org/observations/25797105) |
 | amanita_pantherina | © Babette Köhler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/25797105](https://www.inaturalist.org/observations/25797105) |
-| amanita_pantherina | © Claudia Pogoreutz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251337544](https://www.inaturalist.org/observations/251337544) |
-| amanita_pantherina | © Claudia Pogoreutz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251337544](https://www.inaturalist.org/observations/251337544) |
-| amanita_pantherina | © Claudia Pogoreutz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251337544](https://www.inaturalist.org/observations/251337544) |
-| amanita_pantherina | © Claudia Pogoreutz, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251337544](https://www.inaturalist.org/observations/251337544) |
-| amanita_pantherina | © jmoravec, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245827976](https://www.inaturalist.org/observations/245827976) |
-| amanita_pantherina | © jmoravec, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245827976](https://www.inaturalist.org/observations/245827976) |
-| amanita_pantherina | © jmoravec, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245827976](https://www.inaturalist.org/observations/245827976) |
-| amanita_pantherina | © jmoravec, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245827976](https://www.inaturalist.org/observations/245827976) |
 | amanita_pantherina | © Irena Hrovat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138109321](https://www.inaturalist.org/observations/138109321) |
 | amanita_pantherina | © Irena Hrovat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138109321](https://www.inaturalist.org/observations/138109321) |
 | amanita_pantherina | © Irena Hrovat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138109321](https://www.inaturalist.org/observations/138109321) |
@@ -4274,56 +4201,59 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_pantherina | © michaelst, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/247185953](https://www.inaturalist.org/observations/247185953) |
 | amanita_pantherina | © michaelst, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/247185953](https://www.inaturalist.org/observations/247185953) |
 | amanita_pantherina | © michaelst, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/247185953](https://www.inaturalist.org/observations/247185953) |
-| amanita_pantherina | © Marco Gasponi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190409537](https://www.inaturalist.org/observations/190409537) |
-| amanita_pantherina | © Marco Gasponi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190409537](https://www.inaturalist.org/observations/190409537) |
-| amanita_pantherina | © Marco Gasponi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190409537](https://www.inaturalist.org/observations/190409537) |
-| amanita_pantherina | © Marco Gasponi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190409537](https://www.inaturalist.org/observations/190409537) |
 | amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250693536](https://www.inaturalist.org/observations/250693536) |
 | amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250693536](https://www.inaturalist.org/observations/250693536) |
 | amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250693536](https://www.inaturalist.org/observations/250693536) |
 | amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250693536](https://www.inaturalist.org/observations/250693536) |
-| amanita_pantherina | © Drepanostoma, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/18349207](https://www.inaturalist.org/observations/18349207) |
-| amanita_pantherina | © Drepanostoma, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/18349207](https://www.inaturalist.org/observations/18349207) |
-| amanita_pantherina | © Drepanostoma, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/18349207](https://www.inaturalist.org/observations/18349207) |
-| amanita_pantherina | © Drepanostoma, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/18349207](https://www.inaturalist.org/observations/18349207) |
 | amanita_pantherina | © Marina Roth, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140282125](https://www.inaturalist.org/observations/140282125) |
 | amanita_pantherina | © Marina Roth, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140282125](https://www.inaturalist.org/observations/140282125) |
 | amanita_pantherina | © Marina Roth, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140282125](https://www.inaturalist.org/observations/140282125) |
-| amanita_pantherina | © Maleen Mund, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/47080365](https://www.inaturalist.org/observations/47080365) |
-| amanita_pantherina | © Maleen Mund, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/47080365](https://www.inaturalist.org/observations/47080365) |
-| amanita_pantherina | © Maleen Mund, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/47080365](https://www.inaturalist.org/observations/47080365) |
 | amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/156400623](https://www.inaturalist.org/observations/156400623) |
 | amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/156400623](https://www.inaturalist.org/observations/156400623) |
 | amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/156400623](https://www.inaturalist.org/observations/156400623) |
-| amanita_pantherina | Drumețul Dacic, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/244646557](https://www.inaturalist.org/observations/244646557) |
-| amanita_pantherina | Drumețul Dacic, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/244646557](https://www.inaturalist.org/observations/244646557) |
-| amanita_pantherina | Drumețul Dacic, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/244646557](https://www.inaturalist.org/observations/244646557) |
-| amanita_pantherina | © ewestuhp, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249506401](https://www.inaturalist.org/observations/249506401) |
-| amanita_pantherina | © ewestuhp, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249506401](https://www.inaturalist.org/observations/249506401) |
-| amanita_pantherina | © ewestuhp, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249506401](https://www.inaturalist.org/observations/249506401) |
 | amanita_pantherina | © sdok, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179298054](https://www.inaturalist.org/observations/179298054) |
 | amanita_pantherina | © sdok, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179298054](https://www.inaturalist.org/observations/179298054) |
 | amanita_pantherina | © sdok, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179298054](https://www.inaturalist.org/observations/179298054) |
-| amanita_pantherina | © Anita Bubak, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249307124](https://www.inaturalist.org/observations/249307124) |
-| amanita_pantherina | © Anita Bubak, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249307124](https://www.inaturalist.org/observations/249307124) |
-| amanita_pantherina | © Anita Bubak, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249307124](https://www.inaturalist.org/observations/249307124) |
-| amanita_pantherina | © Dr. Fabio Mao Valletta, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/192625428](https://www.inaturalist.org/observations/192625428) |
-| amanita_pantherina | © Dr. Fabio Mao Valletta, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/192625428](https://www.inaturalist.org/observations/192625428) |
-| amanita_pantherina | © Dr. Fabio Mao Valletta, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/192625428](https://www.inaturalist.org/observations/192625428) |
-| amanita_pantherina | © arkim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/146843120](https://www.inaturalist.org/observations/146843120) |
-| amanita_pantherina | © arkim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/146843120](https://www.inaturalist.org/observations/146843120) |
-| amanita_pantherina | © arkim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/146843120](https://www.inaturalist.org/observations/146843120) |
-| amanita_pantherina | © Елена, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/59131033](https://www.inaturalist.org/observations/59131033) |
-| amanita_pantherina | © Елена, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/59131033](https://www.inaturalist.org/observations/59131033) |
-| amanita_pantherina | © Елена, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/59131033](https://www.inaturalist.org/observations/59131033) |
-| amanita_muscaria | © djbrunton, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/313786239](https://www.inaturalist.org/observations/313786239) |
-| amanita_muscaria | © djbrunton, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/313786239](https://www.inaturalist.org/observations/313786239) |
-| amanita_muscaria | © djbrunton, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/313786239](https://www.inaturalist.org/observations/313786239) |
-| amanita_muscaria | © djbrunton, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/313786239](https://www.inaturalist.org/observations/313786239) |
-| amanita_muscaria | © Alissa Iverson, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/178092521](https://www.inaturalist.org/observations/178092521) |
-| amanita_muscaria | © Alissa Iverson, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/178092521](https://www.inaturalist.org/observations/178092521) |
-| amanita_muscaria | © Alissa Iverson, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/178092521](https://www.inaturalist.org/observations/178092521) |
-| amanita_muscaria | © Alissa Iverson, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/178092521](https://www.inaturalist.org/observations/178092521) |
+| amanita_pantherina | © konrad-m-a-kaczmarek, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246455595](https://www.inaturalist.org/observations/246455595) |
+| amanita_pantherina | © konrad-m-a-kaczmarek, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246455595](https://www.inaturalist.org/observations/246455595) |
+| amanita_pantherina | © konrad-m-a-kaczmarek, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246455595](https://www.inaturalist.org/observations/246455595) |
+| amanita_pantherina | © bedazlesa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/144308085](https://www.inaturalist.org/observations/144308085) |
+| amanita_pantherina | © bedazlesa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/144308085](https://www.inaturalist.org/observations/144308085) |
+| amanita_pantherina | © bedazlesa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/144308085](https://www.inaturalist.org/observations/144308085) |
+| amanita_pantherina | © zorille, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/136671640](https://www.inaturalist.org/observations/136671640) |
+| amanita_pantherina | © zorille, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/136671640](https://www.inaturalist.org/observations/136671640) |
+| amanita_pantherina | © zorille, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/136671640](https://www.inaturalist.org/observations/136671640) |
+| amanita_pantherina | © Polynár János, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316593720](https://www.inaturalist.org/observations/316593720) |
+| amanita_pantherina | © Polynár János, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316593720](https://www.inaturalist.org/observations/316593720) |
+| amanita_pantherina | © Polynár János, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316593720](https://www.inaturalist.org/observations/316593720) |
+| amanita_pantherina | © jianchengsu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398245856](https://www.inaturalist.org/observations/398245856) |
+| amanita_pantherina | © jianchengsu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398245856](https://www.inaturalist.org/observations/398245856) |
+| amanita_pantherina | © jianchengsu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398245856](https://www.inaturalist.org/observations/398245856) |
+| amanita_pantherina | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/12023321](https://www.inaturalist.org/observations/12023321) |
+| amanita_pantherina | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/12023321](https://www.inaturalist.org/observations/12023321) |
+| amanita_pantherina | © Damon Tighe, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/12023321](https://www.inaturalist.org/observations/12023321) |
+| amanita_pantherina | © Heiko Weber, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/397880161](https://www.inaturalist.org/observations/397880161) |
+| amanita_pantherina | © Heiko Weber, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/397880161](https://www.inaturalist.org/observations/397880161) |
+| amanita_pantherina | © Heiko Weber, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/397880161](https://www.inaturalist.org/observations/397880161) |
+| amanita_pantherina | © Heiko Weber, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/397880161](https://www.inaturalist.org/observations/397880161) |
+| amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251578521](https://www.inaturalist.org/observations/251578521) |
+| amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251578521](https://www.inaturalist.org/observations/251578521) |
+| amanita_pantherina | © Xavier HURIEZ, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/251578521](https://www.inaturalist.org/observations/251578521) |
+| amanita_pantherina | © pseudotropheus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/302862803](https://www.inaturalist.org/observations/302862803) |
+| amanita_pantherina | © pseudotropheus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/302862803](https://www.inaturalist.org/observations/302862803) |
+| amanita_pantherina | © pseudotropheus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/302862803](https://www.inaturalist.org/observations/302862803) |
+| amanita_pantherina | © Rafael Indermühle, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98903823](https://www.inaturalist.org/observations/98903823) |
+| amanita_pantherina | © Rafael Indermühle, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98903823](https://www.inaturalist.org/observations/98903823) |
+| amanita_pantherina | © Rafael Indermühle, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98903823](https://www.inaturalist.org/observations/98903823) |
+| amanita_pantherina | © Magnus Stenmark, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/321044200](https://www.inaturalist.org/observations/321044200) |
+| amanita_pantherina | © Magnus Stenmark, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/321044200](https://www.inaturalist.org/observations/321044200) |
+| amanita_pantherina | © Magnus Stenmark, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/321044200](https://www.inaturalist.org/observations/321044200) |
+| amanita_pantherina | © Magnus Stenmark, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/321044200](https://www.inaturalist.org/observations/321044200) |
+| amanita_pantherina | © lzos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/139976469](https://www.inaturalist.org/observations/139976469) |
+| amanita_pantherina | © lzos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/139976469](https://www.inaturalist.org/observations/139976469) |
+| amanita_pantherina | © julian_alonso, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/197834216](https://www.inaturalist.org/observations/197834216) |
+| amanita_pantherina | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248644172](https://www.inaturalist.org/observations/248644172) |
+| amanita_pantherina | © Jonáš Gruska, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/137456040](https://www.inaturalist.org/observations/137456040) |
 | amanita_muscaria | © Dylan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143771830](https://www.inaturalist.org/observations/143771830) |
 | amanita_muscaria | © Dylan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143771830](https://www.inaturalist.org/observations/143771830) |
 | amanita_muscaria | © Dylan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143771830](https://www.inaturalist.org/observations/143771830) |
@@ -4340,26 +4270,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_muscaria | © ecarterward, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99845509](https://www.inaturalist.org/observations/99845509) |
 | amanita_muscaria | © ecarterward, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99845509](https://www.inaturalist.org/observations/99845509) |
 | amanita_muscaria | © ecarterward, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99845509](https://www.inaturalist.org/observations/99845509) |
-| amanita_muscaria | © toddfox, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/25084680](https://www.inaturalist.org/observations/25084680) |
-| amanita_muscaria | © toddfox, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/25084680](https://www.inaturalist.org/observations/25084680) |
-| amanita_muscaria | © toddfox, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/25084680](https://www.inaturalist.org/observations/25084680) |
-| amanita_muscaria | © toddfox, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/25084680](https://www.inaturalist.org/observations/25084680) |
-| amanita_muscaria | © Noelle Mason, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/387276334](https://www.inaturalist.org/observations/387276334) |
-| amanita_muscaria | © Noelle Mason, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/387276334](https://www.inaturalist.org/observations/387276334) |
-| amanita_muscaria | © Noelle Mason, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/387276334](https://www.inaturalist.org/observations/387276334) |
-| amanita_muscaria | © Noelle Mason, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/387276334](https://www.inaturalist.org/observations/387276334) |
 | amanita_muscaria | © teddiemower, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99256761](https://www.inaturalist.org/observations/99256761) |
 | amanita_muscaria | © teddiemower, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99256761](https://www.inaturalist.org/observations/99256761) |
 | amanita_muscaria | © teddiemower, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99256761](https://www.inaturalist.org/observations/99256761) |
 | amanita_muscaria | © teddiemower, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99256761](https://www.inaturalist.org/observations/99256761) |
-| amanita_muscaria | © Andrew, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/144571126](https://www.inaturalist.org/observations/144571126) |
-| amanita_muscaria | © Andrew, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/144571126](https://www.inaturalist.org/observations/144571126) |
-| amanita_muscaria | © Andrew, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/144571126](https://www.inaturalist.org/observations/144571126) |
-| amanita_muscaria | © Andrew, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/144571126](https://www.inaturalist.org/observations/144571126) |
-| amanita_muscaria | © Aaron Echols, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/89343177](https://www.inaturalist.org/observations/89343177) |
-| amanita_muscaria | © Aaron Echols, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/89343177](https://www.inaturalist.org/observations/89343177) |
-| amanita_muscaria | © Aaron Echols, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/89343177](https://www.inaturalist.org/observations/89343177) |
-| amanita_muscaria | © Aaron Echols, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/89343177](https://www.inaturalist.org/observations/89343177) |
 | amanita_muscaria | © mycosayler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187560603](https://www.inaturalist.org/observations/187560603) |
 | amanita_muscaria | © mycosayler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187560603](https://www.inaturalist.org/observations/187560603) |
 | amanita_muscaria | © mycosayler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187560603](https://www.inaturalist.org/observations/187560603) |
@@ -4372,10 +4286,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_muscaria | © nvanella, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100975322](https://www.inaturalist.org/observations/100975322) |
 | amanita_muscaria | © nvanella, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100975322](https://www.inaturalist.org/observations/100975322) |
 | amanita_muscaria | © nvanella, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100975322](https://www.inaturalist.org/observations/100975322) |
-| amanita_muscaria | © vladimir-65, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245812253](https://www.inaturalist.org/observations/245812253) |
-| amanita_muscaria | © vladimir-65, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245812253](https://www.inaturalist.org/observations/245812253) |
-| amanita_muscaria | © vladimir-65, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245812253](https://www.inaturalist.org/observations/245812253) |
-| amanita_muscaria | © vladimir-65, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245812253](https://www.inaturalist.org/observations/245812253) |
 | amanita_muscaria | © thujauw, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/4496242](https://www.inaturalist.org/observations/4496242) |
 | amanita_muscaria | © thujauw, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/4496242](https://www.inaturalist.org/observations/4496242) |
 | amanita_muscaria | © thujauw, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/4496242](https://www.inaturalist.org/observations/4496242) |
@@ -4388,30 +4298,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_muscaria | © Alex Bodden, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/40598053](https://www.inaturalist.org/observations/40598053) |
 | amanita_muscaria | © Alex Bodden, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/40598053](https://www.inaturalist.org/observations/40598053) |
 | amanita_muscaria | © Alex Bodden, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/40598053](https://www.inaturalist.org/observations/40598053) |
-| amanita_muscaria | © Victoria Bayevskiy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98613670](https://www.inaturalist.org/observations/98613670) |
-| amanita_muscaria | © Victoria Bayevskiy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98613670](https://www.inaturalist.org/observations/98613670) |
-| amanita_muscaria | © Victoria Bayevskiy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98613670](https://www.inaturalist.org/observations/98613670) |
-| amanita_muscaria | © Victoria Bayevskiy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98613670](https://www.inaturalist.org/observations/98613670) |
-| amanita_muscaria | © Michelle Lee, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/388131872](https://www.inaturalist.org/observations/388131872) |
-| amanita_muscaria | © Michelle Lee, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/388131872](https://www.inaturalist.org/observations/388131872) |
-| amanita_muscaria | © Michelle Lee, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/388131872](https://www.inaturalist.org/observations/388131872) |
-| amanita_muscaria | © Michelle Lee, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/388131872](https://www.inaturalist.org/observations/388131872) |
 | amanita_muscaria | © sprouts-apollo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189536385](https://www.inaturalist.org/observations/189536385) |
 | amanita_muscaria | © sprouts-apollo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189536385](https://www.inaturalist.org/observations/189536385) |
 | amanita_muscaria | © sprouts-apollo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189536385](https://www.inaturalist.org/observations/189536385) |
 | amanita_muscaria | © sprouts-apollo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189536385](https://www.inaturalist.org/observations/189536385) |
-| amanita_muscaria | © devinb1126, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99161382](https://www.inaturalist.org/observations/99161382) |
-| amanita_muscaria | © devinb1126, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99161382](https://www.inaturalist.org/observations/99161382) |
-| amanita_muscaria | © devinb1126, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99161382](https://www.inaturalist.org/observations/99161382) |
-| amanita_muscaria | © devinb1126, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/99161382](https://www.inaturalist.org/observations/99161382) |
-| amanita_muscaria | © Kyle Canan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/70399319](https://www.inaturalist.org/observations/70399319) |
-| amanita_muscaria | © Kyle Canan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/70399319](https://www.inaturalist.org/observations/70399319) |
-| amanita_muscaria | © Kyle Canan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/70399319](https://www.inaturalist.org/observations/70399319) |
-| amanita_muscaria | © Kyle Canan, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/70399319](https://www.inaturalist.org/observations/70399319) |
-| amanita_muscaria | © blueit, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191751590](https://www.inaturalist.org/observations/191751590) |
-| amanita_muscaria | © blueit, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191751590](https://www.inaturalist.org/observations/191751590) |
-| amanita_muscaria | © blueit, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191751590](https://www.inaturalist.org/observations/191751590) |
-| amanita_muscaria | © blueit, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191751590](https://www.inaturalist.org/observations/191751590) |
 | amanita_muscaria | © Jade de Bie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189677439](https://www.inaturalist.org/observations/189677439) |
 | amanita_muscaria | © Jade de Bie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189677439](https://www.inaturalist.org/observations/189677439) |
 | amanita_muscaria | © Jade de Bie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189677439](https://www.inaturalist.org/observations/189677439) |
@@ -4424,10 +4314,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_muscaria | © Serguei Ponomarenko, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97515413](https://www.inaturalist.org/observations/97515413) |
 | amanita_muscaria | © Serguei Ponomarenko, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97515413](https://www.inaturalist.org/observations/97515413) |
 | amanita_muscaria | © Serguei Ponomarenko, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97515413](https://www.inaturalist.org/observations/97515413) |
-| amanita_muscaria | © Stanton, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/330358290](https://www.inaturalist.org/observations/330358290) |
-| amanita_muscaria | © Stanton, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/330358290](https://www.inaturalist.org/observations/330358290) |
-| amanita_muscaria | © Stanton, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/330358290](https://www.inaturalist.org/observations/330358290) |
-| amanita_muscaria | © Stanton, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/330358290](https://www.inaturalist.org/observations/330358290) |
 | amanita_muscaria | © ninepearlfangs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/207989731](https://www.inaturalist.org/observations/207989731) |
 | amanita_muscaria | © ninepearlfangs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/207989731](https://www.inaturalist.org/observations/207989731) |
 | amanita_muscaria | © ninepearlfangs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/207989731](https://www.inaturalist.org/observations/207989731) |
@@ -4435,6 +4321,46 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_muscaria | © Umut Nuri Erdoğan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/196273245](https://www.inaturalist.org/observations/196273245) |
 | amanita_muscaria | © Umut Nuri Erdoğan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/196273245](https://www.inaturalist.org/observations/196273245) |
 | amanita_muscaria | © Umut Nuri Erdoğan, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/196273245](https://www.inaturalist.org/observations/196273245) |
+| amanita_muscaria | © jacobi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63998588](https://www.inaturalist.org/observations/63998588) |
+| amanita_muscaria | © jacobi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63998588](https://www.inaturalist.org/observations/63998588) |
+| amanita_muscaria | © jacobi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63998588](https://www.inaturalist.org/observations/63998588) |
+| amanita_muscaria | © Yulia Kozina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100344164](https://www.inaturalist.org/observations/100344164) |
+| amanita_muscaria | © Yulia Kozina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100344164](https://www.inaturalist.org/observations/100344164) |
+| amanita_muscaria | © Yulia Kozina, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100344164](https://www.inaturalist.org/observations/100344164) |
+| amanita_muscaria | © mfs3168, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/34989574](https://www.inaturalist.org/observations/34989574) |
+| amanita_muscaria | © mfs3168, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/34989574](https://www.inaturalist.org/observations/34989574) |
+| amanita_muscaria | © mfs3168, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/34989574](https://www.inaturalist.org/observations/34989574) |
+| amanita_muscaria | © rondelson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/184340187](https://www.inaturalist.org/observations/184340187) |
+| amanita_muscaria | © rondelson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/184340187](https://www.inaturalist.org/observations/184340187) |
+| amanita_muscaria | © rondelson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/184340187](https://www.inaturalist.org/observations/184340187) |
+| amanita_muscaria | © yasmeene, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187795200](https://www.inaturalist.org/observations/187795200) |
+| amanita_muscaria | © yasmeene, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187795200](https://www.inaturalist.org/observations/187795200) |
+| amanita_muscaria | © yasmeene, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187795200](https://www.inaturalist.org/observations/187795200) |
+| amanita_muscaria | © Ezequiel Trujillo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191556721](https://www.inaturalist.org/observations/191556721) |
+| amanita_muscaria | © Ezequiel Trujillo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191556721](https://www.inaturalist.org/observations/191556721) |
+| amanita_muscaria | © Ezequiel Trujillo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191556721](https://www.inaturalist.org/observations/191556721) |
+| amanita_muscaria | © rondelson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180513850](https://www.inaturalist.org/observations/180513850) |
+| amanita_muscaria | © rondelson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180513850](https://www.inaturalist.org/observations/180513850) |
+| amanita_muscaria | © rondelson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180513850](https://www.inaturalist.org/observations/180513850) |
+| amanita_muscaria | © boletejones, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/63072943](https://www.inaturalist.org/observations/63072943) |
+| amanita_muscaria | © boletejones, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/63072943](https://www.inaturalist.org/observations/63072943) |
+| amanita_muscaria | © boletejones, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/63072943](https://www.inaturalist.org/observations/63072943) |
+| amanita_muscaria | © Drew T Henderson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141402080](https://www.inaturalist.org/observations/141402080) |
+| amanita_muscaria | © Drew T Henderson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141402080](https://www.inaturalist.org/observations/141402080) |
+| amanita_muscaria | © Drew T Henderson, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141402080](https://www.inaturalist.org/observations/141402080) |
+| amanita_muscaria | © Christian Grenier, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103471837](https://www.inaturalist.org/observations/103471837) |
+| amanita_muscaria | © Christian Grenier, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103471837](https://www.inaturalist.org/observations/103471837) |
+| amanita_muscaria | © Christian Grenier, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103471837](https://www.inaturalist.org/observations/103471837) |
+| amanita_muscaria | © Christian Grenier, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103471837](https://www.inaturalist.org/observations/103471837) |
+| amanita_muscaria | © ALESSANDRO LICCIARDELLO, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/147027553](https://www.inaturalist.org/observations/147027553) |
+| amanita_muscaria | © ALESSANDRO LICCIARDELLO, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/147027553](https://www.inaturalist.org/observations/147027553) |
+| amanita_muscaria | © ALESSANDRO LICCIARDELLO, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/147027553](https://www.inaturalist.org/observations/147027553) |
+| amanita_muscaria | © Aimee Lusty, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/16010899](https://www.inaturalist.org/observations/16010899) |
+| amanita_muscaria | © Aimee Lusty, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/16010899](https://www.inaturalist.org/observations/16010899) |
+| amanita_muscaria | © Aimee Lusty, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/16010899](https://www.inaturalist.org/observations/16010899) |
+| amanita_muscaria | Sean B, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/241830133](https://www.inaturalist.org/observations/241830133) |
+| amanita_muscaria | Sean B, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/241830133](https://www.inaturalist.org/observations/241830133) |
+| amanita_muscaria | Sean B, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/241830133](https://www.inaturalist.org/observations/241830133) |
 | agaricus_xanthodermus | © luminousrussula, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/8623089](https://www.inaturalist.org/observations/8623089) |
 | agaricus_xanthodermus | © luminousrussula, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/8623089](https://www.inaturalist.org/observations/8623089) |
 | agaricus_xanthodermus | © luminousrussula, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/8623089](https://www.inaturalist.org/observations/8623089) |
@@ -4443,10 +4369,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agaricus_xanthodermus | © Виктория Билоус, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/56332484](https://www.inaturalist.org/observations/56332484) |
 | agaricus_xanthodermus | © Виктория Билоус, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/56332484](https://www.inaturalist.org/observations/56332484) |
 | agaricus_xanthodermus | © Виктория Билоус, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/56332484](https://www.inaturalist.org/observations/56332484) |
-| agaricus_xanthodermus | © adam_p793, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/172581228](https://www.inaturalist.org/observations/172581228) |
-| agaricus_xanthodermus | © adam_p793, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/172581228](https://www.inaturalist.org/observations/172581228) |
-| agaricus_xanthodermus | © adam_p793, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/172581228](https://www.inaturalist.org/observations/172581228) |
-| agaricus_xanthodermus | © adam_p793, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/172581228](https://www.inaturalist.org/observations/172581228) |
 | agaricus_xanthodermus | © bleecr01, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/293911431](https://www.inaturalist.org/observations/293911431) |
 | agaricus_xanthodermus | © bleecr01, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/293911431](https://www.inaturalist.org/observations/293911431) |
 | agaricus_xanthodermus | © bleecr01, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/293911431](https://www.inaturalist.org/observations/293911431) |
@@ -4455,18 +4377,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agaricus_xanthodermus | © lizsdvm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143474297](https://www.inaturalist.org/observations/143474297) |
 | agaricus_xanthodermus | © lizsdvm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143474297](https://www.inaturalist.org/observations/143474297) |
 | agaricus_xanthodermus | © lizsdvm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143474297](https://www.inaturalist.org/observations/143474297) |
-| agaricus_xanthodermus | © LJ Moore-McClelland, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/19035224](https://www.inaturalist.org/observations/19035224) |
-| agaricus_xanthodermus | © LJ Moore-McClelland, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/19035224](https://www.inaturalist.org/observations/19035224) |
-| agaricus_xanthodermus | © LJ Moore-McClelland, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/19035224](https://www.inaturalist.org/observations/19035224) |
-| agaricus_xanthodermus | © LJ Moore-McClelland, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/19035224](https://www.inaturalist.org/observations/19035224) |
-| agaricus_xanthodermus | © Виктория Билоус, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/56718932](https://www.inaturalist.org/observations/56718932) |
-| agaricus_xanthodermus | © Виктория Билоус, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/56718932](https://www.inaturalist.org/observations/56718932) |
-| agaricus_xanthodermus | © Виктория Билоус, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/56718932](https://www.inaturalist.org/observations/56718932) |
-| agaricus_xanthodermus | © Виктория Билоус, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/56718932](https://www.inaturalist.org/observations/56718932) |
-| agaricus_xanthodermus | © Alistair Smith, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/118113879](https://www.inaturalist.org/observations/118113879) |
-| agaricus_xanthodermus | © Alistair Smith, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/118113879](https://www.inaturalist.org/observations/118113879) |
-| agaricus_xanthodermus | © Alistair Smith, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/118113879](https://www.inaturalist.org/observations/118113879) |
-| agaricus_xanthodermus | © Alistair Smith, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/118113879](https://www.inaturalist.org/observations/118113879) |
 | agaricus_xanthodermus | © skeletalbeetle, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/282212744](https://www.inaturalist.org/observations/282212744) |
 | agaricus_xanthodermus | © skeletalbeetle, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/282212744](https://www.inaturalist.org/observations/282212744) |
 | agaricus_xanthodermus | © skeletalbeetle, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/282212744](https://www.inaturalist.org/observations/282212744) |
@@ -4479,18 +4389,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agaricus_xanthodermus | © Jennifer Chandler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/194076059](https://www.inaturalist.org/observations/194076059) |
 | agaricus_xanthodermus | © Jennifer Chandler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/194076059](https://www.inaturalist.org/observations/194076059) |
 | agaricus_xanthodermus | © Jennifer Chandler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/194076059](https://www.inaturalist.org/observations/194076059) |
-| agaricus_xanthodermus | © Ken Harris EntSocVic, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/75526167](https://www.inaturalist.org/observations/75526167) |
-| agaricus_xanthodermus | © Ken Harris EntSocVic, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/75526167](https://www.inaturalist.org/observations/75526167) |
-| agaricus_xanthodermus | © Ken Harris EntSocVic, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/75526167](https://www.inaturalist.org/observations/75526167) |
-| agaricus_xanthodermus | © Ken Harris EntSocVic, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/75526167](https://www.inaturalist.org/observations/75526167) |
-| agaricus_xanthodermus | © Andrew Thornhill, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/45324816](https://www.inaturalist.org/observations/45324816) |
-| agaricus_xanthodermus | © Andrew Thornhill, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/45324816](https://www.inaturalist.org/observations/45324816) |
-| agaricus_xanthodermus | © Andrew Thornhill, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/45324816](https://www.inaturalist.org/observations/45324816) |
-| agaricus_xanthodermus | © Andrew Thornhill, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/45324816](https://www.inaturalist.org/observations/45324816) |
-| agaricus_xanthodermus | © Carlene Cliver, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/13860587](https://www.inaturalist.org/observations/13860587) |
-| agaricus_xanthodermus | © Carlene Cliver, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/13860587](https://www.inaturalist.org/observations/13860587) |
-| agaricus_xanthodermus | © Carlene Cliver, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/13860587](https://www.inaturalist.org/observations/13860587) |
-| agaricus_xanthodermus | © Carlene Cliver, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/13860587](https://www.inaturalist.org/observations/13860587) |
 | agaricus_xanthodermus | © Jeffrey Lee (he/him/his), some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/190266517](https://www.inaturalist.org/observations/190266517) |
 | agaricus_xanthodermus | © Jeffrey Lee (he/him/his), some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/190266517](https://www.inaturalist.org/observations/190266517) |
 | agaricus_xanthodermus | © Jeffrey Lee (he/him/his), some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/190266517](https://www.inaturalist.org/observations/190266517) |
@@ -4499,34 +4397,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agaricus_xanthodermus | © Ludwig Treuter, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141837985](https://www.inaturalist.org/observations/141837985) |
 | agaricus_xanthodermus | © Ludwig Treuter, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141837985](https://www.inaturalist.org/observations/141837985) |
 | agaricus_xanthodermus | © Ludwig Treuter, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141837985](https://www.inaturalist.org/observations/141837985) |
-| agaricus_xanthodermus | © Ariel Hammond, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193906052](https://www.inaturalist.org/observations/193906052) |
-| agaricus_xanthodermus | © Ariel Hammond, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193906052](https://www.inaturalist.org/observations/193906052) |
-| agaricus_xanthodermus | © Ariel Hammond, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193906052](https://www.inaturalist.org/observations/193906052) |
-| agaricus_xanthodermus | © Ariel Hammond, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193906052](https://www.inaturalist.org/observations/193906052) |
-| agaricus_xanthodermus | © joqatana, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/195433298](https://www.inaturalist.org/observations/195433298) |
-| agaricus_xanthodermus | © joqatana, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/195433298](https://www.inaturalist.org/observations/195433298) |
-| agaricus_xanthodermus | © joqatana, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/195433298](https://www.inaturalist.org/observations/195433298) |
-| agaricus_xanthodermus | © joqatana, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/195433298](https://www.inaturalist.org/observations/195433298) |
-| agaricus_xanthodermus | © njjturner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/90842371](https://www.inaturalist.org/observations/90842371) |
-| agaricus_xanthodermus | © njjturner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/90842371](https://www.inaturalist.org/observations/90842371) |
-| agaricus_xanthodermus | © njjturner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/90842371](https://www.inaturalist.org/observations/90842371) |
-| agaricus_xanthodermus | © njjturner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/90842371](https://www.inaturalist.org/observations/90842371) |
-| agaricus_xanthodermus | © Christie Greening, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/256565835](https://www.inaturalist.org/observations/256565835) |
-| agaricus_xanthodermus | © Christie Greening, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/256565835](https://www.inaturalist.org/observations/256565835) |
-| agaricus_xanthodermus | © Christie Greening, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/256565835](https://www.inaturalist.org/observations/256565835) |
-| agaricus_xanthodermus | © Christie Greening, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/256565835](https://www.inaturalist.org/observations/256565835) |
-| agaricus_xanthodermus | © Patricia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/137616121](https://www.inaturalist.org/observations/137616121) |
-| agaricus_xanthodermus | © Patricia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/137616121](https://www.inaturalist.org/observations/137616121) |
-| agaricus_xanthodermus | © Patricia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/137616121](https://www.inaturalist.org/observations/137616121) |
-| agaricus_xanthodermus | © Patricia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/137616121](https://www.inaturalist.org/observations/137616121) |
 | agaricus_xanthodermus | © Micro Mike, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/330291026](https://www.inaturalist.org/observations/330291026) |
 | agaricus_xanthodermus | © Micro Mike, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/330291026](https://www.inaturalist.org/observations/330291026) |
 | agaricus_xanthodermus | © Micro Mike, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/330291026](https://www.inaturalist.org/observations/330291026) |
 | agaricus_xanthodermus | © Micro Mike, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/330291026](https://www.inaturalist.org/observations/330291026) |
-| agaricus_xanthodermus | © Jeremy Hegge, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/349493357](https://www.inaturalist.org/observations/349493357) |
-| agaricus_xanthodermus | © Jeremy Hegge, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/349493357](https://www.inaturalist.org/observations/349493357) |
-| agaricus_xanthodermus | © Jeremy Hegge, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/349493357](https://www.inaturalist.org/observations/349493357) |
-| agaricus_xanthodermus | © Jeremy Hegge, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/349493357](https://www.inaturalist.org/observations/349493357) |
 | agaricus_xanthodermus | © David Featherston, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248003896](https://www.inaturalist.org/observations/248003896) |
 | agaricus_xanthodermus | © David Featherston, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248003896](https://www.inaturalist.org/observations/248003896) |
 | agaricus_xanthodermus | © David Featherston, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248003896](https://www.inaturalist.org/observations/248003896) |
@@ -4535,26 +4409,65 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agaricus_xanthodermus | © helencl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/215436520](https://www.inaturalist.org/observations/215436520) |
 | agaricus_xanthodermus | © helencl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/215436520](https://www.inaturalist.org/observations/215436520) |
 | agaricus_xanthodermus | © helencl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/215436520](https://www.inaturalist.org/observations/215436520) |
-| agaricus_xanthodermus | © gracamole_1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190449705](https://www.inaturalist.org/observations/190449705) |
-| agaricus_xanthodermus | © gracamole_1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190449705](https://www.inaturalist.org/observations/190449705) |
-| agaricus_xanthodermus | © gracamole_1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190449705](https://www.inaturalist.org/observations/190449705) |
-| agaricus_xanthodermus | © gracamole_1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/190449705](https://www.inaturalist.org/observations/190449705) |
-| agaricus_xanthodermus | © Catherine Creech, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98735193](https://www.inaturalist.org/observations/98735193) |
-| agaricus_xanthodermus | © Catherine Creech, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98735193](https://www.inaturalist.org/observations/98735193) |
-| agaricus_xanthodermus | © Catherine Creech, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98735193](https://www.inaturalist.org/observations/98735193) |
-| agaricus_xanthodermus | © Catherine Creech, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98735193](https://www.inaturalist.org/observations/98735193) |
 | agaricus_xanthodermus | © jennii07, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143324038](https://www.inaturalist.org/observations/143324038) |
 | agaricus_xanthodermus | © jennii07, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143324038](https://www.inaturalist.org/observations/143324038) |
 | agaricus_xanthodermus | © jennii07, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143324038](https://www.inaturalist.org/observations/143324038) |
 | agaricus_xanthodermus | © jennii07, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143324038](https://www.inaturalist.org/observations/143324038) |
-| agaricus_xanthodermus | © Dominick Salcido, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138219986](https://www.inaturalist.org/observations/138219986) |
-| agaricus_xanthodermus | © Dominick Salcido, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138219986](https://www.inaturalist.org/observations/138219986) |
-| agaricus_xanthodermus | © Dominick Salcido, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138219986](https://www.inaturalist.org/observations/138219986) |
-| agaricus_xanthodermus | © Dominick Salcido, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138219986](https://www.inaturalist.org/observations/138219986) |
-| agaricus_xanthodermus | © meadowsisaac, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63497410](https://www.inaturalist.org/observations/63497410) |
-| agaricus_xanthodermus | © meadowsisaac, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63497410](https://www.inaturalist.org/observations/63497410) |
-| agaricus_xanthodermus | © meadowsisaac, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63497410](https://www.inaturalist.org/observations/63497410) |
-| agaricus_xanthodermus | © meadowsisaac, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63497410](https://www.inaturalist.org/observations/63497410) |
+| agaricus_xanthodermus | David Pirkle, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/25886123](https://www.inaturalist.org/observations/25886123) |
+| agaricus_xanthodermus | David Pirkle, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/25886123](https://www.inaturalist.org/observations/25886123) |
+| agaricus_xanthodermus | David Pirkle, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/25886123](https://www.inaturalist.org/observations/25886123) |
+| agaricus_xanthodermus | © huafang, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/111678719](https://www.inaturalist.org/observations/111678719) |
+| agaricus_xanthodermus | © huafang, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/111678719](https://www.inaturalist.org/observations/111678719) |
+| agaricus_xanthodermus | © huafang, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/111678719](https://www.inaturalist.org/observations/111678719) |
+| agaricus_xanthodermus | © LJ Moore-McClelland, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/11295358](https://www.inaturalist.org/observations/11295358) |
+| agaricus_xanthodermus | © LJ Moore-McClelland, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/11295358](https://www.inaturalist.org/observations/11295358) |
+| agaricus_xanthodermus | © LJ Moore-McClelland, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/11295358](https://www.inaturalist.org/observations/11295358) |
+| agaricus_xanthodermus | © LJ Moore-McClelland, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/11295358](https://www.inaturalist.org/observations/11295358) |
+| agaricus_xanthodermus | © Andrea Kreuzhage, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/183324766](https://www.inaturalist.org/observations/183324766) |
+| agaricus_xanthodermus | © Andrea Kreuzhage, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/183324766](https://www.inaturalist.org/observations/183324766) |
+| agaricus_xanthodermus | © Andrea Kreuzhage, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/183324766](https://www.inaturalist.org/observations/183324766) |
+| agaricus_xanthodermus | © stephenjaygould, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/328959036](https://www.inaturalist.org/observations/328959036) |
+| agaricus_xanthodermus | © stephenjaygould, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/328959036](https://www.inaturalist.org/observations/328959036) |
+| agaricus_xanthodermus | © stephenjaygould, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/328959036](https://www.inaturalist.org/observations/328959036) |
+| agaricus_xanthodermus | Piermario Maculan, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/141079385](https://www.inaturalist.org/observations/141079385) |
+| agaricus_xanthodermus | Piermario Maculan, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/141079385](https://www.inaturalist.org/observations/141079385) |
+| agaricus_xanthodermus | Piermario Maculan, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/141079385](https://www.inaturalist.org/observations/141079385) |
+| agaricus_xanthodermus | © Thomas Pfluger, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405546479](https://www.inaturalist.org/observations/405546479) |
+| agaricus_xanthodermus | © Thomas Pfluger, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405546479](https://www.inaturalist.org/observations/405546479) |
+| agaricus_xanthodermus | © Thomas Pfluger, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405546479](https://www.inaturalist.org/observations/405546479) |
+| agaricus_xanthodermus | © carolynmr, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/223001855](https://www.inaturalist.org/observations/223001855) |
+| agaricus_xanthodermus | © carolynmr, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/223001855](https://www.inaturalist.org/observations/223001855) |
+| agaricus_xanthodermus | © carolynmr, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/223001855](https://www.inaturalist.org/observations/223001855) |
+| agaricus_xanthodermus | © carolynmr, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/223001855](https://www.inaturalist.org/observations/223001855) |
+| agaricus_xanthodermus | © tkgoggin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/338151227](https://www.inaturalist.org/observations/338151227) |
+| agaricus_xanthodermus | © tkgoggin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/338151227](https://www.inaturalist.org/observations/338151227) |
+| agaricus_xanthodermus | © tkgoggin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/338151227](https://www.inaturalist.org/observations/338151227) |
+| agaricus_xanthodermus | © tkgoggin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/338151227](https://www.inaturalist.org/observations/338151227) |
+| agaricus_xanthodermus | © stanley8m, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/116913622](https://www.inaturalist.org/observations/116913622) |
+| agaricus_xanthodermus | © stanley8m, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/116913622](https://www.inaturalist.org/observations/116913622) |
+| agaricus_xanthodermus | © stanley8m, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/116913622](https://www.inaturalist.org/observations/116913622) |
+| agaricus_xanthodermus | © George Burkhard, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/197492233](https://www.inaturalist.org/observations/197492233) |
+| agaricus_xanthodermus | © George Burkhard, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/197492233](https://www.inaturalist.org/observations/197492233) |
+| agaricus_xanthodermus | © George Burkhard, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/197492233](https://www.inaturalist.org/observations/197492233) |
+| agaricus_xanthodermus | © scoutingfrog, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324956689](https://www.inaturalist.org/observations/324956689) |
+| agaricus_xanthodermus | © scoutingfrog, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324956689](https://www.inaturalist.org/observations/324956689) |
+| agaricus_xanthodermus | © scoutingfrog, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324956689](https://www.inaturalist.org/observations/324956689) |
+| agaricus_xanthodermus | © Humboldt Fungu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/68429637](https://www.inaturalist.org/observations/68429637) |
+| agaricus_xanthodermus | © Humboldt Fungu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/68429637](https://www.inaturalist.org/observations/68429637) |
+| agaricus_xanthodermus | © Humboldt Fungu, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/68429637](https://www.inaturalist.org/observations/68429637) |
+| agaricus_xanthodermus | © lenaquist, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/136941711](https://www.inaturalist.org/observations/136941711) |
+| agaricus_xanthodermus | © lenaquist, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/136941711](https://www.inaturalist.org/observations/136941711) |
+| agaricus_xanthodermus | © lenaquist, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/136941711](https://www.inaturalist.org/observations/136941711) |
+| agaricus_xanthodermus | © Michel Langeveld, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/249677832](https://www.inaturalist.org/observations/249677832) |
+| agaricus_xanthodermus | © Michel Langeveld, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/249677832](https://www.inaturalist.org/observations/249677832) |
+| agaricus_xanthodermus | © Michel Langeveld, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/249677832](https://www.inaturalist.org/observations/249677832) |
+| agaricus_xanthodermus | © Simon, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189887022](https://www.inaturalist.org/observations/189887022) |
+| agaricus_xanthodermus | © Simon, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189887022](https://www.inaturalist.org/observations/189887022) |
+| agaricus_xanthodermus | © Simon, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189887022](https://www.inaturalist.org/observations/189887022) |
+| agaricus_xanthodermus | © Adam Bryant, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/15863628](https://www.inaturalist.org/observations/15863628) |
+| agaricus_xanthodermus | © Adam Bryant, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/15863628](https://www.inaturalist.org/observations/15863628) |
+| agaricus_xanthodermus | © Adam Bryant, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/15863628](https://www.inaturalist.org/observations/15863628) |
+| agaricus_xanthodermus | © Adam Bryant, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/15863628](https://www.inaturalist.org/observations/15863628) |
 | omphalotus_olearius | © David Pereira, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/248641362](https://www.inaturalist.org/observations/248641362) |
 | omphalotus_olearius | © David Pereira, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/248641362](https://www.inaturalist.org/observations/248641362) |
 | omphalotus_olearius | © David Pereira, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/248641362](https://www.inaturalist.org/observations/248641362) |
@@ -5331,34 +5244,14 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | tylopilus_felleus | © adam_waligora, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/32884008](https://www.inaturalist.org/observations/32884008) |
 | tylopilus_felleus | © adam_waligora, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/32884008](https://www.inaturalist.org/observations/32884008) |
 | tylopilus_felleus | © adam_waligora, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/32884008](https://www.inaturalist.org/observations/32884008) |
-| amanita_ovoidea | © MAR (Miguel A. Ribes), some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189046141](https://www.inaturalist.org/observations/189046141) |
-| amanita_ovoidea | © MAR (Miguel A. Ribes), some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189046141](https://www.inaturalist.org/observations/189046141) |
-| amanita_ovoidea | © MAR (Miguel A. Ribes), some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189046141](https://www.inaturalist.org/observations/189046141) |
-| amanita_ovoidea | © MAR (Miguel A. Ribes), some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189046141](https://www.inaturalist.org/observations/189046141) |
 | amanita_ovoidea | © Giorgos Nikolakakis, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103158681](https://www.inaturalist.org/observations/103158681) |
 | amanita_ovoidea | © Giorgos Nikolakakis, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103158681](https://www.inaturalist.org/observations/103158681) |
 | amanita_ovoidea | © Giorgos Nikolakakis, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103158681](https://www.inaturalist.org/observations/103158681) |
 | amanita_ovoidea | © Giorgos Nikolakakis, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103158681](https://www.inaturalist.org/observations/103158681) |
-| amanita_ovoidea | © Schmidt Dávid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250337533](https://www.inaturalist.org/observations/250337533) |
-| amanita_ovoidea | © Schmidt Dávid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250337533](https://www.inaturalist.org/observations/250337533) |
-| amanita_ovoidea | © Schmidt Dávid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250337533](https://www.inaturalist.org/observations/250337533) |
-| amanita_ovoidea | © Schmidt Dávid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250337533](https://www.inaturalist.org/observations/250337533) |
 | amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/108229782](https://www.inaturalist.org/observations/108229782) |
 | amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/108229782](https://www.inaturalist.org/observations/108229782) |
 | amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/108229782](https://www.inaturalist.org/observations/108229782) |
 | amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/108229782](https://www.inaturalist.org/observations/108229782) |
-| amanita_ovoidea | © Valentine warnet, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138708228](https://www.inaturalist.org/observations/138708228) |
-| amanita_ovoidea | © Valentine warnet, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138708228](https://www.inaturalist.org/observations/138708228) |
-| amanita_ovoidea | © Valentine warnet, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138708228](https://www.inaturalist.org/observations/138708228) |
-| amanita_ovoidea | © Valentine warnet, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/138708228](https://www.inaturalist.org/observations/138708228) |
-| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69809428](https://www.inaturalist.org/observations/69809428) |
-| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69809428](https://www.inaturalist.org/observations/69809428) |
-| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69809428](https://www.inaturalist.org/observations/69809428) |
-| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69809428](https://www.inaturalist.org/observations/69809428) |
-| amanita_ovoidea | © Cándido Sos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325703764](https://www.inaturalist.org/observations/325703764) |
-| amanita_ovoidea | © Cándido Sos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325703764](https://www.inaturalist.org/observations/325703764) |
-| amanita_ovoidea | © Cándido Sos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325703764](https://www.inaturalist.org/observations/325703764) |
-| amanita_ovoidea | © Cándido Sos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325703764](https://www.inaturalist.org/observations/325703764) |
 | amanita_ovoidea | © Christian Apschner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/181216610](https://www.inaturalist.org/observations/181216610) |
 | amanita_ovoidea | © Christian Apschner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/181216610](https://www.inaturalist.org/observations/181216610) |
 | amanita_ovoidea | © Christian Apschner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/181216610](https://www.inaturalist.org/observations/181216610) |
@@ -5367,93 +5260,93 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_ovoidea | © Javier Marcos Martínez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/394902116](https://www.inaturalist.org/observations/394902116) |
 | amanita_ovoidea | © Javier Marcos Martínez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/394902116](https://www.inaturalist.org/observations/394902116) |
 | amanita_ovoidea | © Javier Marcos Martínez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/394902116](https://www.inaturalist.org/observations/394902116) |
-| amanita_ovoidea | © fabienne niebler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189692255](https://www.inaturalist.org/observations/189692255) |
-| amanita_ovoidea | © fabienne niebler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189692255](https://www.inaturalist.org/observations/189692255) |
-| amanita_ovoidea | © fabienne niebler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189692255](https://www.inaturalist.org/observations/189692255) |
-| amanita_ovoidea | © fabienne niebler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189692255](https://www.inaturalist.org/observations/189692255) |
 | amanita_ovoidea | © lorenzomencherini, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191672420](https://www.inaturalist.org/observations/191672420) |
 | amanita_ovoidea | © lorenzomencherini, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191672420](https://www.inaturalist.org/observations/191672420) |
 | amanita_ovoidea | © lorenzomencherini, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191672420](https://www.inaturalist.org/observations/191672420) |
 | amanita_ovoidea | © lorenzomencherini, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191672420](https://www.inaturalist.org/observations/191672420) |
-| amanita_ovoidea | © arkim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/101830340](https://www.inaturalist.org/observations/101830340) |
-| amanita_ovoidea | © arkim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/101830340](https://www.inaturalist.org/observations/101830340) |
-| amanita_ovoidea | © arkim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/101830340](https://www.inaturalist.org/observations/101830340) |
-| amanita_ovoidea | © arkim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/101830340](https://www.inaturalist.org/observations/101830340) |
-| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69786238](https://www.inaturalist.org/observations/69786238) |
-| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69786238](https://www.inaturalist.org/observations/69786238) |
-| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69786238](https://www.inaturalist.org/observations/69786238) |
-| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69786238](https://www.inaturalist.org/observations/69786238) |
 | amanita_ovoidea | © colineminhy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/148636456](https://www.inaturalist.org/observations/148636456) |
 | amanita_ovoidea | © colineminhy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/148636456](https://www.inaturalist.org/observations/148636456) |
 | amanita_ovoidea | © colineminhy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/148636456](https://www.inaturalist.org/observations/148636456) |
 | amanita_ovoidea | © colineminhy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/148636456](https://www.inaturalist.org/observations/148636456) |
-| amanita_ovoidea | © Dominique, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140561155](https://www.inaturalist.org/observations/140561155) |
-| amanita_ovoidea | © Dominique, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140561155](https://www.inaturalist.org/observations/140561155) |
-| amanita_ovoidea | © Dominique, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140561155](https://www.inaturalist.org/observations/140561155) |
-| amanita_ovoidea | © Dominique, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/140561155](https://www.inaturalist.org/observations/140561155) |
 | amanita_ovoidea | © panyquesitos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64506070](https://www.inaturalist.org/observations/64506070) |
 | amanita_ovoidea | © panyquesitos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64506070](https://www.inaturalist.org/observations/64506070) |
 | amanita_ovoidea | © panyquesitos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64506070](https://www.inaturalist.org/observations/64506070) |
 | amanita_ovoidea | © panyquesitos, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64506070](https://www.inaturalist.org/observations/64506070) |
-| amanita_ovoidea | © stoned_microscopy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246065035](https://www.inaturalist.org/observations/246065035) |
-| amanita_ovoidea | © stoned_microscopy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246065035](https://www.inaturalist.org/observations/246065035) |
-| amanita_ovoidea | © stoned_microscopy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246065035](https://www.inaturalist.org/observations/246065035) |
-| amanita_ovoidea | © stoned_microscopy, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246065035](https://www.inaturalist.org/observations/246065035) |
-| amanita_ovoidea | © Sébastien Amiel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245385701](https://www.inaturalist.org/observations/245385701) |
-| amanita_ovoidea | © Sébastien Amiel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245385701](https://www.inaturalist.org/observations/245385701) |
-| amanita_ovoidea | © Sébastien Amiel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245385701](https://www.inaturalist.org/observations/245385701) |
-| amanita_ovoidea | © Sébastien Amiel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245385701](https://www.inaturalist.org/observations/245385701) |
-| amanita_ovoidea | © bscrl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100403907](https://www.inaturalist.org/observations/100403907) |
-| amanita_ovoidea | © bscrl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100403907](https://www.inaturalist.org/observations/100403907) |
-| amanita_ovoidea | © bscrl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100403907](https://www.inaturalist.org/observations/100403907) |
-| amanita_ovoidea | © bscrl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100403907](https://www.inaturalist.org/observations/100403907) |
-| amanita_ovoidea | © José Vicente Ferrández, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245560130](https://www.inaturalist.org/observations/245560130) |
-| amanita_ovoidea | © José Vicente Ferrández, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245560130](https://www.inaturalist.org/observations/245560130) |
-| amanita_ovoidea | © José Vicente Ferrández, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245560130](https://www.inaturalist.org/observations/245560130) |
-| amanita_ovoidea | © José Vicente Ferrández, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245560130](https://www.inaturalist.org/observations/245560130) |
-| amanita_ovoidea | © elenakuraeva, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/145489854](https://www.inaturalist.org/observations/145489854) |
-| amanita_ovoidea | © elenakuraeva, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/145489854](https://www.inaturalist.org/observations/145489854) |
-| amanita_ovoidea | © elenakuraeva, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/145489854](https://www.inaturalist.org/observations/145489854) |
-| amanita_ovoidea | © elenakuraeva, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/145489854](https://www.inaturalist.org/observations/145489854) |
-| amanita_ovoidea | © Manuela Fiorini, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/315883804](https://www.inaturalist.org/observations/315883804) |
-| amanita_ovoidea | © Manuela Fiorini, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/315883804](https://www.inaturalist.org/observations/315883804) |
-| amanita_ovoidea | © Manuela Fiorini, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/315883804](https://www.inaturalist.org/observations/315883804) |
-| amanita_ovoidea | © Manuela Fiorini, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/315883804](https://www.inaturalist.org/observations/315883804) |
-| amanita_ovoidea | © Tal Koch, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143559489](https://www.inaturalist.org/observations/143559489) |
-| amanita_ovoidea | © Tal Koch, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143559489](https://www.inaturalist.org/observations/143559489) |
-| amanita_ovoidea | © Tal Koch, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143559489](https://www.inaturalist.org/observations/143559489) |
-| amanita_ovoidea | © Tal Koch, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143559489](https://www.inaturalist.org/observations/143559489) |
-| amanita_ovoidea | © piero, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316239612](https://www.inaturalist.org/observations/316239612) |
-| amanita_ovoidea | © piero, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316239612](https://www.inaturalist.org/observations/316239612) |
-| amanita_ovoidea | © piero, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316239612](https://www.inaturalist.org/observations/316239612) |
-| amanita_ovoidea | © piero, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316239612](https://www.inaturalist.org/observations/316239612) |
 | amanita_ovoidea | © jesplat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317567434](https://www.inaturalist.org/observations/317567434) |
 | amanita_ovoidea | © jesplat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317567434](https://www.inaturalist.org/observations/317567434) |
 | amanita_ovoidea | © jesplat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317567434](https://www.inaturalist.org/observations/317567434) |
 | amanita_ovoidea | © jesplat, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317567434](https://www.inaturalist.org/observations/317567434) |
-| amanita_ovoidea | © Jose-Antonio Ortiz-Marzo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100349835](https://www.inaturalist.org/observations/100349835) |
-| amanita_ovoidea | © Jose-Antonio Ortiz-Marzo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100349835](https://www.inaturalist.org/observations/100349835) |
-| amanita_ovoidea | © Jose-Antonio Ortiz-Marzo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100349835](https://www.inaturalist.org/observations/100349835) |
-| amanita_ovoidea | © manonp02, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249188291](https://www.inaturalist.org/observations/249188291) |
-| amanita_ovoidea | © manonp02, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249188291](https://www.inaturalist.org/observations/249188291) |
-| amanita_ovoidea | © manonp02, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249188291](https://www.inaturalist.org/observations/249188291) |
-| amanita_ovoidea | © anaferles, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193398126](https://www.inaturalist.org/observations/193398126) |
-| amanita_ovoidea | © anaferles, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193398126](https://www.inaturalist.org/observations/193398126) |
-| amanita_ovoidea | © anaferles, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/193398126](https://www.inaturalist.org/observations/193398126) |
 | amanita_ovoidea | © Víctor Huete Pelaez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/242478116](https://www.inaturalist.org/observations/242478116) |
 | amanita_ovoidea | © Víctor Huete Pelaez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/242478116](https://www.inaturalist.org/observations/242478116) |
 | amanita_ovoidea | © Víctor Huete Pelaez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/242478116](https://www.inaturalist.org/observations/242478116) |
-| amanita_ovoidea | © soniacrespi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187500087](https://www.inaturalist.org/observations/187500087) |
-| amanita_ovoidea | © soniacrespi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187500087](https://www.inaturalist.org/observations/187500087) |
-| amanita_ovoidea | © soniacrespi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/187500087](https://www.inaturalist.org/observations/187500087) |
+| amanita_ovoidea | © xephobia (Xephobia), some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/318166317](https://www.inaturalist.org/observations/318166317) |
+| amanita_ovoidea | © xephobia (Xephobia), some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/318166317](https://www.inaturalist.org/observations/318166317) |
+| amanita_ovoidea | © xephobia (Xephobia), some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/318166317](https://www.inaturalist.org/observations/318166317) |
+| amanita_ovoidea | © Adrià Mercader, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326596199](https://www.inaturalist.org/observations/326596199) |
+| amanita_ovoidea | © Adrià Mercader, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326596199](https://www.inaturalist.org/observations/326596199) |
+| amanita_ovoidea | © Adrià Mercader, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/326596199](https://www.inaturalist.org/observations/326596199) |
+| amanita_ovoidea | © jltasset, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322026030](https://www.inaturalist.org/observations/322026030) |
+| amanita_ovoidea | © jltasset, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322026030](https://www.inaturalist.org/observations/322026030) |
+| amanita_ovoidea | © jltasset, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322026030](https://www.inaturalist.org/observations/322026030) |
+| amanita_ovoidea | © Lucian Clanet, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/329076323](https://www.inaturalist.org/observations/329076323) |
+| amanita_ovoidea | © Lucian Clanet, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/329076323](https://www.inaturalist.org/observations/329076323) |
+| amanita_ovoidea | © Lucian Clanet, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/329076323](https://www.inaturalist.org/observations/329076323) |
+| amanita_ovoidea | © Marco Gasponi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245247345](https://www.inaturalist.org/observations/245247345) |
+| amanita_ovoidea | © Marco Gasponi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245247345](https://www.inaturalist.org/observations/245247345) |
+| amanita_ovoidea | © Marco Gasponi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245247345](https://www.inaturalist.org/observations/245247345) |
+| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69786249](https://www.inaturalist.org/observations/69786249) |
+| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69786249](https://www.inaturalist.org/observations/69786249) |
+| amanita_ovoidea | © Сергей, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/69786249](https://www.inaturalist.org/observations/69786249) |
+| amanita_ovoidea | © Carlos Henrique Batista da Costa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143522427](https://www.inaturalist.org/observations/143522427) |
+| amanita_ovoidea | © Carlos Henrique Batista da Costa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143522427](https://www.inaturalist.org/observations/143522427) |
+| amanita_ovoidea | © Carlos Henrique Batista da Costa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/143522427](https://www.inaturalist.org/observations/143522427) |
+| amanita_ovoidea | © rcaccia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191765647](https://www.inaturalist.org/observations/191765647) |
+| amanita_ovoidea | © rcaccia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191765647](https://www.inaturalist.org/observations/191765647) |
+| amanita_ovoidea | © rcaccia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191765647](https://www.inaturalist.org/observations/191765647) |
+| amanita_ovoidea | © Miguel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245376116](https://www.inaturalist.org/observations/245376116) |
+| amanita_ovoidea | © Miguel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245376116](https://www.inaturalist.org/observations/245376116) |
+| amanita_ovoidea | © Miguel, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/245376116](https://www.inaturalist.org/observations/245376116) |
+| amanita_ovoidea | © Antoine Guilbaud, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141148408](https://www.inaturalist.org/observations/141148408) |
+| amanita_ovoidea | © Antoine Guilbaud, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141148408](https://www.inaturalist.org/observations/141148408) |
+| amanita_ovoidea | © Antoine Guilbaud, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141148408](https://www.inaturalist.org/observations/141148408) |
+| amanita_ovoidea | © Sandra Rosselli, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63583944](https://www.inaturalist.org/observations/63583944) |
+| amanita_ovoidea | © Sandra Rosselli, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63583944](https://www.inaturalist.org/observations/63583944) |
+| amanita_ovoidea | © Sandra Rosselli, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63583944](https://www.inaturalist.org/observations/63583944) |
+| amanita_ovoidea | © Charcos Companhia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141771407](https://www.inaturalist.org/observations/141771407) |
+| amanita_ovoidea | © Charcos Companhia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141771407](https://www.inaturalist.org/observations/141771407) |
+| amanita_ovoidea | © Charcos Companhia, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141771407](https://www.inaturalist.org/observations/141771407) |
+| amanita_ovoidea | © Miquel Rodríguez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/334228072](https://www.inaturalist.org/observations/334228072) |
+| amanita_ovoidea | © Miquel Rodríguez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/334228072](https://www.inaturalist.org/observations/334228072) |
+| amanita_ovoidea | © Miquel Rodríguez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/334228072](https://www.inaturalist.org/observations/334228072) |
+| amanita_ovoidea | © henriqueplimas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250670996](https://www.inaturalist.org/observations/250670996) |
+| amanita_ovoidea | © henriqueplimas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250670996](https://www.inaturalist.org/observations/250670996) |
+| amanita_ovoidea | © henriqueplimas, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/250670996](https://www.inaturalist.org/observations/250670996) |
+| amanita_ovoidea | © Javier Garcia Arregui, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/243992316](https://www.inaturalist.org/observations/243992316) |
+| amanita_ovoidea | © Javier Garcia Arregui, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/243992316](https://www.inaturalist.org/observations/243992316) |
+| amanita_ovoidea | © Javier Garcia Arregui, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/243992316](https://www.inaturalist.org/observations/243992316) |
+| amanita_ovoidea | © manucampossv, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/323150732](https://www.inaturalist.org/observations/323150732) |
+| amanita_ovoidea | © manucampossv, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/323150732](https://www.inaturalist.org/observations/323150732) |
+| amanita_ovoidea | © manucampossv, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/323150732](https://www.inaturalist.org/observations/323150732) |
+| amanita_ovoidea | © jelenaflg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/102257373](https://www.inaturalist.org/observations/102257373) |
+| amanita_ovoidea | © jelenaflg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/102257373](https://www.inaturalist.org/observations/102257373) |
+| amanita_ovoidea | © jelenaflg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/102257373](https://www.inaturalist.org/observations/102257373) |
+| amanita_ovoidea | © jelenaflg, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/102257373](https://www.inaturalist.org/observations/102257373) |
+| amanita_ovoidea | © Ali Jamshidi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320336598](https://www.inaturalist.org/observations/320336598) |
+| amanita_ovoidea | © Ali Jamshidi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320336598](https://www.inaturalist.org/observations/320336598) |
+| amanita_ovoidea | © Ali Jamshidi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320336598](https://www.inaturalist.org/observations/320336598) |
+| amanita_ovoidea | © Francesco, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/261536335](https://www.inaturalist.org/observations/261536335) |
+| amanita_ovoidea | © Francesco, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/261536335](https://www.inaturalist.org/observations/261536335) |
+| amanita_ovoidea | © Francesco, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/261536335](https://www.inaturalist.org/observations/261536335) |
+| amanita_ovoidea | © Francisco J. Serrano Eizaguerri, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398401851](https://www.inaturalist.org/observations/398401851) |
+| amanita_ovoidea | © Francisco J. Serrano Eizaguerri, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398401851](https://www.inaturalist.org/observations/398401851) |
+| amanita_ovoidea | © Francisco J. Serrano Eizaguerri, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/398401851](https://www.inaturalist.org/observations/398401851) |
+| amanita_ovoidea | © krismarcela, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100249993](https://www.inaturalist.org/observations/100249993) |
+| amanita_ovoidea | © krismarcela, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100249993](https://www.inaturalist.org/observations/100249993) |
+| amanita_ovoidea | © krismarcela, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/100249993](https://www.inaturalist.org/observations/100249993) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188641499](https://www.inaturalist.org/observations/188641499) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188641499](https://www.inaturalist.org/observations/188641499) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188641499](https://www.inaturalist.org/observations/188641499) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188641499](https://www.inaturalist.org/observations/188641499) |
-| amanita_citrina | © al_fa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314679370](https://www.inaturalist.org/observations/314679370) |
-| amanita_citrina | © al_fa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314679370](https://www.inaturalist.org/observations/314679370) |
-| amanita_citrina | © al_fa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314679370](https://www.inaturalist.org/observations/314679370) |
-| amanita_citrina | © al_fa, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314679370](https://www.inaturalist.org/observations/314679370) |
 | amanita_citrina | © Susana P. Cunha, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141912586](https://www.inaturalist.org/observations/141912586) |
 | amanita_citrina | © Susana P. Cunha, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141912586](https://www.inaturalist.org/observations/141912586) |
 | amanita_citrina | © Susana P. Cunha, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141912586](https://www.inaturalist.org/observations/141912586) |
@@ -5466,10 +5359,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_citrina | © Соколков Юрий Павлович, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/340613010](https://www.inaturalist.org/observations/340613010) |
 | amanita_citrina | © Соколков Юрий Павлович, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/340613010](https://www.inaturalist.org/observations/340613010) |
 | amanita_citrina | © Соколков Юрий Павлович, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/340613010](https://www.inaturalist.org/observations/340613010) |
-| amanita_citrina | © Jeroen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63505123](https://www.inaturalist.org/observations/63505123) |
-| amanita_citrina | © Jeroen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63505123](https://www.inaturalist.org/observations/63505123) |
-| amanita_citrina | © Jeroen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63505123](https://www.inaturalist.org/observations/63505123) |
-| amanita_citrina | © Jeroen, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63505123](https://www.inaturalist.org/observations/63505123) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189789390](https://www.inaturalist.org/observations/189789390) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189789390](https://www.inaturalist.org/observations/189789390) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189789390](https://www.inaturalist.org/observations/189789390) |
@@ -5478,14 +5367,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_citrina | © Jakob Fahr, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249227083](https://www.inaturalist.org/observations/249227083) |
 | amanita_citrina | © Jakob Fahr, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249227083](https://www.inaturalist.org/observations/249227083) |
 | amanita_citrina | © Jakob Fahr, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/249227083](https://www.inaturalist.org/observations/249227083) |
-| amanita_citrina | © Anton Dangl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320403537](https://www.inaturalist.org/observations/320403537) |
-| amanita_citrina | © Anton Dangl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320403537](https://www.inaturalist.org/observations/320403537) |
-| amanita_citrina | © Anton Dangl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320403537](https://www.inaturalist.org/observations/320403537) |
-| amanita_citrina | © Anton Dangl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320403537](https://www.inaturalist.org/observations/320403537) |
-| amanita_citrina | © Yves Bomal, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240774730](https://www.inaturalist.org/observations/240774730) |
-| amanita_citrina | © Yves Bomal, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240774730](https://www.inaturalist.org/observations/240774730) |
-| amanita_citrina | © Yves Bomal, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240774730](https://www.inaturalist.org/observations/240774730) |
-| amanita_citrina | © Yves Bomal, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240774730](https://www.inaturalist.org/observations/240774730) |
 | amanita_citrina | © Sasha Uhnivenko, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325657167](https://www.inaturalist.org/observations/325657167) |
 | amanita_citrina | © Sasha Uhnivenko, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325657167](https://www.inaturalist.org/observations/325657167) |
 | amanita_citrina | © Sasha Uhnivenko, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/325657167](https://www.inaturalist.org/observations/325657167) |
@@ -5494,30 +5375,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_citrina | Sigrid Jakob, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/17225928](https://www.inaturalist.org/observations/17225928) |
 | amanita_citrina | Sigrid Jakob, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/17225928](https://www.inaturalist.org/observations/17225928) |
 | amanita_citrina | Sigrid Jakob, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/17225928](https://www.inaturalist.org/observations/17225928) |
-| amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189170695](https://www.inaturalist.org/observations/189170695) |
-| amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189170695](https://www.inaturalist.org/observations/189170695) |
-| amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189170695](https://www.inaturalist.org/observations/189170695) |
-| amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189170695](https://www.inaturalist.org/observations/189170695) |
 | amanita_citrina | Stuart, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/318902061](https://www.inaturalist.org/observations/318902061) |
 | amanita_citrina | Stuart, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/318902061](https://www.inaturalist.org/observations/318902061) |
 | amanita_citrina | Stuart, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/318902061](https://www.inaturalist.org/observations/318902061) |
 | amanita_citrina | Stuart, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/318902061](https://www.inaturalist.org/observations/318902061) |
-| amanita_citrina | © camgoodhead, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/181415520](https://www.inaturalist.org/observations/181415520) |
-| amanita_citrina | © camgoodhead, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/181415520](https://www.inaturalist.org/observations/181415520) |
-| amanita_citrina | © camgoodhead, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/181415520](https://www.inaturalist.org/observations/181415520) |
-| amanita_citrina | © camgoodhead, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/181415520](https://www.inaturalist.org/observations/181415520) |
-| amanita_citrina | © Frank Huisman, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/348678652](https://www.inaturalist.org/observations/348678652) |
-| amanita_citrina | © Frank Huisman, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/348678652](https://www.inaturalist.org/observations/348678652) |
-| amanita_citrina | © Frank Huisman, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/348678652](https://www.inaturalist.org/observations/348678652) |
-| amanita_citrina | © Frank Huisman, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/348678652](https://www.inaturalist.org/observations/348678652) |
-| amanita_citrina | © Sven Eisenbiegler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/104358753](https://www.inaturalist.org/observations/104358753) |
-| amanita_citrina | © Sven Eisenbiegler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/104358753](https://www.inaturalist.org/observations/104358753) |
-| amanita_citrina | © Sven Eisenbiegler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/104358753](https://www.inaturalist.org/observations/104358753) |
-| amanita_citrina | © Sven Eisenbiegler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/104358753](https://www.inaturalist.org/observations/104358753) |
-| amanita_citrina | © A B, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320125627](https://www.inaturalist.org/observations/320125627) |
-| amanita_citrina | © A B, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320125627](https://www.inaturalist.org/observations/320125627) |
-| amanita_citrina | © A B, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320125627](https://www.inaturalist.org/observations/320125627) |
-| amanita_citrina | © A B, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320125627](https://www.inaturalist.org/observations/320125627) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188571928](https://www.inaturalist.org/observations/188571928) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188571928](https://www.inaturalist.org/observations/188571928) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188571928](https://www.inaturalist.org/observations/188571928) |
@@ -5530,29 +5391,13 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_citrina | © jaminiamanita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317320343](https://www.inaturalist.org/observations/317320343) |
 | amanita_citrina | © jaminiamanita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317320343](https://www.inaturalist.org/observations/317320343) |
 | amanita_citrina | © jaminiamanita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317320343](https://www.inaturalist.org/observations/317320343) |
-| amanita_citrina | © tevi_v, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248119483](https://www.inaturalist.org/observations/248119483) |
-| amanita_citrina | © tevi_v, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248119483](https://www.inaturalist.org/observations/248119483) |
-| amanita_citrina | © tevi_v, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248119483](https://www.inaturalist.org/observations/248119483) |
-| amanita_citrina | © tevi_v, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248119483](https://www.inaturalist.org/observations/248119483) |
 | amanita_citrina | © realone, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320213974](https://www.inaturalist.org/observations/320213974) |
 | amanita_citrina | © realone, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320213974](https://www.inaturalist.org/observations/320213974) |
 | amanita_citrina | © realone, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320213974](https://www.inaturalist.org/observations/320213974) |
 | amanita_citrina | © realone, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320213974](https://www.inaturalist.org/observations/320213974) |
-| amanita_citrina | © Александр Скачко, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97505623](https://www.inaturalist.org/observations/97505623) |
-| amanita_citrina | © Александр Скачко, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97505623](https://www.inaturalist.org/observations/97505623) |
-| amanita_citrina | © Александр Скачко, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97505623](https://www.inaturalist.org/observations/97505623) |
-| amanita_citrina | © carstenfuchs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/106032755](https://www.inaturalist.org/observations/106032755) |
-| amanita_citrina | © carstenfuchs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/106032755](https://www.inaturalist.org/observations/106032755) |
-| amanita_citrina | © carstenfuchs, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/106032755](https://www.inaturalist.org/observations/106032755) |
-| amanita_citrina | © Konstantin Romanov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97311019](https://www.inaturalist.org/observations/97311019) |
-| amanita_citrina | © Konstantin Romanov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97311019](https://www.inaturalist.org/observations/97311019) |
-| amanita_citrina | © Konstantin Romanov, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/97311019](https://www.inaturalist.org/observations/97311019) |
 | amanita_citrina | © Lin, Zhanyi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/319762652](https://www.inaturalist.org/observations/319762652) |
 | amanita_citrina | © Lin, Zhanyi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/319762652](https://www.inaturalist.org/observations/319762652) |
 | amanita_citrina | © Lin, Zhanyi, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/319762652](https://www.inaturalist.org/observations/319762652) |
-| amanita_citrina | © mbonjardim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324584116](https://www.inaturalist.org/observations/324584116) |
-| amanita_citrina | © mbonjardim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324584116](https://www.inaturalist.org/observations/324584116) |
-| amanita_citrina | © mbonjardim, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/324584116](https://www.inaturalist.org/observations/324584116) |
 | amanita_citrina | © Johan Adler, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321450858](https://www.inaturalist.org/observations/321450858) |
 | amanita_citrina | © Johan Adler, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321450858](https://www.inaturalist.org/observations/321450858) |
 | amanita_citrina | © Johan Adler, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321450858](https://www.inaturalist.org/observations/321450858) |
@@ -5560,6 +5405,50 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191875330](https://www.inaturalist.org/observations/191875330) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191875330](https://www.inaturalist.org/observations/191875330) |
 | amanita_citrina | © lastovka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191875330](https://www.inaturalist.org/observations/191875330) |
+| amanita_citrina | © Rene Weigelt, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/308490448](https://www.inaturalist.org/observations/308490448) |
+| amanita_citrina | © Rene Weigelt, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/308490448](https://www.inaturalist.org/observations/308490448) |
+| amanita_citrina | © Rene Weigelt, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/308490448](https://www.inaturalist.org/observations/308490448) |
+| amanita_citrina | © adinie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188715526](https://www.inaturalist.org/observations/188715526) |
+| amanita_citrina | © adinie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188715526](https://www.inaturalist.org/observations/188715526) |
+| amanita_citrina | © adinie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188715526](https://www.inaturalist.org/observations/188715526) |
+| amanita_citrina | © tatyana_kolesnikova, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64932594](https://www.inaturalist.org/observations/64932594) |
+| amanita_citrina | © tatyana_kolesnikova, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64932594](https://www.inaturalist.org/observations/64932594) |
+| amanita_citrina | © tatyana_kolesnikova, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/64932594](https://www.inaturalist.org/observations/64932594) |
+| amanita_citrina | © adinie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188586666](https://www.inaturalist.org/observations/188586666) |
+| amanita_citrina | © adinie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188586666](https://www.inaturalist.org/observations/188586666) |
+| amanita_citrina | © adinie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/188586666](https://www.inaturalist.org/observations/188586666) |
+| amanita_citrina | © lolisaale, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405520692](https://www.inaturalist.org/observations/405520692) |
+| amanita_citrina | © lolisaale, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405520692](https://www.inaturalist.org/observations/405520692) |
+| amanita_citrina | © lolisaale, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405520692](https://www.inaturalist.org/observations/405520692) |
+| amanita_citrina | © Lassi Karakoski, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314780191](https://www.inaturalist.org/observations/314780191) |
+| amanita_citrina | © Lassi Karakoski, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314780191](https://www.inaturalist.org/observations/314780191) |
+| amanita_citrina | © Lassi Karakoski, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314780191](https://www.inaturalist.org/observations/314780191) |
+| amanita_citrina | © johnswinter, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248264299](https://www.inaturalist.org/observations/248264299) |
+| amanita_citrina | © johnswinter, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248264299](https://www.inaturalist.org/observations/248264299) |
+| amanita_citrina | © johnswinter, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/248264299](https://www.inaturalist.org/observations/248264299) |
+| amanita_citrina | © Michael Fischer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317239453](https://www.inaturalist.org/observations/317239453) |
+| amanita_citrina | © Michael Fischer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317239453](https://www.inaturalist.org/observations/317239453) |
+| amanita_citrina | © Michael Fischer, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317239453](https://www.inaturalist.org/observations/317239453) |
+| amanita_citrina | © orim1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317823698](https://www.inaturalist.org/observations/317823698) |
+| amanita_citrina | © orim1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317823698](https://www.inaturalist.org/observations/317823698) |
+| amanita_citrina | © orim1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/317823698](https://www.inaturalist.org/observations/317823698) |
+| amanita_citrina | © Susana P. Cunha, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141990368](https://www.inaturalist.org/observations/141990368) |
+| amanita_citrina | © Susana P. Cunha, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141990368](https://www.inaturalist.org/observations/141990368) |
+| amanita_citrina | © Susana P. Cunha, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/141990368](https://www.inaturalist.org/observations/141990368) |
+| amanita_citrina | © Roland Godon, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321656115](https://www.inaturalist.org/observations/321656115) |
+| amanita_citrina | © Roland Godon, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321656115](https://www.inaturalist.org/observations/321656115) |
+| amanita_citrina | © Roland Godon, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/321656115](https://www.inaturalist.org/observations/321656115) |
+| amanita_citrina | © Sebastian Ćato, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/257176395](https://www.inaturalist.org/observations/257176395) |
+| amanita_citrina | © Sebastian Ćato, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/257176395](https://www.inaturalist.org/observations/257176395) |
+| amanita_citrina | © Sebastian Ćato, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/257176395](https://www.inaturalist.org/observations/257176395) |
+| amanita_citrina | © Sebastian Ćato, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/257176395](https://www.inaturalist.org/observations/257176395) |
+| amanita_citrina | © petzl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/319924859](https://www.inaturalist.org/observations/319924859) |
+| amanita_citrina | © petzl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/319924859](https://www.inaturalist.org/observations/319924859) |
+| amanita_citrina | © petzl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/319924859](https://www.inaturalist.org/observations/319924859) |
+| amanita_citrina | © petzl, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/319924859](https://www.inaturalist.org/observations/319924859) |
+| amanita_citrina | © Siru Gestrin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/184182014](https://www.inaturalist.org/observations/184182014) |
+| amanita_citrina | © Siru Gestrin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/184182014](https://www.inaturalist.org/observations/184182014) |
+| amanita_citrina | © Siru Gestrin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/184182014](https://www.inaturalist.org/observations/184182014) |
 | coprinopsis_atramentaria | © Elizabeth Crisfield, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/44300126](https://www.inaturalist.org/observations/44300126) |
 | coprinopsis_atramentaria | © Elizabeth Crisfield, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/44300126](https://www.inaturalist.org/observations/44300126) |
 | coprinopsis_atramentaria | © Elizabeth Crisfield, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/44300126](https://www.inaturalist.org/observations/44300126) |
@@ -5787,42 +5676,10 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agrocybe_aegerita | © josecosta1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/252872487](https://www.inaturalist.org/observations/252872487) |
 | agrocybe_aegerita | © josecosta1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/252872487](https://www.inaturalist.org/observations/252872487) |
 | agrocybe_aegerita | © josecosta1, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/252872487](https://www.inaturalist.org/observations/252872487) |
-| agrocybe_aegerita | © Matej Frančeškin, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/194692484](https://www.inaturalist.org/observations/194692484) |
-| agrocybe_aegerita | © Matej Frančeškin, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/194692484](https://www.inaturalist.org/observations/194692484) |
-| agrocybe_aegerita | © Matej Frančeškin, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/194692484](https://www.inaturalist.org/observations/194692484) |
-| agrocybe_aegerita | © Matej Frančeškin, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/194692484](https://www.inaturalist.org/observations/194692484) |
-| agrocybe_aegerita | © edna-mode, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/87565404](https://www.inaturalist.org/observations/87565404) |
-| agrocybe_aegerita | © edna-mode, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/87565404](https://www.inaturalist.org/observations/87565404) |
-| agrocybe_aegerita | © edna-mode, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/87565404](https://www.inaturalist.org/observations/87565404) |
-| agrocybe_aegerita | © edna-mode, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/87565404](https://www.inaturalist.org/observations/87565404) |
-| agrocybe_aegerita | © Maria Jesus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/353816728](https://www.inaturalist.org/observations/353816728) |
-| agrocybe_aegerita | © Maria Jesus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/353816728](https://www.inaturalist.org/observations/353816728) |
-| agrocybe_aegerita | © Maria Jesus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/353816728](https://www.inaturalist.org/observations/353816728) |
-| agrocybe_aegerita | © Maria Jesus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/353816728](https://www.inaturalist.org/observations/353816728) |
-| agrocybe_aegerita | © Chris Valdés, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/85298206](https://www.inaturalist.org/observations/85298206) |
-| agrocybe_aegerita | © Chris Valdés, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/85298206](https://www.inaturalist.org/observations/85298206) |
-| agrocybe_aegerita | © Chris Valdés, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/85298206](https://www.inaturalist.org/observations/85298206) |
-| agrocybe_aegerita | © Chris Valdés, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/85298206](https://www.inaturalist.org/observations/85298206) |
-| agrocybe_aegerita | © Achille Lenglin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132820148](https://www.inaturalist.org/observations/132820148) |
-| agrocybe_aegerita | © Achille Lenglin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132820148](https://www.inaturalist.org/observations/132820148) |
-| agrocybe_aegerita | © Achille Lenglin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132820148](https://www.inaturalist.org/observations/132820148) |
-| agrocybe_aegerita | © Achille Lenglin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/132820148](https://www.inaturalist.org/observations/132820148) |
-| agrocybe_aegerita | © Ryoko Fukuyama, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/373833032](https://www.inaturalist.org/observations/373833032) |
-| agrocybe_aegerita | © Ryoko Fukuyama, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/373833032](https://www.inaturalist.org/observations/373833032) |
-| agrocybe_aegerita | © Ryoko Fukuyama, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/373833032](https://www.inaturalist.org/observations/373833032) |
-| agrocybe_aegerita | © Ryoko Fukuyama, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/373833032](https://www.inaturalist.org/observations/373833032) |
-| agrocybe_aegerita | © Adrián Gallego Sánchez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320714734](https://www.inaturalist.org/observations/320714734) |
-| agrocybe_aegerita | © Adrián Gallego Sánchez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320714734](https://www.inaturalist.org/observations/320714734) |
-| agrocybe_aegerita | © Adrián Gallego Sánchez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320714734](https://www.inaturalist.org/observations/320714734) |
-| agrocybe_aegerita | © Adrián Gallego Sánchez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320714734](https://www.inaturalist.org/observations/320714734) |
 | agrocybe_aegerita | © Tabby, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316692316](https://www.inaturalist.org/observations/316692316) |
 | agrocybe_aegerita | © Tabby, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316692316](https://www.inaturalist.org/observations/316692316) |
 | agrocybe_aegerita | © Tabby, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316692316](https://www.inaturalist.org/observations/316692316) |
 | agrocybe_aegerita | © Tabby, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/316692316](https://www.inaturalist.org/observations/316692316) |
-| agrocybe_aegerita | © Calvin Walford, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/277155921](https://www.inaturalist.org/observations/277155921) |
-| agrocybe_aegerita | © Calvin Walford, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/277155921](https://www.inaturalist.org/observations/277155921) |
-| agrocybe_aegerita | © Calvin Walford, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/277155921](https://www.inaturalist.org/observations/277155921) |
-| agrocybe_aegerita | © Calvin Walford, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/277155921](https://www.inaturalist.org/observations/277155921) |
 | agrocybe_aegerita | Ken Kneidel, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/165838810](https://www.inaturalist.org/observations/165838810) |
 | agrocybe_aegerita | Ken Kneidel, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/165838810](https://www.inaturalist.org/observations/165838810) |
 | agrocybe_aegerita | Ken Kneidel, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/165838810](https://www.inaturalist.org/observations/165838810) |
@@ -5831,26 +5688,14 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agrocybe_aegerita | © José Moreira, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/347312984](https://www.inaturalist.org/observations/347312984) |
 | agrocybe_aegerita | © José Moreira, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/347312984](https://www.inaturalist.org/observations/347312984) |
 | agrocybe_aegerita | © José Moreira, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/347312984](https://www.inaturalist.org/observations/347312984) |
-| agrocybe_aegerita | © mpearlstein, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/150691492](https://www.inaturalist.org/observations/150691492) |
-| agrocybe_aegerita | © mpearlstein, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/150691492](https://www.inaturalist.org/observations/150691492) |
-| agrocybe_aegerita | © mpearlstein, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/150691492](https://www.inaturalist.org/observations/150691492) |
-| agrocybe_aegerita | © mpearlstein, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/150691492](https://www.inaturalist.org/observations/150691492) |
 | agrocybe_aegerita | © Max Mudie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/347222004](https://www.inaturalist.org/observations/347222004) |
 | agrocybe_aegerita | © Max Mudie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/347222004](https://www.inaturalist.org/observations/347222004) |
 | agrocybe_aegerita | © Max Mudie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/347222004](https://www.inaturalist.org/observations/347222004) |
 | agrocybe_aegerita | © Max Mudie, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/347222004](https://www.inaturalist.org/observations/347222004) |
-| agrocybe_aegerita | © mick_photo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/192973533](https://www.inaturalist.org/observations/192973533) |
-| agrocybe_aegerita | © mick_photo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/192973533](https://www.inaturalist.org/observations/192973533) |
-| agrocybe_aegerita | © mick_photo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/192973533](https://www.inaturalist.org/observations/192973533) |
-| agrocybe_aegerita | © mick_photo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/192973533](https://www.inaturalist.org/observations/192973533) |
 | agrocybe_aegerita | © Miguel A. Fernández Martínez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/254096370](https://www.inaturalist.org/observations/254096370) |
 | agrocybe_aegerita | © Miguel A. Fernández Martínez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/254096370](https://www.inaturalist.org/observations/254096370) |
 | agrocybe_aegerita | © Miguel A. Fernández Martínez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/254096370](https://www.inaturalist.org/observations/254096370) |
 | agrocybe_aegerita | © Miguel A. Fernández Martínez, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/254096370](https://www.inaturalist.org/observations/254096370) |
-| agrocybe_aegerita | © Karim Haddad, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/139443873](https://www.inaturalist.org/observations/139443873) |
-| agrocybe_aegerita | © Karim Haddad, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/139443873](https://www.inaturalist.org/observations/139443873) |
-| agrocybe_aegerita | © Karim Haddad, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/139443873](https://www.inaturalist.org/observations/139443873) |
-| agrocybe_aegerita | © Karim Haddad, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/139443873](https://www.inaturalist.org/observations/139443873) |
 | agrocybe_aegerita | Ken Kneidel, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/234630019](https://www.inaturalist.org/observations/234630019) |
 | agrocybe_aegerita | Ken Kneidel, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/234630019](https://www.inaturalist.org/observations/234630019) |
 | agrocybe_aegerita | Ken Kneidel, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/234630019](https://www.inaturalist.org/observations/234630019) |
@@ -5863,10 +5708,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agrocybe_aegerita | © Gianni Del Bufalo bygdb, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/323679088](https://www.inaturalist.org/observations/323679088) |
 | agrocybe_aegerita | © Gianni Del Bufalo bygdb, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/323679088](https://www.inaturalist.org/observations/323679088) |
 | agrocybe_aegerita | © Gianni Del Bufalo bygdb, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/323679088](https://www.inaturalist.org/observations/323679088) |
-| agrocybe_aegerita | © mpearlstein, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180366605](https://www.inaturalist.org/observations/180366605) |
-| agrocybe_aegerita | © mpearlstein, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180366605](https://www.inaturalist.org/observations/180366605) |
-| agrocybe_aegerita | © mpearlstein, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180366605](https://www.inaturalist.org/observations/180366605) |
-| agrocybe_aegerita | © mpearlstein, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180366605](https://www.inaturalist.org/observations/180366605) |
 | agrocybe_aegerita | © radioactivenerd, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/177622197](https://www.inaturalist.org/observations/177622197) |
 | agrocybe_aegerita | © radioactivenerd, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/177622197](https://www.inaturalist.org/observations/177622197) |
 | agrocybe_aegerita | © radioactivenerd, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/177622197](https://www.inaturalist.org/observations/177622197) |
@@ -5883,14 +5724,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agrocybe_aegerita | © bslavin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/135811611](https://www.inaturalist.org/observations/135811611) |
 | agrocybe_aegerita | © bslavin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/135811611](https://www.inaturalist.org/observations/135811611) |
 | agrocybe_aegerita | © bslavin, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/135811611](https://www.inaturalist.org/observations/135811611) |
-| agrocybe_aegerita | © Maria Jesus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/353809813](https://www.inaturalist.org/observations/353809813) |
-| agrocybe_aegerita | © Maria Jesus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/353809813](https://www.inaturalist.org/observations/353809813) |
-| agrocybe_aegerita | © Maria Jesus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/353809813](https://www.inaturalist.org/observations/353809813) |
-| agrocybe_aegerita | © Maria Jesus, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/353809813](https://www.inaturalist.org/observations/353809813) |
-| agrocybe_aegerita | © Gianni Del Bufalo bygdb, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/193202533](https://www.inaturalist.org/observations/193202533) |
-| agrocybe_aegerita | © Gianni Del Bufalo bygdb, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/193202533](https://www.inaturalist.org/observations/193202533) |
-| agrocybe_aegerita | © Gianni Del Bufalo bygdb, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/193202533](https://www.inaturalist.org/observations/193202533) |
-| agrocybe_aegerita | © Gianni Del Bufalo bygdb, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/193202533](https://www.inaturalist.org/observations/193202533) |
 | agrocybe_aegerita | © Rubén, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/94946372](https://www.inaturalist.org/observations/94946372) |
 | agrocybe_aegerita | © Rubén, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/94946372](https://www.inaturalist.org/observations/94946372) |
 | agrocybe_aegerita | © Rubén, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/94946372](https://www.inaturalist.org/observations/94946372) |
@@ -5899,6 +5732,51 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | agrocybe_aegerita | © Ross Krisztina, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/193069925](https://www.inaturalist.org/observations/193069925) |
 | agrocybe_aegerita | © Ross Krisztina, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/193069925](https://www.inaturalist.org/observations/193069925) |
 | agrocybe_aegerita | © Ross Krisztina, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/193069925](https://www.inaturalist.org/observations/193069925) |
+| agrocybe_aegerita | © Matthew Friant, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/14988142](https://www.inaturalist.org/observations/14988142) |
+| agrocybe_aegerita | © Matthew Friant, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/14988142](https://www.inaturalist.org/observations/14988142) |
+| agrocybe_aegerita | © Matthew Friant, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/14988142](https://www.inaturalist.org/observations/14988142) |
+| agrocybe_aegerita | © peter_csonka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/259266356](https://www.inaturalist.org/observations/259266356) |
+| agrocybe_aegerita | © peter_csonka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/259266356](https://www.inaturalist.org/observations/259266356) |
+| agrocybe_aegerita | © peter_csonka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/259266356](https://www.inaturalist.org/observations/259266356) |
+| agrocybe_aegerita | © Alexandre Justo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98491890](https://www.inaturalist.org/observations/98491890) |
+| agrocybe_aegerita | © Alexandre Justo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98491890](https://www.inaturalist.org/observations/98491890) |
+| agrocybe_aegerita | © Alexandre Justo, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/98491890](https://www.inaturalist.org/observations/98491890) |
+| agrocybe_aegerita | © Yolanda Villarroya, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322769308](https://www.inaturalist.org/observations/322769308) |
+| agrocybe_aegerita | © Yolanda Villarroya, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322769308](https://www.inaturalist.org/observations/322769308) |
+| agrocybe_aegerita | © Yolanda Villarroya, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/322769308](https://www.inaturalist.org/observations/322769308) |
+| agrocybe_aegerita | © Vedrana Perković, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/318836691](https://www.inaturalist.org/observations/318836691) |
+| agrocybe_aegerita | © Vedrana Perković, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/318836691](https://www.inaturalist.org/observations/318836691) |
+| agrocybe_aegerita | © Vedrana Perković, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/318836691](https://www.inaturalist.org/observations/318836691) |
+| agrocybe_aegerita | © Andrea Monsalve, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/255680321](https://www.inaturalist.org/observations/255680321) |
+| agrocybe_aegerita | © Andrea Monsalve, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/255680321](https://www.inaturalist.org/observations/255680321) |
+| agrocybe_aegerita | © Andrea Monsalve, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/255680321](https://www.inaturalist.org/observations/255680321) |
+| agrocybe_aegerita | © Andrea Monsalve, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/255680321](https://www.inaturalist.org/observations/255680321) |
+| agrocybe_aegerita | © peter_csonka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/374834367](https://www.inaturalist.org/observations/374834367) |
+| agrocybe_aegerita | © peter_csonka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/374834367](https://www.inaturalist.org/observations/374834367) |
+| agrocybe_aegerita | © peter_csonka, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/374834367](https://www.inaturalist.org/observations/374834367) |
+| agrocybe_aegerita | © Bernat Espigulé, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103757806](https://www.inaturalist.org/observations/103757806) |
+| agrocybe_aegerita | © Bernat Espigulé, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103757806](https://www.inaturalist.org/observations/103757806) |
+| agrocybe_aegerita | © Bernat Espigulé, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/103757806](https://www.inaturalist.org/observations/103757806) |
+| agrocybe_aegerita | © Giuliano, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/17771670](https://www.inaturalist.org/observations/17771670) |
+| agrocybe_aegerita | © Giuliano, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/17771670](https://www.inaturalist.org/observations/17771670) |
+| agrocybe_aegerita | © Giuliano, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/17771670](https://www.inaturalist.org/observations/17771670) |
+| agrocybe_aegerita | Piermario Maculan, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/397193354](https://www.inaturalist.org/observations/397193354) |
+| agrocybe_aegerita | Piermario Maculan, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/397193354](https://www.inaturalist.org/observations/397193354) |
+| agrocybe_aegerita | Piermario Maculan, no rights reserved (CC0) | CC0 | [https://www.inaturalist.org/observations/397193354](https://www.inaturalist.org/observations/397193354) |
+| agrocybe_aegerita | © antoniobulnes, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405536620](https://www.inaturalist.org/observations/405536620) |
+| agrocybe_aegerita | © antoniobulnes, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405536620](https://www.inaturalist.org/observations/405536620) |
+| agrocybe_aegerita | © antoniobulnes, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/405536620](https://www.inaturalist.org/observations/405536620) |
+| agrocybe_aegerita | © ahmedm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/35645283](https://www.inaturalist.org/observations/35645283) |
+| agrocybe_aegerita | © ahmedm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/35645283](https://www.inaturalist.org/observations/35645283) |
+| agrocybe_aegerita | © ahmedm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/35645283](https://www.inaturalist.org/observations/35645283) |
+| agrocybe_aegerita | © ahmedm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/35645283](https://www.inaturalist.org/observations/35645283) |
+| agrocybe_aegerita | © rachlsees, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/95330053](https://www.inaturalist.org/observations/95330053) |
+| agrocybe_aegerita | © rachlsees, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/95330053](https://www.inaturalist.org/observations/95330053) |
+| agrocybe_aegerita | © rachlsees, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/95330053](https://www.inaturalist.org/observations/95330053) |
+| agrocybe_aegerita | © Babbling Birder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/201125426](https://www.inaturalist.org/observations/201125426) |
+| agrocybe_aegerita | © Babbling Birder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/201125426](https://www.inaturalist.org/observations/201125426) |
+| agrocybe_aegerita | © Babbling Birder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/201125426](https://www.inaturalist.org/observations/201125426) |
+| agrocybe_aegerita | © Babbling Birder, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/201125426](https://www.inaturalist.org/observations/201125426) |
 | lepista_nuda | © pseudosarcasm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/170637521](https://www.inaturalist.org/observations/170637521) |
 | lepista_nuda | © pseudosarcasm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/170637521](https://www.inaturalist.org/observations/170637521) |
 | lepista_nuda | © pseudosarcasm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/170637521](https://www.inaturalist.org/observations/170637521) |
@@ -9161,14 +9039,6 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_phalloides_alba | © fx_kling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240522745](https://www.inaturalist.org/observations/240522745) |
 | amanita_phalloides_alba | © fx_kling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240522745](https://www.inaturalist.org/observations/240522745) |
 | amanita_phalloides_alba | © fx_kling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/240522745](https://www.inaturalist.org/observations/240522745) |
-| amanita_phalloides_alba | © Theo Fiedler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/131797587](https://www.inaturalist.org/observations/131797587) |
-| amanita_phalloides_alba | © Theo Fiedler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/131797587](https://www.inaturalist.org/observations/131797587) |
-| amanita_phalloides_alba | © Theo Fiedler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/131797587](https://www.inaturalist.org/observations/131797587) |
-| amanita_phalloides_alba | © Theo Fiedler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/131797587](https://www.inaturalist.org/observations/131797587) |
-| amanita_phalloides_alba | © Benjamin Schmid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/89752819](https://www.inaturalist.org/observations/89752819) |
-| amanita_phalloides_alba | © Benjamin Schmid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/89752819](https://www.inaturalist.org/observations/89752819) |
-| amanita_phalloides_alba | © Benjamin Schmid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/89752819](https://www.inaturalist.org/observations/89752819) |
-| amanita_phalloides_alba | © Benjamin Schmid, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/89752819](https://www.inaturalist.org/observations/89752819) |
 | amanita_phalloides_alba | © Анна Рассохина, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/373285893](https://www.inaturalist.org/observations/373285893) |
 | amanita_phalloides_alba | © Анна Рассохина, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/373285893](https://www.inaturalist.org/observations/373285893) |
 | amanita_phalloides_alba | © Анна Рассохина, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/373285893](https://www.inaturalist.org/observations/373285893) |
@@ -9180,29 +9050,22 @@ Foto pubblicate dalla community di [iNaturalist](https://www.inaturalist.org/), 
 | amanita_phalloides_alba | © conchuirm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/61701280](https://www.inaturalist.org/observations/61701280) |
 | amanita_phalloides_alba | © conchuirm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/61701280](https://www.inaturalist.org/observations/61701280) |
 | amanita_phalloides_alba | © conchuirm, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/61701280](https://www.inaturalist.org/observations/61701280) |
-| amanita_phalloides_alba | © fx_kling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/133468392](https://www.inaturalist.org/observations/133468392) |
-| amanita_phalloides_alba | © fx_kling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/133468392](https://www.inaturalist.org/observations/133468392) |
 | amanita_phalloides_alba | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320464995](https://www.inaturalist.org/observations/320464995) |
 | amanita_phalloides_alba | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/320464995](https://www.inaturalist.org/observations/320464995) |
 | amanita_phalloides_alba | © nkrisz23, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/334125021](https://www.inaturalist.org/observations/334125021) |
 | amanita_phalloides_alba | © nkrisz23, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/334125021](https://www.inaturalist.org/observations/334125021) |
 | amanita_phalloides_alba | © pica_nuttalli, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/327012838](https://www.inaturalist.org/observations/327012838) |
 | amanita_phalloides_alba | © pica_nuttalli, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/327012838](https://www.inaturalist.org/observations/327012838) |
-| amanita_phalloides_alba | © René Jarling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/176726592](https://www.inaturalist.org/observations/176726592) |
-| amanita_phalloides_alba | © René Jarling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/176726592](https://www.inaturalist.org/observations/176726592) |
 | amanita_phalloides_alba | © azalvaro, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/328299616](https://www.inaturalist.org/observations/328299616) |
 | amanita_phalloides_alba | © azalvaro, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/328299616](https://www.inaturalist.org/observations/328299616) |
 | amanita_phalloides_alba | © Gernot Friebes, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/163706139](https://www.inaturalist.org/observations/163706139) |
 | amanita_phalloides_alba | © Gernot Friebes, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/163706139](https://www.inaturalist.org/observations/163706139) |
-| amanita_phalloides_alba | © René Jarling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/246879469](https://www.inaturalist.org/observations/246879469) |
 | amanita_phalloides_alba | © Christian Apschner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/327250287](https://www.inaturalist.org/observations/327250287) |
 | amanita_phalloides_alba | © Marco Floriani, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/9497531](https://www.inaturalist.org/observations/9497531) |
 | amanita_phalloides_alba | © Massimo Tabone, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/191932187](https://www.inaturalist.org/observations/191932187) |
 | amanita_phalloides_alba | © Massimo Tabone, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/63692846](https://www.inaturalist.org/observations/63692846) |
-| amanita_phalloides_alba | © Christian Apschner, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/180010715](https://www.inaturalist.org/observations/180010715) |
-| amanita_phalloides_alba | © aconita, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/314097011](https://www.inaturalist.org/observations/314097011) |
-| amanita_phalloides_alba | © Marco Floriani, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/65324639](https://www.inaturalist.org/observations/65324639) |
 | amanita_phalloides_alba | © Elisabeth Mettler, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179953127](https://www.inaturalist.org/observations/179953127) |
-| amanita_phalloides_alba | © Nicolas Schwab, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/315218235](https://www.inaturalist.org/observations/315218235) |
 | amanita_phalloides_alba | © Nicolò Oppicelli, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/105516145](https://www.inaturalist.org/observations/105516145) |
 | amanita_phalloides_alba | © Paula Nimigean, some rights reserved (CC BY) | CC BY | [https://www.inaturalist.org/observations/345632438](https://www.inaturalist.org/observations/345632438) |
+| amanita_phalloides_alba | © René Jarling, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/179104238](https://www.inaturalist.org/observations/179104238) |
+| amanita_phalloides_alba | © Marco Floriani, some rights reserved (CC BY-NC) | CC BY-NC | [https://www.inaturalist.org/observations/189017156](https://www.inaturalist.org/observations/189017156) |
