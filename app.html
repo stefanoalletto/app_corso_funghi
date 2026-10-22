@@ -477,7 +477,7 @@
 
   <footer>
     <div class="app-version" id="appVersion"></div>
-    Foto dalla community di iNaturalist, licenze Creative Commons individuali (vedi CREDITS.md) &mdash; uso didattico personale.
+    Foto dalla community di iNaturalist, licenze Creative Commons individuali (vedi CREDITS.md), e dalle schede AMINT di Pietro Curti, Tomaso Lezzi e Luigi Minciarelli, su autorizzazione di AMINT (vedi CREDITS_AMINT.md) &mdash; uso didattico personale.
     <div class="danger-zone">
       <button class="linklike-muted" id="btnRemoveSpecimen" title="Rimuove localmente le foto attualmente mostrate, per esempio se una foto è palesemente sbagliata o rotta">Elimina esemplare corrente</button>
       <span class="sep">&middot;</span>
@@ -543,6 +543,7 @@
 
 <script src="data.js"></script>
 <script src="data/observations.js"></script>
+<script src="data/observations_amint.js"></script>
 <script src="changelog.js"></script>
 <script>
 (function(){
@@ -615,8 +616,9 @@
 
   document.getElementById("btnRemoveSpecimen").addEventListener("click", () => {
     if (!currentSpecies || !currentSourceKey) return;
-    const isSlide = currentSourceKey.endsWith("::slide");
-    const which = isSlide ? "le foto delle slide del corso" : "questa osservazione iNaturalist";
+    const which = currentSourceKey.includes("::amint::") ? "questo ritrovamento AMINT"
+      : currentSourceKey.endsWith("::slide") ? "le foto delle slide del corso"
+      : "questa osservazione iNaturalist";
     const ok = confirm(
       `Eliminare localmente ${which} per "${currentSpecies.names[0]}"?\n\n` +
       `Non verrà più mostrata su questo dispositivo (le altre foto della specie restano). ` +
@@ -708,7 +710,7 @@
   let pos = -1;
   let state = null; // per-card runtime state
   let currentSpecies = null;
-  let currentSourceKey = null; // "<speciesId>::slide" per ora; in futuro anche "::inat::<obsId>"
+  let currentSourceKey = null; // "<speciesId>::inat::<obsId>" o "<speciesId>::amint::<obsId>"
 
   // cronologia di navigazione: permette al pulsante "indietro" di tornare ai funghi
   // già mostrati, a prescindere da eventuali reshuffle del deck.
@@ -851,22 +853,28 @@
     return a;
   }
 
-  // ogni "pesca" del mazzo è un campione preciso: o il set di foto delle slide di una
-  // specie, o UNA osservazione iNaturalist di quella specie (le foto di un'osservazione
-  // restano insieme perché complementari). Non c'è distinzione di fonte quando il sistema
-  // propone il fungo: le osservazioni iNaturalist sono filtrate per categoria
-  // (commestibile/mortale/tossico...) e, in debug mode, per numero di foto.
+  // fonti delle foto: osservazioni iNaturalist e ritrovamenti delle schede AMINT (stesso formato)
+  const OBS_SOURCES = [
+    { kind: "inat", data: (typeof OBSERVATIONS !== "undefined") ? OBSERVATIONS : {} },
+    { kind: "amint", data: (typeof OBSERVATIONS_AMINT !== "undefined") ? OBSERVATIONS_AMINT : {} },
+  ];
+
+  // ogni "pesca" del mazzo è un campione preciso: UNA osservazione iNaturalist o UN
+  // ritrovamento AMINT di quella specie (le foto restano insieme perché complementari).
+  // Non c'è distinzione di fonte quando il sistema propone il fungo: le osservazioni sono
+  // filtrate per categoria (commestibile/mortale/tossico...) e, in debug mode, per numero di foto.
   function buildDeck(){
     const removed = loadRemovedSet();
     const pool = SPECIES.filter(s => activeCats.has(s.cat) && !disabledSpecies.has(s.id));
     const draws = [];
 
     pool.forEach(sp => {
-      const obsData = (typeof OBSERVATIONS !== "undefined") ? OBSERVATIONS[sp.id] : null;
-      if (obsData && Array.isArray(obsData.observations)){
-        let tookOne = false;
+      let tookOne = false;
+      OBS_SOURCES.forEach(({ kind, data }) => {
+        const obsData = data[sp.id];
+        if (!obsData || !Array.isArray(obsData.observations)) return;
         obsData.observations.forEach(obs => {
-          const key = sp.id + "::inat::" + obs.obs_id;
+          const key = sp.id + "::" + kind + "::" + obs.obs_id;
           if (removed.has(key)) return;
           if (debugMode && debugPhotoCountFilter != null
               && (obs.photos || []).length !== debugPhotoCountFilter) return;
@@ -875,7 +883,7 @@
             tookOne = true;
           }
           draws.push({
-            sp, kind: "inat", sourceKey: key,
+            sp, kind, sourceKey: key,
             obsId: obs.obs_id, obsUrl: obs.obs_url, author: obs.author,
             memberSpecies: obs.member_species || null,
             photos: (obs.photos || []).map(p => ({
@@ -884,7 +892,7 @@
             }))
           });
         });
-      }
+      });
     });
 
     deck = (debugMode && debugSequentialMode) ? draws : shuffle(draws);
@@ -1222,8 +1230,16 @@
     // tenendo nascosti solo i link finché non si risponde/si chiede la risposta.
     function showCredit(revealed){
       const box = document.getElementById("creditBox");
-      if (draw.kind !== "inat"){ box.innerHTML = ""; return; }
       const authors = Array.from(new Set(draw.photos.map(p => escapeHtml(p.credit.author))));
+      if (draw.kind === "amint"){
+        let html = `<div class="credit-line">Foto AMINT: © ${authors.join(", ")}, uso autorizzato da AMINT.`;
+        if (revealed){
+          html += ` <a href="${escapeHtml(safeUrl(draw.obsUrl))}" target="_blank" rel="noopener">Vedi la scheda</a>`;
+        }
+        box.innerHTML = html + `</div>`;
+        return;
+      }
+      if (draw.kind !== "inat"){ box.innerHTML = ""; return; }
       const lic = draw.photos[0].credit;
       const label = lic.license_code === "cc0" ? "CC0" : escapeHtml((lic.license_code || "").toUpperCase());
       const attribution = lic.license_code === "cc0"

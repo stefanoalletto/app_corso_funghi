@@ -1,6 +1,11 @@
 // Versione dell'app e novità mostrate all'utente alla prima visita dopo un aggiornamento.
 // Una voce per ogni version bump, la più recente in cima; APP_VERSION = versione della prima voce.
 const CHANGELOG = [
+  { version: "1.3.0", notes: [
+    "Quasi 1000 nuove foto dalle schede AMINT di Pietro Curti, Tomaso Lezzi e Luigi Minciarelli, per gentile concessione di AMINT",
+    "Le foto AMINT si mescolano a quelle di iNaturalist; dopo la risposta c'è il link alla scheda originale",
+    "Tolte molte altre foto iNaturalist poco chiare o sbagliate, sostituite con nuove osservazioni dove servivano"
+  ]},
   { version: "1.2.0", notes: [
     "Di default sono attive solo le specie del programma d'esame (cambialo da \"Specie…\")",
     "Per le specie sospette la scheda indica che sono sospette per la legge regionale FVG",

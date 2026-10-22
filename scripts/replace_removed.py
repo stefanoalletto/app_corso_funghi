@@ -18,8 +18,9 @@ Cosa fa:
      quelli già spariti dai dati: fetch_inaturalist.py non li ripescherà mai);
   3. per quelli ancora presenti in data/observations.json: li toglie dai dati e cancella le
      foto (images/inat/ e images_inat_original_resolution/);
-  4. richiama fetch_inaturalist.py per riportare ogni specie/gruppo al numero di osservazioni
-     che aveva prima (esclude blacklist e osservazioni già presenti);
+  4. richiama fetch_inaturalist.py solo per le specie/gruppi scesi sotto TARGET_TOTAL esemplari
+     contando anche le foto AMINT (iNat rimaste + AMINT < 30), fino a tornare a 30
+     (esclude blacklist e osservazioni già presenti);
   5. sposta le foto appena scaricate in images_inat_original_resolution/ e le comprime in
      images/inat/ con compress_one_inat.sh (richiede magick e cjpeg);
   6. rigenera observations.js/.json e CREDITS.md (lo fa il fetch).
@@ -42,8 +43,19 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 OBS_JSON = os.path.join(ROOT, "data", "observations.json")
 REMOVED_JSON = os.path.join(ROOT, "data", "removed_observations.json")
+AMINT_JSON = os.path.join(ROOT, "data", "observations_amint.json")
+# esemplari per specie da garantire contando iNaturalist + AMINT (stesso valore in review.html)
+TARGET_TOTAL = 30
 ORIG_DIR = "images_inat_original_resolution"
 INAT_DIR = os.path.join("images", "inat")
+
+
+def amint_counts():
+    """{specie: n. carte AMINT}: non si revisionano ma contano nel totale degli esemplari."""
+    if not os.path.exists(AMINT_JSON):
+        return {}
+    with open(AMINT_JSON, encoding="utf-8") as f:
+        return {sid: len(e.get("observations", [])) for sid, e in json.load(f).items()}
 
 
 def load_input(path):
@@ -117,7 +129,8 @@ def main():
             blacklist = json.load(f)
 
     # 1-3: blacklist + rimozione dai dati
-    targets = {}  # specie -> n. osservazioni da riportare (conteggio prima della rimozione)
+    targets = {}  # specie -> n. osservazioni iNat da raggiungere (TARGET_TOTAL meno le carte AMINT)
+    amint = amint_counts()
     files_to_delete = []
     for sid, ids in sorted(removed.items()):
         present = [o for o in data[sid]["observations"] if o["obs_id"] in ids]
@@ -125,7 +138,12 @@ def main():
         print(f"{sid}: {len(ids)} nel registro, {len(present)} da rimuovere, {already_gone} già eliminate")
         blacklist[sid] = sorted(set(blacklist.get(sid, [])) | ids)
         if present:
-            targets[sid] = len(data[sid]["observations"])
+            left = len(data[sid]["observations"]) - len(present)
+            inat_target = TARGET_TOTAL - amint.get(sid, 0)
+            if left < inat_target:
+                targets[sid] = inat_target
+            else:
+                print(f"  {sid}: restano {left} iNat + {amint.get(sid, 0)} AMINT >= {TARGET_TOTAL}, nessuna integrazione")
             for o in present:
                 files_to_delete += [p["file"] for p in o["photos"]]
             data[sid]["observations"] = [o for o in data[sid]["observations"] if o["obs_id"] not in ids]
@@ -157,9 +175,12 @@ def main():
         fi.write_observations_outputs(data)
         fi.write_credits_md(data)
         short = {s: t - len(data[s]["observations"]) for s, t in targets.items() if len(data[s]["observations"]) < t}
-        print(f"\nInseriti {len(picked)} candidati." + (f" Specie ancora sotto il numero precedente: {short}" if short else ""))
+        print(f"\nInseriti {len(picked)} candidati." + (f" Specie ancora sotto i {TARGET_TOTAL} esemplari (iNat mancanti): {short}" if short else ""))
         return
     if not targets:
+        # nessuna specie sotto TARGET_TOTAL: basta rigenerare observations.js e CREDITS.md senza le rimosse
+        fi.write_observations_outputs(data)
+        fi.write_credits_md(data)
         return
 
     # 4: top-up, una run di fetch per ogni valore di target distinto

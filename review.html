@@ -59,7 +59,8 @@
 </header>
 <main>
   <p class="note">Apri una specie (una alla volta: le foto delle altre non vengono scaricate). "Elimina" segna l'osservazione da rimuovere;
-    per ogni eliminazione vengono cercati in background nuovi candidati su iNaturalist. A fine specie usa "Concludi eliminazione"
+    se la specie scende sotto 30 esemplari (iNaturalist + foto AMINT, che non si revisionano ma contano nel totale)
+    vengono cercati in background nuovi candidati su iNaturalist. A fine specie usa "Concludi eliminazione"
     per scegliere i sostituti e poi "Accetta candidati e salva". Quando hai finito, premi "Scarica decisioni salvate" in alto
     e invia il file. Le decisioni sono salvate nel browser (localStorage).</p>
   <div id="list"></div>
@@ -68,6 +69,7 @@
 
 <script src="data.js"></script>
 <script src="data/observations.js"></script>
+<script src="data/observations_amint.js"></script>
 <script>
 (function(){
   "use strict";
@@ -77,6 +79,12 @@
   const CANDIDATES_PER_REMOVAL = 3, MIN_CANDIDATES = 6;
   const batchFor = n => Math.max(MIN_CANDIDATES, CANDIDATES_PER_REMOVAL * n); // candidati da proporre per n sostituti mancanti
   const STRONG_CAP = 2, WEAK_CAP = 5, MAX_PAGES = 4;
+  // esemplari per specie da garantire contando iNaturalist + AMINT: le foto AMINT non si revisionano
+  // (sono considerate corrette) ma contano nel totale, quindi i sostituti iNat servono solo se
+  // (iNat rimaste + AMINT) < TARGET_TOTAL. Stesso valore in scripts/replace_removed.py.
+  const TARGET_TOTAL = 30;
+  const AMINT = (typeof OBSERVATIONS_AMINT !== "undefined") ? OBSERVATIONS_AMINT : {};
+  function amintCount(sid){ return ((AMINT[sid] || {}).observations || []).length; }
 
   // ---- stato persistito: { [sid]: { removed:[obs_id], picked:[candidate], rejected:[obs_id] } }
   let state = {};
@@ -186,7 +194,13 @@
     return strong.concat(weak);
   }
   function unpicked(sid){ const pk = st(sid).picked; return available(sid).filter(c => !pk.some(x => x.obs_id === c.obs_id)); }
-  function wanted(sid){ return batchFor(st(sid).removed.length); }
+  // sostituti iNat necessari per tornare a TARGET_TOTAL esemplari (iNat rimaste + AMINT)
+  function needed(sid){
+    const left = OBSERVATIONS[sid].observations.length - st(sid).removed.length + amintCount(sid);
+    return Math.max(0, TARGET_TOTAL - left);
+  }
+  function wanted(sid){ return batchFor(needed(sid)); }
+  function fillPool(sid){ if (needed(sid) > 0) ensurePool(sid, Math.max(pool(sid).batch || 0, wanted(sid))); }
 
   // ---- UI
   const list = document.getElementById("list");
@@ -210,9 +224,9 @@
     const isOpen = sid === openSid;
     const nRem = s.removed.length, nPick = s.picked.length;
     let html = `<div class="sum" data-act="toggle"><span>${isOpen ? "▾" : "▸"}</span><span class="name">${esc(label(sid))}</span>
-      <span class="meta">${obs.length} osservazioni</span>`
+      <span class="meta">${obs.length} iNat + ${amintCount(sid)} AMINT</span>`
       + (nRem ? `<span class="badge">${nRem} da eliminare</span>` : "")
-      + (nPick ? `<span class="badge ok">${nPick}/${nRem} sostituti</span>` : "")
+      + (nPick ? `<span class="badge ok">${nPick}/${needed(sid)} sostituti</span>` : "")
       + (st(sid).done ? `<span class="badge ok">salvata ✓</span>` : "") + `</div>`;
     if (isOpen) html += `<div class="body">${(views[sid] || "review") === "candidates" ? candidatesHtml(sid) : reviewHtml(sid)}</div>`;
     const y = window.scrollY;
@@ -228,7 +242,7 @@
     const nRem = s.removed.length;
     let html = `<div class="bar">`
       + (nRem ? "" : `<span class="note">Segna le osservazioni da eliminare.</span>`)
-      + (nRem ? `<span class="note">candidati pronti: ${available(sid).length}${p.loading ? " (ricerca in corso…)" : ""}${p.error ? " — errore: " + esc(p.error) : ""}</span>` : "")
+      + (nRem && needed(sid) > 0 ? `<span class="note">candidati pronti: ${available(sid).length}${p.loading ? " (ricerca in corso…)" : ""}${p.error ? " — errore: " + esc(p.error) : ""}</span>` : "")
       + `</div>`;
     OBSERVATIONS[sid].observations.forEach(o => {
       const removed = s.removed.includes(o.obs_id);
@@ -238,12 +252,14 @@
         <button class="${removed ? "" : "danger"}" data-act="rem" data-id="${o.obs_id}">${removed ? "Ripristina" : "Elimina osservazione"}</button></div></div>`;
     });
     if (s.done) html = `<div class="bar"><b>Revisione accettata e salvata.</b><button data-act="reopen">Riapri</button></div>` + html;
-    else if (nRem) html += `<div class="bar" style="margin-top:12px"><button class="primary" data-act="conclude">Concludi eliminazione e revisiona candidati (${nRem} da sostituire)</button></div>`;
+    else if (nRem && needed(sid) > 0) html += `<div class="bar" style="margin-top:12px"><button class="primary" data-act="conclude">Concludi eliminazione e revisiona candidati (${needed(sid)} da sostituire)</button></div>`;
+    else if (nRem) html += `<div class="bar" style="margin-top:12px"><button class="primary" data-act="accept">Concludi eliminazione e salva</button>
+      <span class="note">Con le ${amintCount(sid)} foto AMINT restano almeno ${TARGET_TOTAL} esemplari: nessun sostituto necessario.</span></div>`;
     return html;
   }
 
   function candidatesHtml(sid){
-    const s = st(sid), p = pool(sid), need = s.removed.length, got = s.picked.length;
+    const s = st(sid), p = pool(sid), need = needed(sid), got = s.picked.length;
     const remaining = need - got;
     const rest = unpicked(sid);
     const avail = s.picked.concat(rest.slice(0, p.batch || 0));
@@ -276,39 +292,39 @@
       openSid = (prev === sid) ? null : sid;
       if (prev && prev !== sid) { render(prev); }   // chiude (e svuota il DOM) la specie aperta prima
       render(sid);
-      if (openSid === sid) { box.scrollIntoView({ block: "start" }); if (s.removed.length) ensurePool(sid, Math.max(pool(sid).batch || 0, wanted(sid))); }
+      if (openSid === sid) { box.scrollIntoView({ block: "start" }); if (s.removed.length) fillPool(sid); }
       return;
     }
     if (s.done && !["toggle", "reopen"].includes(act)) return;
     if (act === "rem") {
       if (s.removed.includes(id)) s.removed = s.removed.filter(x => x !== id);
-      else { s.removed.push(id); ensurePool(sid, Math.max(pool(sid).batch || 0, wanted(sid))); }
-      // se ci sono più sostituti scelti che eliminazioni, toglie gli ultimi
-      while (s.picked.length > s.removed.length) s.picked.pop();
+      else { s.removed.push(id); fillPool(sid); }
+      // se ci sono più sostituti scelti di quelli necessari, toglie gli ultimi
+      while (s.picked.length > needed(sid)) s.picked.pop();
     }
-    if (act === "conclude") { views[sid] = "candidates"; ensurePool(sid, Math.max(pool(sid).batch || 0, wanted(sid))); }
+    if (act === "conclude") { views[sid] = "candidates"; fillPool(sid); }
     if (act === "back") views[sid] = "review";
     if (act === "reopen") s.done = false;
     if (act === "accept") {
-      if (s.picked.length < s.removed.length && !confirm(`Hai scelto ${s.picked.length} sostituti su ${s.removed.length} eliminazioni: la specie resterà con meno osservazioni. Procedere?`)) return;
+      if (s.picked.length < needed(sid) && !confirm(`Hai scelto ${s.picked.length} sostituti su ${needed(sid)} necessari: la specie resterà sotto i ${TARGET_TOTAL} esemplari. Procedere?`)) return;
       s.done = true; views[sid] = "review"; save();
       // chiude questa specie e apre la prima ancora da fare (non salvata)
       const next = sids.find(x => !st(x).done);
       openSid = next || null;
       render(sid);
-      if (next) { render(next); document.getElementById("sp-" + next).scrollIntoView({ block: "start" }); if (st(next).removed.length) ensurePool(next, Math.max(pool(next).batch || 0, wanted(next))); }
+      if (next) { render(next); document.getElementById("sp-" + next).scrollIntoView({ block: "start" }); if (st(next).removed.length) fillPool(next); }
       return;
     }
     if (act === "more") {
       // scarta tutti i candidati non scelti (mai più riproposti), poi mostra 2 nuovi per ogni sostituto ancora mancante
       unpicked(sid).slice(0, pool(sid).batch || 0).forEach(c => s.rejected.push(c.obs_id));
-      ensurePool(sid, batchFor(s.removed.length - s.picked.length));
+      ensurePool(sid, batchFor(needed(sid) - s.picked.length));
     }
     if (act === "pick") {
       // il lotto mostrato resta stabile: scegliere un candidato non fa comparire un sostituto "a sorpresa"
       const pb = pool(sid);
       if (s.picked.some(x => x.obs_id === id)) { s.picked = s.picked.filter(x => x.obs_id !== id); pb.batch = (pb.batch || 0) + 1; }
-      else if (s.picked.length < s.removed.length) { s.picked.push(available(sid).find(c => c.obs_id === id)); pb.batch = Math.max(0, (pb.batch || 0) - 1); }
+      else if (s.picked.length < needed(sid)) { s.picked.push(available(sid).find(c => c.obs_id === id)); pb.batch = Math.max(0, (pb.batch || 0) - 1); }
     }
     if (act === "reject") {
       s.rejected.push(id);

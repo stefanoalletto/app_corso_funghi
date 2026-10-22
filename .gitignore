@@ -13,3 +13,7 @@ images_inat_original_resolution/
 # tenute in locale per backup/possibile riuso futuro, non pubblicate
 images/slides/
 review_new.html
+
+# originali delle foto AMINT + cache delle pagine del forum (scripts/fetch_amint.py):
+# backup locale, images/amint/ contiene le compresse usate dall'app
+images_amint_original_resolution/

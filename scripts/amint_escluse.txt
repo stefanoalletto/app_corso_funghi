@@ -1,0 +1,176 @@
+# Foto AMINT escluse dopo revisione visiva (fetch_amint.py le salta prima di comporre le carte).
+# Formato: <nome file in images/amint/<specie>/><TAB><motivo>
+8113_1074162_2.jpg	doppione di 8113_1074162_1.jpg
+16802_1069680_2.jpg	doppione di 16802_1069680_1.jpg
+8269_1029484_2.jpg	doppione di 8269_1029484_1.jpg
+8269_1029484_4.jpg	doppione di 8269_1029484_3.jpg
+8269_1056545_4.jpg	doppione di 8269_1056545_3.jpg
+8269_1056545_6.jpg	doppione di 8269_1056545_5.jpg
+15308_1029649_2.jpg	doppione di 15308_1029649_1.jpg
+8282_1056531_3.jpg	doppione di 8282_1056531_2.jpg
+8282_1056531_6.jpg	doppione di 8282_1056531_5.jpg
+7918_1029724_1.jpg	scritte con il nome della specie
+7918_1029727_1.jpg	scritte con il nome della specie
+7918_1029753_11.jpg	doppione di 7918_1029753_10.jpg
+7918_1029753_3.jpg	doppione di 7918_1029753_2.jpg
+7918_1029753_7.jpg	doppione di 7918_1029753_6.jpg
+7918_1029753_9.jpg	doppione di 7918_1029753_8.jpg
+15053_1029795_3.jpg	doppione di 15053_1029795_2.jpg
+15053_1029796_3.jpg	doppione di 15053_1029796_2.jpg
+15053_1029796_5.jpg	doppione di 15053_1029796_4.jpg
+15053_1029796_7.jpg	doppione di 15053_1029796_6.jpg
+16109_1056522_3.jpg	doppione di 16109_1056522_2.jpg
+8622_1029993_2.jpg	doppione di 8622_1029993_1.jpg
+8622_1029993_4.jpg	doppione di 8622_1029993_3.jpg
+8622_1029994_3.jpg	doppione di 8622_1029994_2.jpg
+8622_1029995_2.jpg	doppione di 8622_1029995_1.jpg
+8622_1029996_2.jpg	doppione di 8622_1029996_1.jpg
+16988_1056598_3.jpg	doppione di 16988_1056598_2.jpg
+15312_1056556_3.jpg	doppione di 15312_1056556_2.jpg
+15210_1030348_4.jpg	doppione di 15210_1030348_3.jpg
+15210_1030348_9.jpg	doppione di 15210_1030348_1.jpg
+15210_1030349_3.jpg	doppione di 15210_1030349_2.jpg
+15210_1030355_2.jpg	doppione di 15210_1030355_1.jpg
+14803_1030751_3.jpg	doppione di 14803_1030751_2.jpg
+14803_1030751_6.jpg	doppione di 14803_1030751_5.jpg
+16808_1030886_2.jpg	doppione di 16808_1030886_1.jpg
+16792_1030945_2.jpg	doppione di 16792_1030945_1.jpg
+16792_1030946_5.jpg	doppione di 16792_1030946_4.jpg
+16792_1030949_2.jpg	doppione di 16792_1030949_1.jpg
+16792_1030949_4.jpg	doppione di 16792_1030949_3.jpg
+15728_1056592_10.jpg	doppione di 15728_1056592_9.jpg
+15728_1056592_2.jpg	doppione di 15728_1056592_1.jpg
+15728_1056592_4.jpg	doppione di 15728_1056592_3.jpg
+15728_1056592_6.jpg	doppione di 15728_1056592_5.jpg
+15728_1056592_8.jpg	doppione di 15728_1056592_7.jpg
+77703_1056614_2.jpg	doppione di 77703_1056614_1.jpg
+77703_1056614_4.jpg	doppione di 77703_1056614_3.jpg
+15126_1031506_2.jpg	microscopio
+15126_1031506_3.jpg	microscopio
+15126_1031506_4.jpg	microscopio
+15436_1086392_2.jpg	microscopio
+15436_1086392_3.jpg	microscopio
+17084_1031742_2.jpg	doppione di 17084_1031742_1.jpg
+17084_1031742_4.jpg	doppione di 17084_1031742_3.jpg
+15086_1031783_10.jpg	doppione di 15086_1031783_9.jpg
+15086_1031783_4.jpg	doppione di 15086_1031783_3.jpg
+15086_1031783_6.jpg	doppione di 15086_1031783_5.jpg
+15086_1031783_8.jpg	doppione di 15086_1031783_7.jpg
+15775_1032335_3.jpg	doppione di 15775_1032335_2.jpg
+15775_1032335_5.jpg	doppione di 15775_1032335_4.jpg
+15775_1056577_3.jpg	doppione di 15775_1056577_2.jpg
+15775_1056577_5.jpg	doppione di 15775_1056577_4.jpg
+15775_1056604_3.jpg	doppione di 15775_1056604_2.jpg
+15775_1056604_5.jpg	doppione di 15775_1056604_4.jpg
+15775_1104081_2.jpg	microscopio
+8013_1032906_3.jpg	doppione di 8013_1032906_2.jpg
+8013_1032906_5.jpg	doppione di 8013_1032906_4.jpg
+8013_1056523_3.jpg	doppione di 8013_1056523_2.jpg
+8013_1056555_3.jpg	doppione di 8013_1056555_2.jpg
+8013_1056555_5.jpg	doppione di 8013_1056555_4.jpg
+8013_1056623_3.jpg	doppione di 8013_1056623_2.jpg
+15035_1034647_3.jpg	doppione di 15035_1034647_2.jpg
+15080_1035202_3.jpg	doppione di 15080_1035202_2.jpg
+15080_1035202_5.jpg	doppione di 15080_1035202_4.jpg
+15080_1035204_3.jpg	doppione di 15080_1035204_2.jpg
+15080_1035205_3.jpg	doppione di 15080_1035205_2.jpg
+15080_1035205_5.jpg	doppione di 15080_1035205_4.jpg
+15080_1035207_3.jpg	doppione di 15080_1035207_2.jpg
+15447_1070337_2.jpg	microscopio
+15447_1070337_3.jpg	microscopio
+15447_1070337_4.jpg	microscopio
+15447_1070337_5.jpg	microscopio
+15447_1070337_6.jpg	microscopio
+15447_1070337_7.jpg	microscopio
+15447_1070337_8.jpg	microscopio
+15346_1036133_2.jpg	doppione di 15346_1036133_1.jpg
+15511_1056580_3.jpg	doppione di 15511_1056580_2.jpg
+15511_1056580_5.jpg	doppione di 15511_1056580_4.jpg
+15511_1056580_7.jpg	doppione di 15511_1056580_6.jpg
+65532_1073243_3.jpg	microscopio
+65532_1073243_4.jpg	microscopio
+65532_1086799_2.jpg	microscopio
+65532_1086799_3.jpg	microscopio
+65532_1105037_2.jpg	microscopio
+15260_1105055_4.jpg	microscopio
+15871_1036922_3.jpg	doppione di 15871_1036922_2.jpg
+15871_1056618_10.jpg	doppione di 15871_1056618_9.jpg
+15871_1056618_12.jpg	doppione di 15871_1056618_11.jpg
+15871_1056618_14.jpg	doppione di 15871_1056618_13.jpg
+15871_1056618_8.jpg	doppione di 15871_1056618_7.jpg
+16791_1037303_3.jpg	doppione di 16791_1037303_2.jpg
+15202_1037363_1.jpg	fungo non visibile
+15202_1037363_3.jpg	doppione di 15202_1037363_2.jpg
+8919_1037614_2.jpg	microscopio
+8919_1037614_3.jpg	microscopio
+8919_1037614_4.jpg	microscopio
+8919_1037614_5.jpg	microscopio
+8919_1037614_6.jpg	microscopio
+8919_1037614_7.jpg	microscopio
+8919_1037614_8.jpg	microscopio
+8919_1037615_1.jpg	microscopio
+8919_1037615_2.jpg	microscopio
+8919_1037615_3.jpg	microscopio
+8919_1037615_4.jpg	microscopio
+8919_1037615_5.jpg	microscopio
+8919_1037615_6.jpg	microscopio
+8919_1037615_7.jpg	microscopio
+8121_1038020_3.jpg	doppione di 8121_1038020_2.jpg
+8121_1038024_2.jpg	doppione di 8121_1038024_1.jpg
+8121_1038024_4.jpg	doppione di 8121_1038024_3.jpg
+8121_1038024_6.jpg	doppione di 8121_1038024_5.jpg
+8121_1038024_8.jpg	doppione di 8121_1038024_7.jpg
+8121_1056537_2.jpg	doppione di 8121_1056537_1.jpg
+8042_1039613_1.jpg	scritte con il nome della specie
+8042_1039614_2.jpg	microscopio
+16787_1040289_10.jpg	doppione di 16787_1040289_9.jpg
+16787_1040289_2.jpg	doppione di 16787_1040289_1.jpg
+16787_1040289_5.jpg	doppione di 16787_1040289_4.jpg
+16787_1040289_7.jpg	doppione di 16787_1040289_6.jpg
+15313_1056579_3.jpg	doppione di 15313_1056579_2.jpg
+15313_1056587_3.jpg	doppione di 15313_1056587_2.jpg
+15313_1056587_5.jpg	doppione di 15313_1056587_4.jpg
+15393_1040796_2.jpg	doppione di 15393_1040796_1.jpg
+15393_1040796_4.jpg	doppione di 15393_1040796_3.jpg
+15393_1040798_2.jpg	doppione di 15393_1040798_1.jpg
+15393_1040798_4.jpg	doppione di 15393_1040798_3.jpg
+24223_1056601_10.jpg	doppione di 24223_1056601_9.jpg
+24223_1056601_2.jpg	doppione di 24223_1056601_1.jpg
+24223_1056601_6.jpg	doppione di 24223_1056601_5.jpg
+24223_1056601_8.jpg	doppione di 24223_1056601_7.jpg
+8829_1056578_3.jpg	doppione di 8829_1056578_2.jpg
+15308_1029632_1.jpg	carta di soli dettagli (amanita_muscaria)
+15053_1029777_1.jpg	carta di soli dettagli (amanita_rubescens)
+15053_1029777_2.jpg	carta di soli dettagli (amanita_rubescens)
+16682_1029865_5.jpg	carta di soli dettagli (amanita_verna)
+16682_1029866_5.jpg	carta di soli dettagli (amanita_verna)
+16682_1029866_6.jpg	carta di soli dettagli (amanita_verna)
+8622_1029964_1.jpg	carta di soli dettagli (armillaria_mellea)
+8622_1029965_1.jpg	carta di soli dettagli (armillaria_mellea)
+16808_1030886_1.jpg	carta di soli dettagli (calocybe_gambosa)
+15728_1056592_9.jpg	carta di soli dettagli (cantharellus_gruppo)
+77703_1093391_1.jpg	carta di soli dettagli (cantharellus_gruppo)
+77703_1093392_1.jpg	carta di soli dettagli (cantharellus_gruppo)
+77703_1093394_1.jpg	carta di soli dettagli (cantharellus_gruppo)
+15775_1032335_7.jpg	carta di soli dettagli (cortinarius_speciosissimus)
+15511_1036216_5.jpg	carta di soli dettagli (lactarius_torminosus)
+15511_1036221_1.jpg	carta di soli dettagli (lactarius_torminosus)
+16791_1037296_5.jpg	carta di soli dettagli (macrolepiota_procera)
+16791_1037296_6.jpg	carta di soli dettagli (macrolepiota_procera)
+20010_1031241_5.jpg	carta di soli dettagli (macrolepiota_rhacodes)
+20010_1031241_6.jpg	carta di soli dettagli (macrolepiota_rhacodes)
+8919_1037623_5.jpg	carta di soli dettagli (morchella_esculenta)
+8919_1037623_6.jpg	carta di soli dettagli (morchella_esculenta)
+16787_1040274_1.jpg	carta di soli dettagli (russula_virescens)
+16787_1040274_2.jpg	carta di soli dettagli (russula_virescens)
+9005_1041576_1.jpg	carta di soli dettagli (tylopilus_felleus)
+9005_1041576_2.jpg	carta di soli dettagli (tylopilus_felleus)
+9005_1041576_3.jpg	carta di soli dettagli (tylopilus_felleus)
+9005_1041576_4.jpg	carta di soli dettagli (tylopilus_felleus)
+16802_1029345_1.jpg	carta scartata in revisione manuale (agrocybe_aegerita)
+15308_1029636_1.jpg	carta scartata in revisione manuale (amanita_muscaria)
+7919_1029686_1.jpg	carta scartata in revisione manuale (amanita_ovoidea)
+15053_1029786_1.jpg	carta scartata in revisione manuale (amanita_rubescens)
+17084_1031742_7.jpg	carta scartata in revisione manuale (coprinopsis_atramentaria)
+16791_1037286_1.jpg	carta scartata in revisione manuale (macrolepiota_procera)
+8919_1037614_1.jpg	carta scartata in revisione manuale (morchella_esculenta)
